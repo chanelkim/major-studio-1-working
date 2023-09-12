@@ -43,6 +43,8 @@ function drawIntoSVG() {
   .attr('x', 200)
   .attr('y', 200)
   .attr('font-size', 30)
+  .attr('text-anchor', 'middle') //IN-CLASS: adjusting placement according to start point 
+  .attr('alignment-baseline', 'middle') //IN-CLASS: adjusting placement according to baseline 
   .text("Hi, this was written with D3")
 }
 
@@ -77,8 +79,8 @@ function drawWithDataAndScales(data) {
 
     // The second, radius, is about the values we are getting in
     const radius = d3.scaleLinear()
-    .domain([0, d3.max(data, d => d.population)])
-    .range([0, (height-margin.bottom-margin.top)/2 ])
+    .domain([0, d3.max(data, d => d.population)]) //IN-CLASS: domain is what we have, range is what we want
+    .range([0, (height-margin.bottom-margin.top)/2 ]) //IN-CLASS: "/2" ensures vertical center placement
 
   // select svg
   const svg = d3.select(".ex-3 svg"); 
