@@ -12,15 +12,17 @@ function loadData() {
       // https://www.regular-expressions.info/ https://www.regextester.com
       // \d is a digit (a character in the range [0-9]), and + means one or more times. Thus, \d+ means match one or more digits
       const re = /\d+/;
+        //IN-CLASS: only give me the digits from the regular expression
       const hasDate = re.exec(n.displaydate);
       if (hasDate > 0) {
         n.year = hasDate[0];
+        //IN-CLASS: n is row
         // log input and output
-        // console.log(n.displaydate, n.year);
-        counts[n.year] = counts[n.year] ? counts[n.year] + 1 : 1;
+        console.log(n.displaydate, n.year); 
+        counts[n.year] = counts[n.year] ? counts[n.year] + 1 : 1; //IN-CLASS: ternary operator
       }
     })
-    // console.log(counts);
+    console.log(counts); //IN-CLASS: setting a key to the counts
     analyzeData(counts);
   });
 }
@@ -35,6 +37,7 @@ function analyzeData(counts){
   minYear = null;
   maxYear = null;
 
+  //IN-CLASS: gets min/max for counts and years, extracted from data
   for (var year in counts){
     let value = counts[year];
     if(value > maxObjects){
@@ -87,7 +90,7 @@ function displayData(counts){
   // attach a graphic element, and append rectangles to it
   svg.append('g')
      .selectAll('rect')
-     .data(years)
+     .data(years) //IN-CLASS: from years array
      .join('rect')
      .attr('x', function(d){return xScale(d.name) })
      .attr('y', function(d){return yScale(d.count) })
