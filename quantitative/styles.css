@@ -1,15 +1,16 @@
 body{
-  background-color: #CCC;
-  color: #333333;
+  background-color: black;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin: 50px;
 }
 
 svg{
   background-color: white;
-  fill: yellow;
-  stroke: black;
+  fill: blue;
+  /* stroke: black; */
 }
-.ex{
+
+#dataviz{
   margin-bottom: 80px;
 }

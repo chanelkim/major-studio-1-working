@@ -8,13 +8,21 @@
 
 		<!-- load the d3.js library -->    	
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- load the d3-hierarchy from Skypack -->  
+    <script type="module">
+
+      import {treemap} from "https://cdn.skypack.dev/d3-hierarchy@3";
+      
+      const tree = treemap();
+      
+      </script>
 </head>
 <body>
     <div id="dataviz">
       <h1>Artists and their Contributions to a National Project</h1>
       <p>The Index of American Design Collection at the National Gallery of Art</p>
-      <svg></svg>
     </div>
     <script src="main.js"></script>
+    <!-- <script src="test.js"></script> -->
 </body>
 </html>

@@ -1,0 +1,121 @@
+{
+    "children": [
+        {
+            "name": "artist-1",
+            "children": [
+                { 
+                    "name": "titles",
+                    "children": [
+                    {
+                        "name": "title-1a",
+                        "children": [
+                            {"name": "centimeter",
+                                "value": [10, 20]
+                            },
+                            {"name": "beginYear",
+                                "value": "1852"
+                            },
+                            {"name": "endYear",
+                                "value": "1860"
+                            },
+                            {"name": "timespan",
+                                "value": [1851, 1875]
+                            },
+                            {"name": "objectID",
+                                "value": 15703
+                            },
+                            {"name": "image-url",
+                                "value": "www.URL.com"                
+                            }
+                        ]
+                    },
+                    {
+                        "name": "title-1a",
+                        "children": [
+                            {"name": "centimeter",
+                                "value": [10, 20]
+                            },
+                            {"name": "beginYear",
+                                "value": "1852"
+                            },
+                            {"name": "endYear",
+                                "value": "1860"
+                            },
+                            {"name": "timespan",
+                                "value": [1851, 1875]
+                            },
+                            {"name": "objectID",
+                                "value": 15703
+                            },
+                            {"name": "image-url",
+                                "value": "www.URL.com"                
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "name": "gender",
+                    "value": "na"
+                }]
+        },
+        {
+            "name": "artist-2",
+            "children": [
+                { 
+                    "name": "titles",
+                    "children": [
+                    {
+                        "name": "title-1a",
+                        "children": [
+                            {"name": "centimeter",
+                                "value": [10, 20]
+                            },
+                            {"name": "beginYear",
+                                "value": "1852"
+                            },
+                            {"name": "endYear",
+                                "value": "1860"
+                            },
+                            {"name": "timespan",
+                                "value": [1851, 1875]
+                            },
+                            {"name": "objectID",
+                                "value": 15703
+                            },
+                            {"name": "image-url",
+                                "value": "www.URL.com"                
+                            }
+                        ]
+                    },
+                    {
+                        "name": "title-1a",
+                        "children": [
+                            {"name": "centimeter",
+                                "value": [10, 20]
+                            },
+                            {"name": "beginYear",
+                                "value": "1852"
+                            },
+                            {"name": "endYear",
+                                "value": "1860"
+                            },
+                            {"name": "timespan",
+                                "value": [1851, 1875]
+                            },
+                            {"name": "objectID",
+                                "value": 15703
+                            },
+                            {"name": "image-url",
+                                "value": "www.URL.com"                
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "name": "gender",
+                    "value": "na"
+                }]
+        }
+    ],
+    "name": "allArtists"
+  }
