@@ -3,26 +3,64 @@
 <head>
     <meta charset="UTF-8" />
     <title>Quantitative-Concept-1</title>
-		<!-- load the css file -->    	
-		<link rel="stylesheet" type="text/css" href="styles.css" >
-
+		<!-- load the css files -->    	
+		<link rel="stylesheet" type="text/css" href="./css/styles.css" >
+    <link rel="stylesheet" href="./css/index.css" />
 		<!-- load the d3.js library -->    	
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- load the d3-hierarchy from Skypack -->  
     <script type="module">
-
       import {treemap} from "https://cdn.skypack.dev/d3-hierarchy@3";
-      
       const tree = treemap();
-      
       </script>
 </head>
 <body>
-    <div id="dataviz">
-      <h1>Artists and their Contributions to a National Project</h1>
-      <p>The Index of American Design Collection at the National Gallery of Art</p>
-    </div>
-    <script src="main.js"></script>
-    <!-- <script src="test.js"></script> -->
-</body>
+    <div class="d-prototype">
+      <div class="frame">
+        <div class="header">
+          <div class="line-1">
+            <div class="artists">Artists</div>
+            <div class="frame1">
+              <div class="and">And</div>
+              <div class="their">Their</div>
+            </div>
+            <div class="artists">Contributions</div>
+          </div>
+          <div class="line-2">
+            <div class="towards-rebuilding-a">
+              Towards Rebuilding A Nation&#8217;s Character
+            </div>
+          </div>
+        </div>
+        <div class="dataviz"></div>
+      </div>
+      <!-- <div class="frame2">
+        <div class="project-description">
+          <div class="col-1">
+            <div class="the-index-of-container">
+              <span>The Index of American Design </span>
+              <span class="lorem-ipsum">lorem ipsum</span>
+            </div>
+            <div class="ldolor-sit-amet">
+              ldolor sit amet, consectetur adipiscing elit. Fusce in fringilla
+              mi. Praesent luctus lorem quis commodo volutpat. Maecenas
+              ullamcorper metus odio, vitae viverra magna faucibus sed. Sed
+              egestas tristique purus, vulputate dolor consequat mi eleifend, at
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="hendrerit-magna-mas">
+              hendrerit magna mas dignissim justo. Porta consequat, eros nisl
+              eleifend ligula, at hendrerit magna massa dignissim justo. Quisque
+              vitae fermentum augue. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Fusce in fringilla.
+            </div>
+            <div class="author-chanel-kim">Author: Chanel Kim</div>
+          </div>
+        </div>
+        <div class="profile"></div>
+      </div>
+    </div> -->
+  </body>
+  <script src="main.js"></script>
 </html>

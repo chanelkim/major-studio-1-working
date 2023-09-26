@@ -1,0 +1,152 @@
+.and,
+.artists,
+.their {
+  position: relative;
+}
+.and,
+.their {
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.their {
+  letter-spacing: 0.1em;
+}
+.frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 32px;
+  font-family: "Agrandir-Grand";
+}
+.line-1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.towards-rebuilding-a {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.header,
+.line-2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.line-2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  font-size: 39px;
+  font-family: "Agrandir-WideLight";
+}
+.header {
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame,
+.header {
+  position: relative;
+  /* width: 1155px; */
+  width: fit-content;
+}
+.frame {
+  top: 133px;
+  left: 84px;
+  height: 855px;
+  overflow: hidden;
+}
+.lorem-ipsum {
+  font-family: "NeueWorld-SemiExtendedUltralight";
+}
+.ldolor-sit-amet,
+.the-index-of-container {
+  align-self: stretch;
+  position: relative;
+}
+.ldolor-sit-amet {
+  flex: 1;
+  line-height: 18px;
+  font-family: "NeueWorld-SemiExtendedUltralight";
+}
+.col-1 {
+  flex: 1;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hendrerit-magna-mas {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+}
+.author-chanel-kim {
+  align-self: stretch;
+  position: relative;
+  font-size: 8px;
+  text-transform: uppercase;
+  font-family: "Agrandir-Regular";
+}
+.col-2,
+.project-description {
+  display: flex;
+  align-items: flex-start;
+}
+.col-2 {
+  flex: 1;
+  height: 120px;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "NeueWorld-SemiExtendedUltralight";
+}
+.project-description {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 556px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.frame2,
+.profile {
+  position: absolute;
+  width: 558px;
+}
+.profile {
+  top: 160px;
+  left: 0;
+  border-radius: 10px;
+  background-color: white;
+  /* height: fit-content; */
+  height: 643px;
+}
+.frame2 {
+  top: 160px;
+  left: 1279px;
+  height: 855px;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "Agrandir-Narrow";
+}
+.d-prototype {
+  position: relative;
+  background-color: #000;
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 120px;
+  color: white;
+  font-family: "NeueWorld-Regular";
+}

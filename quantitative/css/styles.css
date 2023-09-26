@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Neue World";
+  src: 
+    url("./fonts/NeueWorld-Regular.ttf") format('truetype'),
+    url("./fonts/NeueWorld-SemiExtendedUltralight.ttf") format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Agrandir Variable";
+  src: 
+    url("./fonts/Agrandir Variable.ttf") format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Agrandir";
+  src: 
+    url("./fonts/Agrandir-Regular.otf") format('opentype'),
+    url("./fonts/Agrandir-Narrow.otf") format('opentype'),
+    url("./fonts/Agrandir-WideLight.ttf") format('truetype'),
+    url("./fonts/Agrandir-Grand.ttf") format('truetype');
+  font-weight: normal;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: 50px; */
+  margin: 0;
+  line-height: normal;
+}
+
+svg {
+  background-color: white;
+  fill: blue;
+}
+
+.dataviz {
+  margin-bottom: 80px;
+}

@@ -68,7 +68,7 @@ function drawTreemap() {
     // d3.schemeGnBu[9]);
     d3.schemeRdBu[8]);
 
-    const svg = d3.select("#dataviz")
+    const svg = d3.select(".dataviz")
         .append("svg")
             .attr("viewBox", "0 0 " + width + " " + height)
             .attr("preserveAspectRatio", "xMidYMid meet")

@@ -4,7 +4,7 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10},
   height = 270 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#dataviz")
+var svg = d3.select(".dataviz")
 .append("svg")
     .attr("viewBox", "0 0 " + width + " " + height)
     .attr("preserveAspectRatio", "xMidYMid meet")
@@ -52,10 +52,10 @@ d3.json('data/test.json').then(function(data) {
         .attr("text-anchor", "middle")
         .text(function(d){ return d.data.name })
     .merge(label)
-      .attr("x", function(d){ return d.x0+10})    // more right
+      .attr("x", function(d){ return d.x0+20})    // more right
       .attr("y", function(d){ return d.y0+10})    // lower
-    //   .attr("font-size", "15px")
-      .attr("font-size", ((width+height)/2 * 0.001) + "em")
+      .attr("font-size", "12px")
+      // .attr("font-size", ((width+height)/2 * 0.001) + "em")
       .attr("fill", "white")
 
 });
