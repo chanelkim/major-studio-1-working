@@ -4,7 +4,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 */
 
 function getInput() {
-  let input = document.getElementById("myInput").value;
+  let input = document.getElementById("myInput").value; //IN-CLASS: can ask a form element's content, "innerElement" is any DOM element; ".value" is an attribute of the input element: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
   processText(input)
 }
 
@@ -41,9 +41,9 @@ function addText(text){
 
 function addLetterWithSize(letter, textSize){
   d3.select('#concretePoetry')
-  .append('span')
+  .append('span') //IN-CLASS: span will output inline, paragraphs and divs will output a new line
   .text(letter)
-  .style("font-size", letter.length*2+"px");
+  .style("font-size", letter.length*2+"px"); //IN-CLASS: the size of the text is linked to the character count
 }
 
 

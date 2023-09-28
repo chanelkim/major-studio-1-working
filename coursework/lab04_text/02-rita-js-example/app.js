@@ -30,7 +30,7 @@ function processRita(input) {
     // reference https://regexr.com/
     if (/nn/.test(pos[i])) {
       // if the word is a noun replace the word with a new noun:
-      output += RiTa.randomWord(pos[i]) + ' ';
+      output += RiTa.randomWord(pos[i]) + ' '; //IN-CLASS: "+=" meaning we're just appending the words
     } else {
       // if not, return the original word:
       output += word + ' ';
@@ -44,7 +44,7 @@ function processRita(input) {
     .text(output);
 }
 
-myInput.addEventListener("keydown", function (event) {
+myInput.addEventListener("keydown", function (event) { //IN-CLASS: attaching a callback function for being able to use "Enter" to submit input
   if (event.key === "Enter") {
     processRita(this.value);
   }
