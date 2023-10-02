@@ -1,0 +1,12 @@
+{
+    "children": [
+        {
+            "name": "artist-1",
+            "gender": "F"
+        },
+        {
+            "name": "artist-2",
+            "gender": "M"
+        }]
+}
+        
