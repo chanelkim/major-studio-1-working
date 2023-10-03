@@ -11,6 +11,7 @@
     height:100px;
     width:100px;
     float:left;
+    /* IN-CLASS: floating left - next to each other */
   }
   img{
     width:600px;
@@ -29,14 +30,22 @@
   // Vibrant is exported to global. window.Vibrant === Vibrant
   Vibrant.from('assets/VanGogh-OliveTrees.jpg').getPalette(function(err, palette) {
 
-    for (var swatch in palette){
+    for (var swatch in palette){ 
       console.log(swatch, palette[swatch].getHex());
 
       const div = document.createElement("div");
       div.className = 'swatch';
       div.style.backgroundColor = palette[swatch].getHex();
+      //IN-CLASS: example of making "CSS inline"
       var element = document.getElementById("palette_container");
       element.appendChild(div);
     }
   });
+  //IN-CLASS: from reference, if want to change number of swatches, put here in HTML or in the appropriate .js file
+  new Vibrant(
+    img,
+    64, /* amount of colors in initial palette from which the swatches will be generated, defaults to 64 */
+    5 /* quality. 0 is highest, but takes way more processing. defaults to 5. */
+  )
+    // Vibrant.swatch.newSwatch(RGB, 9);
 </script>

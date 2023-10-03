@@ -36,10 +36,17 @@ function displayImages(json){
     card.append('div')
         .attr('class', 'image')
         .append('img')
+        //IN-CLASS: adding accessibility tooltip, img does not like this tag, use alt; attaching these is low haning fruit
+        .attr('title', d => {
+            return './images/' + d.filename
+        })
         .attr('src', d => {
             // all our images are in the "images"
             // folder which we will need to 
             // add to our filename first
+            return './images/' + d.filename
+        })
+        .attr('alt', d => {
             return './images/' + d.filename
         });
 
