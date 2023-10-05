@@ -15,4 +15,6 @@ Major Studio 1 (MSDV), Parsons, Fall 2023
   </ul>
 
 <h2>02 Qualitative</h2>
+<h4>02A-concepts-and-sketches</h4>
+
 <h2>03 Dynamics, Interactivity and Narrative</h2>
