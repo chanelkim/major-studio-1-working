@@ -4,14 +4,13 @@ Major Studio 1 (MSDV), Parsons, Fall 2023
 
 <h2>01 Quantitative</h2>
 <h3>01B-concepts-and-sketches</h3>
-<p>Dataset-1:
-https://github.com/chanelkim/major-studio-1-working/issues/1#issue-1892747611
-  </p>
-<p>Dataset-2:
-https://github.com/chanelkim/major-studio-1-working/issues/2#issue-1892748085
-  </p>
-<p>Dataset-3: 
-https://github.com/chanelkim/major-studio-1-working/issues/3#issue-1892748525
-  </p>
+<ul>
+<li>Dataset-1: <a href = "https://github.com/chanelkim/major-studio-1-working/issues/1#issue-1892747611">sketch</a>
+  </li>
+<li>Dataset-2: <a href = "https://github.com/chanelkim/major-studio-1-working/issues/2#issue-1892748085">sketch</a>
+  </li>
+<li>Dataset-3: <a href = "https://github.com/chanelkim/major-studio-1-working/issues/3#issue-1892748525">sketch</a>
+  </li>
+  </ul>
 
 <h2>02 Qualitative</h2>
