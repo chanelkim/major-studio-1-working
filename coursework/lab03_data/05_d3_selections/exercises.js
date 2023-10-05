@@ -4,11 +4,11 @@ const objectEndpoint =
 let objects;
 
 function setup() {
-  d3.selectAll(".ex")
+  d3.selectAll(".ex") //IN-CLASS: selectAll creates an array
     .select("button")
     .attr("disabled", true)
     // we can set event handlers on D3 selections with `.on`
-    .on("click", (_, i) => {
+    .on("click", (_, i) => { //IN-CLASS: could use "d" or "data" but preferring "_" as placeholder as declaration that this is not of concern
       runExercise(i + 1);
     });
 
@@ -27,7 +27,7 @@ function setup() {
       objects = data;
       d3.selectAll(".ex")
         .select("button")
-        .attr("disabled", null);
+        .attr("disabled", null); //IN-CLASS: until we have the data, keeping the UI off - avoid waiting for performance
     });
   });
 }
@@ -41,7 +41,7 @@ function runExercise(number) {
     let i = 0;
     d3.interval(() => {
       draw2(objects.slice(0, lens[i]));
-      i = (i + 1) % lens.length;
+      i = (i + 1) % lens.length; //IN-CLASS: operator "%" for remainder, no matter the value, we will only cycle through 1, 2, 3, 4
     }, 2000);
   } else if (number === 3) {
     draw3(objects);
