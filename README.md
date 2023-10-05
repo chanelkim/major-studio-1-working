@@ -3,6 +3,7 @@ Major Studio 1 (MSDV), Parsons, Fall 2023
 <p>class repo: <a href = "https://github.com/visualizedata/major-studio-1-fa23">major-studio-1-fa23</a></p>
 
 <h2>01 Quantitative</h2>
+<h3>Working Project: <a href = "https://chanelkim.github.io/major-studio-1-working/quantitative/">page</a></h3>
 <h3>01B-concepts-and-sketches</h3>
 <ul>
 <li>Dataset-1: <a href = "https://github.com/chanelkim/major-studio-1-working/issues/1#issue-1892747611">sketch</a>
@@ -14,3 +15,4 @@ Major Studio 1 (MSDV), Parsons, Fall 2023
   </ul>
 
 <h2>02 Qualitative</h2>
+<h2>03 Dynamics, Interactivity and Narrative</h2>
