@@ -68,7 +68,7 @@ function createButtons(data) {
                 // find more here: https://observablehq.com/@d3/easing-animations
                 .ease(d3.easeCubicOut)
 
-                // turn the big svg container into having opacity 0 === transparent
+                // turn the big svg container into having opacity 0 === transparent, IN-CLASS: easing the opacity
                 .style('opacity', 0)
 
                 // after this is done, display the new data
@@ -81,7 +81,7 @@ function createButtons(data) {
 
 // a helper function for changing the state of our button
 function activeButton(className) {
-    d3.select(`input:nth-child(${index+1})`).attr("class", className);
+    d3.select(`input:nth-child(${index+1})`).attr("class", className); //IN-CLASS: "nth-child" goes through DOM's index, and setting the class onto the nth-child; might want to do this for large intials on the first paragraph or hanging text (good for stylizing in sparse cases)
 }
 
 function clearOldData() {

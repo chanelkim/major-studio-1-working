@@ -27,7 +27,7 @@ function displayNewData(data) {
                 a > b || -(a < b)
             );
 
-            const name = d.Name
+            const name = d.Name //IN-CLASS: row name
 
             const p = container.append("div")
                 .attr("class", "box")
