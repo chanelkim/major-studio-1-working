@@ -12,9 +12,29 @@ body {
   letter-spacing: 0.25pt;
 }
 
-/* #app {
-  margin-top: 15px;
-} */
+p {
+  color: lightblue;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: lightgray;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
 
 #app{
   margin-top:2rem;
