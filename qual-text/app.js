@@ -112,6 +112,7 @@ function processRita(title) {
       let span = app.append('span')
         .text(word)  
 
+      //REF: https://rednoise.org/rita/reference/postags.html  
       //if the word is a noun, let's attach the class "noun"  
       if (pos[i]=="nn" || pos[i]=="nns" || pos[i]=="nnp" || pos[i]=="nnps") {
         span.attr('class', 'noun')
