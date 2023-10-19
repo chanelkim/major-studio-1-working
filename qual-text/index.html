@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- d3 -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <!-- rita.js -->
-  <script src="library/rita-full.js"></script>
-  <!-- css -->
-  <link rel="stylesheet" href="style.css">
-  <title>lab07 rita</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- d3 -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- rita.js -->
+    <script src="library/rita-full.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>lab07 rita</title>
+  </head>
+  <body>
+    <h1>RiTa.js for IoAD Titles</h1>
+    <p>
+      Crosscheck against microfiche reference:
+      <a
+        href="https://docs.google.com/document/d/1-Rl9Uw-qbclgyZMOmPQ9IUUvb_w8xml_4y0r4kh8peY/edit?usp=sharing"
+        target="_blank"
+        >The Consolidated Catalog to "The Index of American Design"</a
+      >
+    </p>
+    <br />
 
-  <h1>RiTa.js for IoAD Titles</h1>
-  <p>Crosscheck against microfiche reference: <a href="https://docs.google.com/document/d/1-Rl9Uw-qbclgyZMOmPQ9IUUvb_w8xml_4y0r4kh8peY/edit?usp=sharing" target="_blank">The Consolidated Catalog to "The Index of American Design"</a></p>
-  <br>
+    <!-- where our text will appear -->
+    <div id="app3"></div>
+    <div id="app2"></div>
+    <div id="app"></div>
 
-  <!-- where our text will appear -->
-  <div id="app2"></div>
-  <div id="app"></div>
-  
-  <script src="app.js"></script>
-</body>
+    <!-- <script src="app.js"></script> -->
+    <script type="module" src="catalog.js"></script>
+  </body>
 </html>

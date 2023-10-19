@@ -1,0 +1,3507 @@
+{
+  "html": {
+    "head": {
+      "meta": {
+        "@content": "text/html; charset=UTF-8",
+        "@http-equiv": "content-type"
+      },
+      "style": {
+        "@type": "text/css",
+        "#text": "ol.lst-kix_80eud4ghu6ke-2.start{counter-reset:lst-ctn-kix_80eud4ghu6ke-2 0}.lst-kix_80eud4ghu6ke-6>li{counter-increment:lst-ctn-kix_80eud4ghu6ke-6}.lst-kix_80eud4ghu6ke-0>li:before{content:\"\" counter(lst-ctn-kix_80eud4ghu6ke-0,decimal) \". \"}.lst-kix_80eud4ghu6ke-1>li:before{content:\"\" counter(lst-ctn-kix_80eud4ghu6ke-1,lower-latin) \". \"}ol.lst-kix_80eud4ghu6ke-7.start{counter-reset:lst-ctn-kix_80eud4ghu6ke-7 0}.lst-kix_80eud4ghu6ke-4>li{counter-increment:lst-ctn-kix_80eud4ghu6ke-4}.lst-kix_80eud4ghu6ke-4>li:before{content:\"\" counter(lst-ctn-kix_80eud4ghu6ke-4,lower-latin) \". \"}ol.lst-kix_80eud4ghu6ke-4.start{counter-reset:lst-ctn-kix_80eud4ghu6ke-4 0}.lst-kix_80eud4ghu6ke-3>li:before{content:\"\" counter(lst-ctn-kix_80eud4ghu6ke-3,decimal) \". \"}.lst-kix_80eud4ghu6ke-5>li:before{content:\"\" counter(lst-ctn-kix_80eud4ghu6ke-5,lower-roman) \". \"}.lst-kix_80eud4ghu6ke-7>li{counter-increment:lst-ctn-kix_80eud4ghu6ke-7}.lst-kix_80eud4ghu6ke-2>li:before{content:\"\" counter(lst-ctn-kix_80eud4ghu6ke-2,lower-roman) \". \"}.lst-kix_80eud4ghu6ke-6>li:before{content:\"\" counter(lst-ctn-kix_80eud4ghu6ke-6,decimal) \". \"}.lst-kix_80eud4ghu6ke-3>li{counter-increment:lst-ctn-kix_80eud4ghu6ke-3}.lst-kix_80eud4ghu6ke-0>li{counter-increment:lst-ctn-kix_80eud4ghu6ke-0}ol.lst-kix_80eud4ghu6ke-1.start{counter-reset:lst-ctn-kix_80eud4ghu6ke-1 0}.lst-kix_80eud4ghu6ke-5>li{counter-increment:lst-ctn-kix_80eud4ghu6ke-5}ol.lst-kix_80eud4ghu6ke-8.start{counter-reset:lst-ctn-kix_80eud4ghu6ke-8 0}.lst-kix_80eud4ghu6ke-2>li{counter-increment:lst-ctn-kix_80eud4ghu6ke-2}ol.lst-kix_80eud4ghu6ke-6.start{counter-reset:lst-ctn-kix_80eud4ghu6ke-6 0}ol.lst-kix_80eud4ghu6ke-4{list-style-type:none}.lst-kix_80eud4ghu6ke-8>li:before{content:\"\" counter(lst-ctn-kix_80eud4ghu6ke-8,lower-roman) \". \"}ol.lst-kix_80eud4ghu6ke-3{list-style-type:none}ol.lst-kix_80eud4ghu6ke-3.start{counter-reset:lst-ctn-kix_80eud4ghu6ke-3 0}ol.lst-kix_80eud4ghu6ke-6{list-style-type:none}.lst-kix_80eud4ghu6ke-7>li:before{content:\"\" counter(lst-ctn-kix_80eud4ghu6ke-7,lower-latin) \". \"}ol.lst-kix_80eud4ghu6ke-5{list-style-type:none}ol.lst-kix_80eud4ghu6ke-8{list-style-type:none}ol.lst-kix_80eud4ghu6ke-7{list-style-type:none}ol.lst-kix_80eud4ghu6ke-0{list-style-type:none}.lst-kix_80eud4ghu6ke-1>li{counter-increment:lst-ctn-kix_80eud4ghu6ke-1}ol.lst-kix_80eud4ghu6ke-2{list-style-type:none}ol.lst-kix_80eud4ghu6ke-1{list-style-type:none}ol.lst-kix_80eud4ghu6ke-0.start{counter-reset:lst-ctn-kix_80eud4ghu6ke-0 0}ol.lst-kix_80eud4ghu6ke-5.start{counter-reset:lst-ctn-kix_80eud4ghu6ke-5 0}.lst-kix_80eud4ghu6ke-8>li{counter-increment:lst-ctn-kix_80eud4ghu6ke-8}ol{margin:0;padding:0}table td,table th{padding:0}.c7{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:26pt;font-family:\"Arial\";font-style:normal}.c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:\"Arial\";font-style:normal}.c5{padding-top:0pt;padding-bottom:3pt;line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c4{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:20pt;font-family:\"Arial\";font-style:normal}.c3{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:16pt;font-family:\"Arial\";font-style:normal}.c2{padding-top:18pt;padding-bottom:6pt;line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c6{padding-top:20pt;padding-bottom:6pt;line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c1{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c9{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.c8{height:11pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:\"Arial\";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:\"Arial\";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:\"Arial\"}p{margin:0;color:#000000;font-size:11pt;font-family:\"Arial\"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:\"Arial\";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:\"Arial\";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:\"Arial\";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:\"Arial\";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:\"Arial\";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:\"Arial\";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}"
+      }
+    },
+    "body": {
+      "@class": "c9 doc-content",
+      "p": [
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Contents"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.gexmo3fmrg9i",
+          "span": {
+            "@class": "c7",
+            "#text": "Part 1. Textiles, Costume and Jewelry microfiche 1 - microfiche 57"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Samplers 1A4-1D5, 46A3 46B6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Embroidered Pictures 1D7-111, 46C2-46D3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Needlework and Crewel Embroidery 2A3-4E8, 46D5- 47E3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Hooked and Embroidered Rugs 5A3-5C11, 48A2_48B1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Applique and Pieced Quilts 5D2-9C9, 48B3-50A4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Linen, Cotton, Wool and Silk 10B3-1149, 50B5-50C3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Woven Coverlets - Four Harness 11B2-12C7, 50C5-50D5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Woven Coverlets - Jacquard 12C9-14C4, 502-51E1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Rugs and Carpets 14C6-14D6, 513-51E6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Above the Waist 23B3-24A6, 53D3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Aprons 24A8-24B5, 53D5-53D6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Dresses and Coats 24B7-29B11, 53E2-54C4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Above the Waist 29C3-30D3, 54D2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Trousers 30D5-302"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Suits and Coats 31A3-32A6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Uniforms 32A8-32C9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Stockings 34B9-34C7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Skates, Clogs and Spurs 34C9 - 34E6, 54E3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Women's Shoes 35A3-36C3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Men's Shoes 36C5_36D7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Children's Shoes 36D9-36E12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Belts 37A3_3747"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Bootjacks and Shoe Forms 37A8-37E6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Buttons 37E7. 38A4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Canes and Walking Sticks 38A5-38B1, 5514-5545"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Card Cases and Trays 38B2-38B10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Collar and Cuff Box 38B11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Fans 38B12-38C12, 55B1-55B2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Garters and Suspenders 38D1-38D5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Gloves, Mitts and Mittens 38D6 - 38E8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Handbags, Purses, Satchels and Wallets 38E9-40D6, 55A2-5546"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Muffs, Parasols and Umbrellas 40D7_40E11,55A3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Pipes 40E12_41B1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Pockets and Sachets 41 B2- 41B4, 54E6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Spectacles and Eyeglasses 41B5-41C2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Bouquet Holders 42B6-42B7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Bracelets 42B8-42C11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Brooches 42C12-43B10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Buckles 43B11-43D2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Combs and Hair Ornaments 43D3-44A5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Cufflinks 44A6-44A8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Earrings 44A9-44C5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Necklaces 44C6 44E1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Pins 44E2-45A5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Rings 45A6-45B8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Watches and Fobs 45B9-45D11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Oversize Renderings microfiche 46 - microfiche 55"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Giant Renderings microfiche 56 - microfiche 57"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Contents"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.ts8wc89706qf",
+          "span": {
+            "@class": "c7",
+            "#text": "Part 2. The Art and Design of Utopian and Religious Communities"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.no7ifjxbjfr2",
+          "span": {
+            "@class": "c7",
+            "#text": "microfiche 1 - microfiche 40"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Furniture 2C3-3C4, 33C5-33D2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Boxes and Decorative Accessories 3C6-4A9, 33D4-33E1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Ceramics 4B3-5E5, 33E3-34E3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Chalkware 57-6C4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Domestic Utensils 6C7-8D9, 35A3-35A6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Tools 8E2-8E8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Hardware 9A3-9A7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Art 1244 12A5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Architectural Details 12A7-12B2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Chairs 12B5-12D2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Tables, Benches and Stools 12D4-13C2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Chests, Cupboards and Cabinets 13C4-14C8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Beds 14D2-14D5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Furnishing Accessories 14D7-148, 36B2-36B3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Clocks 15A3-15A7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Textiles 15B3-15D7, 36B5-36B6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Costume and Costume Accessories 16A3-16E2, 36C2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Paintings and Sculpture 18A4-20C10, 36D2-3845, 4012-40A3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Interiors and Architectural Details 20D2-23E10, 38B2-38B4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Maps 24A3-24A4, 4014-40A5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Furniture 24A7-25C2, 38C2-38C3, 40A6-40A11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Mirrors 25C4- 25C11, 40A12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Lighting Devices 26D8-2732, 40B4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Domestic Utensils and Tools 27B4-27D10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Saddles and Leatherwork 28A4-28E8, 39A2-39A4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Spurs 29A3-30B3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Bits 30B5-30E8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Weapons 31A3-31A5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Bells 31A8-31C3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Stringed Instruments 3105-31C6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Oversize Renderings microfiche 33 - microfiche 39"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Giant Renderings microfiche 40"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Contents"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.urf19xnqqh4y",
+          "span": {
+            "@class": "c7",
+            "#text": "Part 3. Architecture and Naive Art microfiche 1 - microfiche 21"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Rooms: Domestic Interiors 13A2-13A4, 20A2-20B12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Rooms: Business and Industrial 13B2, 20C1-20D9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Rooms: Public Buildings and Gathering Places 13B4-13B6, 20D10-20E11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Stage Sets and Backdrops 13C2-13C3, 2012-21A3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Architectural Details and Paneling 1A4-1D11, 1305-13D2, 2144-2145"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Railway Car Interiors 12-1E11, 13D4, 21A6-21A7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Wall Treatments: Decorated, Painted and Stenciled 2A3-2B5, 132-13E6, 21A8-21D5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Wall Treatments: Wallpaper and Bandboxes 2B7-4B10, 14A2-15B2, 21D6-21D10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Floor Treatments 4C2-4C6, 21D11-211"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Architectural Details and Ornament 4D3-5A4, 15B4-15C6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Firemarks 5A6-5B8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Hitching Posts 5C2-6A4, 15D2-15E4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Gardens 6A6-6B10, 16A2-17C5, 21E2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Garden Ornaments and Metal Sculpture 6C2-6E11, 17D2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Gemetery Art 7A3-8B8, 17D4-17E2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Oversize Renderings microfiche 13 - microfiche 19"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Giant Renderings microfiche 20 - microfiche 21"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Contents"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.n73vnmvs6ewk",
+          "span": {
+            "@class": "c7",
+            "#text": "Part 4. Tools, Hardware, Firearms and Vehicles microfiche 1 - microfiche 16"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Adzes, Axes and Hatchets 1A3-1B4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Augers 1B5-1B8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Bark Peelers 1B9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Beehives 1B10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Blacksmith Tools 1B11-1C3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Braces, Bits and Drills 1C4-1D1, 15A2-15A3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Branding Irons and Markers 1D2-2E3, 15A4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Bristle Removers 2E4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Brushes and Brush Cutters 2E5-2E6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Carpet Stretchers 2E7-2E9, 15A5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Chisels 2E10-2E12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Clam Rakes 3A2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Clamps 3A3-3A5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Combs 3A6-3A8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Corn Planters 3A9-3A10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Cranberry Pickers 3A11, 15A6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Drawknives and Knives 3A12-3C8, 15B1-15B4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Firefighting Equipment 3C9-3E8, 15B5-15B6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Fish Spears 3Е9-3Е11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Flails 3Е12-4A2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Frows and Frow Clubs 15C1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Gauges 4A3 - 4A5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Grain Cradles 4A6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Hammers, Mallets and Gavels 4A7-4B2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Hav Forks 4B3- 4B9, 15C2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Hide Stretchers 4B10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Hoes and Picks 4B11 - 4C2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Hooks 4C3 - 4C9, 15C3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Jacks 4C10-4C12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Millstones 4D1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Pinkers 4D2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Planes 4D3_4B12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Plows 542-5A5, 15C4-15C5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Potato Planters 5A6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Printing Equipment and Stamps 5A7-5B9, 15C6-15D1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Reamers 15D2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Saws 5 B10 5C5, 15D3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Scrapers 5C6_5C7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Screens 5C8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Shaving Horses 15D4-15D5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Shears 5C9_5C10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Shoemakers and Leather Working Tools 5C11-5D3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Shovels and Scoops 5D4-5D11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Sickels 5D12-5E3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Snow Guards 5E4-5E5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Splints 5Е6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Spoke Cutters 567-5E8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Spreader for Rigging 5E9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Sugar Industry Tools 15D6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Turpentine Industry Tools 5E10-612"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Well Beam 613"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Wiremaking Machine 614"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Wrenches GAG"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Yokes 6A6, 15E1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Oversize Renderings microfiche 15 - microfiche 16"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Contents"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.gtpujobpu2h",
+          "span": {
+            "@class": "c7",
+            "#text": "Part 5. Domestic Utensils microfiche 1 - microfiche 30"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Sewing Tools 17A3-18A11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Apple Peelers 18B2-18B5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Asparagus Buncher 18B6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Barrels, Buckets, Kegs, Tubs and Piggins 18B7-18D8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Baskets 18D9-19A3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Bottles 19A4-19A12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Bowls 19B1_19C5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Boxes 19C6-19D4, 29D3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Broom 19D5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Buttermolds and Tubs 19D6-20B7, 29D4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Cans and lars 20B3-20C8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Candlemolds 2009- 20D9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Cherry Pitters 20D10-20E1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Churns 20E2-21A6, 29D5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Clothes Pins 21A7-2149"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Clothes Washers 21A10-21B2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Coffee and Teapots 21B3-21B6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Coffee Grinders and Mills 21B7-21D2, 29D6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Coffee Roasters 21D3_21D6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Compotes 21D7_21D9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Cookie Cutters 21D10-21D11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Cork Compressors 21D12-21EI"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Crimpers 212- 21E6, 29E1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Cruets 21E7 21E8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Cups, Goblets, Mugs and Tankards 21 E9 2216"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Dippers and Ladles 2217-22C7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Dough Bins and Mixers 2208-22D2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Draining Boards 22D3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Egg Beaters and Cookers 22D4-22D7, 2912"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Flour Bins and Sifters 22D8 22D9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Fruit Slicer. 22D10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Fannels 22D11-291 12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Gourds 225.12259"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Graters 225.3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Grinders 2284 22612, 2913 291.5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Ice Cream Freezer 23A2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Irons 23A3…23D1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Kettles 23D2-24B7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Knives and Forks, Knife Sharpeners and Holders 24B8 - 24 E8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Mashers 24E4-24E12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Measuring Cups 25A2-25 A5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Molds 25 A6-25B11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Mortars and Pestles 25 B12-25D11, 29E6"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Muffin Pans 25D12-25E3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Nut Crackers 25E4-25E7, 30A2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Pail 25E8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Pan Slider 25E9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Pastry Squeezer 25E10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Pill Coater 25E11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Pitcher 25E12-26A3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Porringers 26A4-26A5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Pots and Pans 26A6-26C2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Rolling Pins 26C3-26C7, 30A3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Salt Shakers 26C8-26C11"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Sauerkraut Stomper 26C12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Sausage Stuffers 26D1-26D5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Scoops 26D6-26E1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Skewers and Holders 26E2-26E7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Skimmers and Sieves 26E8-27A7, 30A4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Spatula 27A8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Spoons 27A9-27B6, 3045"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Sugar Cutters 27B7-27B8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Tongs 27B9-27B10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Traps 27B11-27B12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Oversize Renderings microfiche 28 - microfiche 30"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Contents"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.cun43wx70k5b",
+          "span": {
+            "@class": "c7",
+            "#text": "Part 6. Furniture and Decorative Accessories microfiche 1 - microfiche 35"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Chairs 1A4-8A10, 30A3-30A6, 3512-35A3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Settles, Settees, Sofas and Daybeds 8B2-9B9, 30B2-30B5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Benches and Stools 9C2-10A3, 30C2-30C3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Tables 10A5-13A11, 30C5-30E2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Chests and Boxes 13B3-15E9, 31A3-31C1, 3514-35A7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Cupboards, Cabinets and Shelves 16A3-17C5, 31C3-31D4, 3548-3519"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Highboys 17C7-17E5, 312-32A3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Lowboys and Sideboards 18A3-18C6, 32A5-32B2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Desks and Secretaries 18C8-195, 32B4-32C5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Beds 20C4-20C9, 35A10"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Cradles 20D2-20E12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Knife Boxes 21C5-21C12, 32EZ-32E4"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Boxes and Cases 21D2_22B9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Oversize Renderings microfiche 30 - microfiche 34"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Giant Renderings microfiche 35"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Contents"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.mvdmjvr6aqyi",
+          "span": {
+            "@class": "c7",
+            "#text": "Part 7. Wood Carvings and Weathervanes microfiche I - microfiche 25"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Figureheads and Bowsprits 144-2C10, 15A3-155, 25A2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Billets and Mast Sheathes 2D2- 2E11, 16A2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Stern Pieces and Trailboards 3A3 3C6, 16A4 - 16C1, 25 A3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Other Ship Carvings 3C8-3D7, 16C3-16D5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Figures: Cigar Store Indians 4D3-6C8, 18A3-20C4, 25A5-25B5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Figures: Shop Figures and Other Cigar Store Figures 6C10-7C2, 20D2-21A3, 25B6-25B9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Signs 7C4-8B3, 21A5-21C6, 25B10-25C1"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Human and Religious Figures 8B6- 9A11, 21D2-22A5, 25C2-25C3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Animals and Birds (except Eagles) 9B2-9D8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Eagles 10A3-10D3, 22B2-22C3, 25C5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Decoys 10D5-1147, 22C5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Wood 11B9-12B1, 22D5-22E4, 25C6-25C7"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Metal 12B3-14C1, 23A3-23E5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Oversize Renderings microfiche 15 - microfiche 24"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Giant Renderings microfiche 25"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Contents"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.bui3vky06vqi",
+          "span": {
+            "@class": "c7",
+            "#text": "Part 8. Ceramics and Glass microfiche 1 - microfiche 35"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Earthenware 1A4 6D1, 32A3-32C1, 35A2"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Majolica 6D3 6D12"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Lusterware 6E2-6E9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Oversize Renderings microfiche 32 - microfiche 34"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Giant Renderings microfiche 35"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Contents"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.v8pse2tudrlr",
+          "span": {
+            "@class": "c7",
+            "#text": "Part 9. Silver, Pewter and Toleware microfiche 1 - microfiche 11"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Contents"
+          }
+        },
+        {
+          "@class": "c5 title",
+          "@id": "h.yxejzlaba8kq",
+          "span": {
+            "@class": "c7",
+            "#text": "Part 10. Toys and Musical Instruments microfiche 1 - microfiche 21"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Bells 10A3-10C8"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Drums 10C9-10C11, 20B4-20B5"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Piano 10C12--101, 20B3"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Rattles and Alarms 10E2-10E9"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Oversize Renderings microfiche 12 - microfiche 20"
+          }
+        },
+        {
+          "@class": "c1",
+          "span": {
+            "@class": "c0",
+            "#text": "Giant Renderings microfiche 21"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        },
+        {
+          "@class": "c1 c8",
+          "span": {
+            "@class": "c0"
+          }
+        }
+      ],
+      "h1": [
+        {
+          "@class": "c6",
+          "@id": "h.1yzylaj5khja",
+          "span": {
+            "@class": "c4",
+            "#text": "Textiles 144-18E6, 46A3-52D2, 56A2-54D4"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.xnp0y87q2chq",
+          "span": {
+            "@class": "c4",
+            "#text": "Costume 19A3-36E12, 53A2-54E3, 57D5-57D11"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.pis4zfyabued",
+          "span": {
+            "@class": "c4",
+            "#text": "Costume Accessories 37A3 41D8, 545-55B2, 57D12"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.8w5f2kpk6jvf",
+          "span": {
+            "@class": "c4",
+            "#text": "Jewelry 42A3- 45D11"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.6bkjrn1c8wfo",
+          "span": {
+            "@class": "c4",
+            "#text": "Pennsylvania German 1A3-9A7, 33A2-35A6"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.a1kx2xp4pq2i",
+          "span": {
+            "@class": "c4",
+            "#text": "Zoar 9A9-10B2, 35B2-35E2"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.gstvddjbion",
+          "span": {
+            "@class": "c4",
+            "#text": "Economy 10B4-10D4, 35E4"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.v3gwtrwuj13a",
+          "span": {
+            "@class": "c4",
+            "#text": "Amana 10D6-11A2"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.3mjdrzhwdave",
+          "span": {
+            "@class": "c4",
+            "#text": "Bishop Hill 11A4 11D12, 36A2-36A5"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.wext8qj4xbet",
+          "span": {
+            "@class": "c4",
+            "#text": "Shaker 12A4-17D2, 36B2-36C2"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.8c5drwmqeapl",
+          "span": {
+            "@class": "c4",
+            "#text": "Quaker 16B4-16E8, 36C4"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.yyl2a2b7f8f6",
+          "span": {
+            "@class": "c4",
+            "#text": "Mormon 17D4-17D7"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.z499p3b4kghl",
+          "span": {
+            "@class": "c4",
+            "#text": "Spanish Southwest 1844-31C6, 36D2--3944,40A2-40B4"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.k208jzxchs3c",
+          "span": {
+            "@class": "c4",
+            "#text": "California Petroglyphs 31C8-32A2"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.ce9o196epqyf",
+          "span": {
+            "@class": "c4",
+            "#text": "American Indian 32A4-32A11"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.l5n94hqrtunx",
+          "span": {
+            "@class": "c4",
+            "#text": "Architecture 1A4-11D10, 13A2-18D4, 20A2-212"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.50lfrhbo7aue",
+          "span": {
+            "@class": "c4",
+            "#text": "Naive Art 12A3-12C11, 18E2-19B1, 21E3-21E4"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.5fusgzd9upmh",
+          "span": {
+            "@class": "c4",
+            "#text": "Tools and Equipment (A-Z) 143 6B2, 15A2-15E1"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.lakqbatsjdcd",
+          "span": {
+            "@class": "c4",
+            "#text": "Hardware 6B5-10A11, 152-15E6"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.t4ca2hwlnpjd",
+          "span": {
+            "@class": "c4",
+            "#text": "Armaments and Military Supplies 10B3-12A9, 16A2-16B3"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.a960k2ncarp1",
+          "span": {
+            "@class": "c4",
+            "#text": "Harness and Saddlery 12B3-12E6, 16B5-16C1"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.hpffcae09ozw",
+          "span": {
+            "@class": "c4",
+            "#text": "Vehicles 12E9-13D3, 16C2-16D6"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.5sdfze3vp2z8",
+          "span": {
+            "@class": "c4",
+            "#text": "Calibrated Instruments 13D6-13E11, 16E1-16E4"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.ndtqo0x2rxvt",
+          "span": {
+            "@class": "c4",
+            "#text": "Machines 14A3-14A10, 16E1-166"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.qxqfewmcwrd5",
+          "span": {
+            "@class": "c4",
+            "#text": "Fireplace Equipment and Stoves 1447C3, 28A2-28C2"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.faucdxtmiwvo",
+          "span": {
+            "@class": "c4",
+            "#text": "Lighting Devices 7C6-16C12, 28C3-29C5"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.dt7gwjwnzomu",
+          "span": {
+            "@class": "c4",
+            "#text": "Textile Implements 16D3-18A11, 29C6-29D2"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.j7osrglf619f",
+          "span": {
+            "@class": "c4",
+            "#text": "Domestic Utensils (A-Z) 18B2-27B12, 29D3-30A5"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.qyro37e2b44d",
+          "span": {
+            "@class": "c4",
+            "#text": "Furniture 1A4- 2012, 3013- 3205, 3512 35110"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.r2u3dkovj9y0",
+          "span": {
+            "@class": "c4",
+            "#text": "Furnishing Accessories 21A4-29B5, 32D2-342, 35A11-35B4"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.wrbm99zf18iw",
+          "span": {
+            "@class": "c4",
+            "#text": "Wood Carvings 1A4-11A7, 15A3-22C5, 25A2-25C5"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.lx8y96b2zs9d",
+          "span": {
+            "@class": "c4",
+            "#text": "Scrimshaw 11A9-11B6, 22D2-22D3"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.865itz20g7ki",
+          "span": {
+            "@class": "c4",
+            "#text": "Weathervanes and Whirligigs 11B9-14D1, 22D5-24A2, 25C6-25C8"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.muir1so0ltr3",
+          "span": {
+            "@class": "c4",
+            "#text": "Ceramics 1A4-19C2, 32A3-34A2, 35A2-35A6"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.wa19bba9ak4v",
+          "span": {
+            "@class": "c4",
+            "#text": "Chalkware 19C4-20B4, 35A7-35A11"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.m4lhky50f4mc",
+          "span": {
+            "@class": "c4",
+            "#text": "Glass 20B7-31D4, 34A4-34B2, 35A12-35B5"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.mro3a3aidc6f",
+          "span": {
+            "@class": "c4",
+            "#text": "Silver 1A3-6D6"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.lfr85llkyd9e",
+          "span": {
+            "@class": "c4",
+            "#text": "Pewter 6D8-9D2"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.lkodt2750moq",
+          "span": {
+            "@class": "c4",
+            "#text": "Toleware 9D4-11D2"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.wvv4wlp30osv",
+          "span": {
+            "@class": "c4",
+            "#text": "Toys 1A4 9E12, 12A3-20B1, 2142-2148"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.qjpvsc24nif",
+          "span": {
+            "@class": "c4",
+            "#text": "Games 10A3-10A5"
+          }
+        },
+        {
+          "@class": "c6",
+          "@id": "h.snwwrls3z1i2",
+          "span": {
+            "@class": "c4",
+            "#text": "Musical Instruments 10A8-11C7, 20B3-20D3"
+          }
+        }
+      ],
+      "h2": [
+        {
+          "@class": "c2",
+          "@id": "h.palgz7gd7aoe",
+          "span": {
+            "@class": "c3",
+            "#text": "Embroidery and Needlework 144-909, 46A3-50B3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.vyukky4cnu07",
+          "span": {
+            "@class": "c3",
+            "#text": "Lace, Crocheting, Knitting and Knotting 9D2-10A8, 50B2-50B3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.i0ge90ngwkcd",
+          "span": {
+            "@class": "c3",
+            "#text": "Woven Textiles 10B3-14D6, 50B5-516"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.rquzp447jnlk",
+          "span": {
+            "@class": "c3",
+            "#text": "Printed and Dyed Textiles 14D8-18D9, 52A2-52C6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.abc41prwivgh",
+          "span": {
+            "@class": "c3",
+            "#text": "Flags 18E2-18E6, 52D2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.6lqyfwyv3xjw",
+          "span": {
+            "@class": "c3",
+            "#text": "Headwear 19A3-21D4, 53A2-53B5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.7myrvjxnh956",
+          "span": {
+            "@class": "c3",
+            "#text": "Neckwear 21D6-217, 53C2-53C3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.9rt9tr1w9h59",
+          "span": {
+            "@class": "c3",
+            "#text": "Undergarments and Nightwear 22A3-23A11, 53C5-53D1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.fzzzt6yzc7xj",
+          "span": {
+            "@class": "c3",
+            "#text": "Women's Apparel 23B3-29B11, 53D3-54C4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.gc56nnfn6xcf",
+          "span": {
+            "@class": "c3",
+            "#text": "Men's Apparel 29C3-3269, 54D2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.2zz6hrx82heq",
+          "span": {
+            "@class": "c3",
+            "#text": "Infants' and Children's Apparel 32D2-34B6, 54D4-54E1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.g5cc5sqqx6us",
+          "span": {
+            "@class": "c3",
+            "#text": "Footwear 34B9-36E12, 543"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.qedn365dgwn3",
+          "span": {
+            "@class": "c3",
+            "#text": "Costume Accessories (A-Z) 37A3 41C2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.bmor29rz7gzu",
+          "span": {
+            "@class": "c3",
+            "#text": "Medical and Personal Hygiene Instruments 41C4-41D1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.fuk5uckc3u5r",
+          "span": {
+            "@class": "c3",
+            "#text": "Restraining Irons and Clothing 41D3 41D8"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.whf93gwk9vx1",
+          "span": {
+            "@class": "c3",
+            "#text": "Sets of Jewelry 42A3-42B4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.7rw4ec32kyqq",
+          "span": {
+            "@class": "c3",
+            "#text": "Jewelry (A-Z) 42B6-45D11"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.ra4emf4x1kqc",
+          "span": {
+            "@class": "c3",
+            "#text": "Fracturs and Paintings 1A3-1D5, 33A2-33C1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.xaefzo7mdcog",
+          "span": {
+            "@class": "c3",
+            "#text": "Wood Carvings and Weathervanes 1D7-2B9, 33C3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.u4e2c5pjo8dr",
+          "span": {
+            "@class": "c3",
+            "#text": "Furniture and Decorative Accessories 2C3-4A9, 33C5-33E1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.bidw2jmm08hs",
+          "span": {
+            "@class": "c3",
+            "#text": "Ceramics and Chalkware 4B3-6C4. 33E3 34E3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.cs0pd6wea9kk",
+          "span": {
+            "@class": "c3",
+            "#text": "Textiles 34E5-34E6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.r290jkj0jx4v",
+          "span": {
+            "@class": "c3",
+            "#text": "Domestic Utensils, Tools and Hardware 6C7-9A7, 35A3-35A6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.5fhguct9xych",
+          "span": {
+            "@class": "c3",
+            "#text": "Painting 9A9-9A11"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.d9v5xz6jpp2a",
+          "span": {
+            "@class": "c3",
+            "#text": "Furniture 9B2-9B12, 35B2-35B5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.l2atnfus1qlg",
+          "span": {
+            "@class": "c3",
+            "#text": "Ceramics 9C2-9C10"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.nwfmoq3dh59k",
+          "span": {
+            "@class": "c3",
+            "#text": "Textiles and Costume 9D2-9D9, 35C2-35D1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.aqguitxnn6li",
+          "span": {
+            "@class": "c3",
+            "#text": "Domestic Utensils and Tools 10A3-10B2, 35D3-35E2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.9fwwzsen5n3h",
+          "span": {
+            "@class": "c3",
+            "#text": "Furniture 11A4-11B10, 36A2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.d9t4i6v1ecro",
+          "span": {
+            "@class": "c3",
+            "#text": "Costume 11C2-11C3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.j9mxrqbtnff1",
+          "span": {
+            "@class": "c3",
+            "#text": "Domestic Utensils and Tools 11C5-11D12, 36A3-36A5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.z3cmrdsdr9ws",
+          "span": {
+            "@class": "c3",
+            "#text": "Art and Architecture 12A4-12B2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.s5llu7g17vgk",
+          "span": {
+            "@class": "c3",
+            "#text": "Furniture and Furnishing Accessories 12B5-15A7, 36B2-36B3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.9qzw1a8tdb3g",
+          "span": {
+            "@class": "c3",
+            "#text": "Textiles and Costume 15B3-162, 36B5-36C2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.swqsfjorcbxq",
+          "span": {
+            "@class": "c3",
+            "#text": "Domestic Utensils and Tools (A-Z) 17A3-17D2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.c3fjo3kl79ix",
+          "span": {
+            "@class": "c3",
+            "#text": "Costume 16K4-16E8, 36C4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.g8l8ie1tnt8h",
+          "span": {
+            "@class": "c3",
+            "#text": "Art and Architecture 18A4-24A4, 36D2-38B3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.n93bc9yfruvr",
+          "span": {
+            "@class": "c3",
+            "#text": "Furniture and Mirroris 2417 - 25C11, 38C2-38C3, 40A6-40A12"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.v9uocft6m0cp",
+          "span": {
+            "@class": "c3",
+            "#text": "Textiles and Costume 25D2-26D5, 38C5-38E6, 40B1-40B3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.mb75kfbhype4",
+          "span": {
+            "@class": "c3",
+            "#text": "Domestic Utensils and Tools 26D8-27D10, 40B4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.g12lscbazqi1",
+          "span": {
+            "@class": "c3",
+            "#text": "Saddlery and Weapons 28A4-3145, 39A2-39A4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.rn5mq5l9dcf",
+          "span": {
+            "@class": "c3",
+            "#text": "Musical Instruments 31A8-31C6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.onan9v9v1bl6",
+          "span": {
+            "@class": "c3",
+            "#text": "Interiors 1A4-4C6, 13A2-15B2, 20A2-21E1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.5ylatcp34cod",
+          "span": {
+            "@class": "c3",
+            "#text": "Exteriors 4D3-6A4, 15B4-15E4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.962gkk2ulrjl",
+          "span": {
+            "@class": "c3",
+            "#text": "Gardens 6A6-8B8, 16A2-172, 21E2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.i4tb189cjlap",
+          "span": {
+            "@class": "c3",
+            "#text": "Waterworks 8C2-8C8, 18A2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.vhsnz2nhw301",
+          "span": {
+            "@class": "c3",
+            "#text": "Ornamental Iron 8D2-11D10, 18A4-18D4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.xtvnkk9lapdp",
+          "span": {
+            "@class": "c3",
+            "#text": "Paintings, Documents and Prints 12A3-12C4, 182-1942, 213-21E4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.ijsi1beck60g",
+          "span": {
+            "@class": "c3",
+            "#text": "Valentines and Paper Cuttings 12C6-12C11, 19A4-19B1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.t2ou6pe1ig96",
+          "span": {
+            "@class": "c3",
+            "#text": "Nails and Pins 6B5-6B8"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.f2nyj7zmj8m",
+          "span": {
+            "@class": "c3",
+            "#text": "Bolts, Locks and Latches 6C2-7D12, 15E3-15E4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.z096ey754x8s",
+          "span": {
+            "@class": "c3",
+            "#text": "Drawer Pulls 8A3-8C11"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.xuk8jk5rte8j",
+          "span": {
+            "@class": "c3",
+            "#text": "Hinges 8D2-8E6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.x2ztqgdmzbbz",
+          "span": {
+            "@class": "c3",
+            "#text": "Door Knockers 9A3_9C4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.sh0hfhemd56k",
+          "span": {
+            "@class": "c3",
+            "#text": "Tiebacks 9C6-9E4, 155-15E6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.b25daveh68l0",
+          "span": {
+            "@class": "c3",
+            "#text": "Marine Hardware 10A3-10A11"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.dpmespj6klmx",
+          "span": {
+            "@class": "c3",
+            "#text": "Firearms 10B3-10D3, 16A2-16A3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.g18oo7dyzyea",
+          "span": {
+            "@class": "c3",
+            "#text": "Powder Horns and Flasks 10D5-11C12, 16A4-16A6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.mlr3k9abwh70",
+          "span": {
+            "@class": "c3",
+            "#text": "Ammunition Containers and Bullet Molds 11D2-11D12"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.pj199oheiznz",
+          "span": {
+            "@class": "c3",
+            "#text": "Cross Bows 112"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.rlc8sfedky8s",
+          "span": {
+            "@class": "c3",
+            "#text": "Swords, Sabers and Daggers 114-1112, 16B1-16B3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.pw6eljrj2owr",
+          "span": {
+            "@class": "c3",
+            "#text": "Knapsacks and Canteens 12A3-12A9"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.adfn0zfhb428",
+          "span": {
+            "@class": "c3",
+            "#text": "Collars and Hobbles 12B3-12B9, 16B4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.1pv3o5rshjwy",
+          "span": {
+            "@class": "c3",
+            "#text": "Saddles, Bridles and Stirrups 12C2-12C12, 16B5-16B6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.21q3eeygpll0",
+          "span": {
+            "@class": "c3",
+            "#text": "Horse Shoes 12D2-12D7"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.ehz5ya4e4zlh",
+          "span": {
+            "@class": "c3",
+            "#text": "Whips and Whip Sockets 12E2-12E6, 16C1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.9wphh36e7zsh",
+          "span": {
+            "@class": "c3",
+            "#text": "Bicycles 12E9-12E12"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.r5texigpa4jo",
+          "span": {
+            "@class": "c3",
+            "#text": "Baby Carriages 13A3-13A9"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.ip8capk7sjni",
+          "span": {
+            "@class": "c3",
+            "#text": "Coaches and Wagons 13B2-13B10, 16C2-16D4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.wf0kg2qgkv6f",
+          "span": {
+            "@class": "c3",
+            "#text": "Sleighs and Sleds 13C2-13C9, 16D5-16D6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.nc70cjsk36ix",
+          "span": {
+            "@class": "c3",
+            "#text": "Carts and Wheelbarrows 13D2-13D3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.xnye22sqb3of",
+          "span": {
+            "@class": "c3",
+            "#text": "Barometers, Thermometers and Compasses 13D6-13D11, 16E1-16E3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.3q8pqzqzlzkd",
+          "span": {
+            "@class": "c3",
+            "#text": "Octants 16E4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.8x85pgavu7iu",
+          "span": {
+            "@class": "c3",
+            "#text": "Plumblines and Levels 13E2-13E3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.k8ewmiz5wgp",
+          "span": {
+            "@class": "c3",
+            "#text": "Scales 135-13E11"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.v4db42mldw3p",
+          "span": {
+            "@class": "c3",
+            "#text": "Fireplace Tools 1A4 - 1D5, 28A2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.ka3uek4upac6",
+          "span": {
+            "@class": "c3",
+            "#text": "Andirons 1D7-1D11"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.cws0418lr7f",
+          "span": {
+            "@class": "c3",
+            "#text": "Firebacks 12-110"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.cl3ayv7r3jgw",
+          "span": {
+            "@class": "c3",
+            "#text": "Gridirons, Waffle Irons and Toasters 2A3-2D7, 28A3-28B5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.lx130ss4ck4l",
+          "span": {
+            "@class": "c3",
+            "#text": "Trivets and Flatiron Holders 2D9-5 B6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.m0pk8ljuzm8u",
+          "span": {
+            "@class": "c3",
+            "#text": "Ovens and Broilers 5B8-5C1, 28B6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.ostsdbn7fbq7",
+          "span": {
+            "@class": "c3",
+            "#text": "Warmers 5C3-6B2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.mrgcstnii04v",
+          "span": {
+            "@class": "c3",
+            "#text": "Stoves and Stove Equipment 6B3- 6D8, 28C1-28C2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.4avgby87tatk",
+          "span": {
+            "@class": "c3",
+            "#text": "Match Boxes 7A3-7C3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.ifugdp27x0bv",
+          "span": {
+            "@class": "c3",
+            "#text": "Candlesticks and Holders 7C6-9C6, 28C2-29A3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.3oqktuqtp13l",
+          "span": {
+            "@class": "c3",
+            "#text": "Chandeliers and Sconces 9C8-10A4, 29A4-29A5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.vm9h6sebr0pr",
+          "span": {
+            "@class": "c3",
+            "#text": "Lamps 10A6-13D8, 29A6-29C2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.qv2se1cz85i9",
+          "span": {
+            "@class": "c3",
+            "#text": "Lanterns and Torches 14A3-16A8, 29C3-29C5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.42qvwdg409l",
+          "span": {
+            "@class": "c3",
+            "#text": "Lighting Accessories 16B2-16C12"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.xsidx2e8f0en",
+          "span": {
+            "@class": "c3",
+            "#text": "Spinning and Weaving Implements 16D3-1610"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.964swe6lughc",
+          "span": {
+            "@class": "c3",
+            "#text": "Chairs and Tables 1A4-13A11, 3043-302, 3512-3513"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.mddn00pjwc4r",
+          "span": {
+            "@class": "c3",
+            "#text": "Case Furniture 13B3-1986, 3142-3105, 35A4-3519"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.w31i82rd00hi",
+          "span": {
+            "@class": "c3",
+            "#text": "Beds and Cradles 20A4-20E12, 35A10"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.1g0odpwg0x7a",
+          "span": {
+            "@class": "c3",
+            "#text": "Bathtubs 21A4-21A10, 32D2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.d2ov5tg76a28",
+          "span": {
+            "@class": "c3",
+            "#text": "Books and Albums 21 B2-21C2, 32D4-32D5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.opviec5dp0lv",
+          "span": {
+            "@class": "c3",
+            "#text": "Boxes and Cases 21C5-22B9, 32E2-32E4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.1nxm90nxd20d",
+          "span": {
+            "@class": "c3",
+            "#text": "Cellarets and Wine Coolers 22C2-22C9, 33A3, 35A11"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.mpg22narxxny",
+          "span": {
+            "@class": "c3",
+            "#text": "Clocks 22D2-25B2, 33A5-33C3, 35A12-35B2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.g7f5d26x8t0",
+          "span": {
+            "@class": "c3",
+            "#text": "Decorations 25B4-25B7, 33C5-33D2, 35B3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.ubsv6bfgqs7s",
+          "span": {
+            "@class": "c3",
+            "#text": "Desk Accessories 25B9-25E1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.dhvkx4w7vimi",
+          "span": {
+            "@class": "c3",
+            "#text": "Door Stops 253_25E11"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.2bxyhxjogom1",
+          "span": {
+            "@class": "c3",
+            "#text": "Fire Screens 26A3 - 26A6, 33D4-33E3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.egdbpldsdpwq",
+          "span": {
+            "@class": "c3",
+            "#text": "Globes 26A8"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.rq9dbk35ionz",
+          "span": {
+            "@class": "c3",
+            "#text": "Mirrors and Frames 26B2-27B7, 3443-34B3, 35B4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.5evfd6lom05c",
+          "span": {
+            "@class": "c3",
+            "#text": "Racks and Stands 27B9-27D8, 34B5-34D3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.6v8dfa2o100j",
+          "span": {
+            "@class": "c3",
+            "#text": "Safes and Mail Boxes 272-27E8"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.oixipan9l889",
+          "span": {
+            "@class": "c3",
+            "#text": "Tobacco Accessories 28A3_28B7"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.sm782tiwu498",
+          "span": {
+            "@class": "c3",
+            "#text": "Trays 28B9-28C9"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.22n60kgc4mxq",
+          "span": {
+            "@class": "c3",
+            "#text": "Trunks and Hat Boxes 28D2-28E9, 34E2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.gpsmtb2qkoab",
+          "span": {
+            "@class": "c3",
+            "#text": "Vases 29A3-_29A8"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.mr2304uc9yf8",
+          "span": {
+            "@class": "c3",
+            "#text": "Wall Pockets 29B2-29B5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.to3f7epj74xw",
+          "span": {
+            "@class": "c3",
+            "#text": "Marine Carvings 144-3D7, 1543-16D5, 25A2-25A3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.sutlumy53n4i",
+          "span": {
+            "@class": "c3",
+            "#text": "Circus Carvings 3D9-4A3, 16E2-17D2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.wcpajw11ma5s",
+          "span": {
+            "@class": "c3",
+            "#text": "Carousel Carvings 4A5-4C9, 17D4-17E1, 25A4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.5mv6wqdboecm",
+          "span": {
+            "@class": "c3",
+            "#text": "Advertising Figures and Signs 4D3-8B3, 18A3-21C6, 25A5-25C1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.qz0y5yadby6b",
+          "span": {
+            "@class": "c3",
+            "#text": "Wooden Sculpture 8B6-11A7, 21D2-22C5, 25C2-25C5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.e16zhps3je05",
+          "span": {
+            "@class": "c3",
+            "#text": "Weathervanes 11B9-14C1, 22D5-2385, 25C6-25C7"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.3dvb9n2xhmce",
+          "span": {
+            "@class": "c3",
+            "#text": "Whirligigs 14C3-14D1, 24A2, 25C8"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.ynnxutlklfy0",
+          "span": {
+            "@class": "c3",
+            "#text": "Earthenware 1A4-6E9, 32A3-32C1, 35A2-35A6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.pmcyaus7p8u8",
+          "span": {
+            "@class": "c3",
+            "#text": "Stoneware 7A3-16A2, 32C3-33D2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.8apfskjh58yd",
+          "span": {
+            "@class": "c3",
+            "#text": "Ironstone 16A4-16C7"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.83sd81i0zkri",
+          "span": {
+            "@class": "c3",
+            "#text": "Porcelain 16C9-18D11, 33D4-33D6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.bkjzbo9ij24c",
+          "span": {
+            "@class": "c3",
+            "#text": "Tiles and Plaques 18E2-18E11, 33E2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.i99bcxfg38d",
+          "span": {
+            "@class": "c3",
+            "#text": "Ceramic Figures 19A3-19C2, 34A2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.142n67h5ewpf",
+          "span": {
+            "@class": "c3",
+            "#text": "Free Blown 20B7-24C1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.v7pc6no9uqgg",
+          "span": {
+            "@class": "c3",
+            "#text": "Mold Blown 24C3-2805, 3444-34A5, 35A12-35B3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.cps7l5fsq4ld",
+          "span": {
+            "@class": "c3",
+            "#text": "Pressed Glass 28C7 - 30E11, 34B2, 35B4-35B5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.veg0c4mgu5pz",
+          "span": {
+            "@class": "c3",
+            "#text": "Painted Glass and Decorated Glass 31A3-31D4"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.a4balplsdmcb",
+          "span": {
+            "@class": "c3",
+            "#text": "Dolls 144-4A2, 12A3-15C2-2142-2145"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.4382xkh3cqw",
+          "span": {
+            "@class": "c3",
+            "#text": "Dolls Accessories 4A4-4E1, 15C4-15E2"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.azy1eoyipxsy",
+          "span": {
+            "@class": "c3",
+            "#text": "Marionettes and Puppets 5A3-5E1, 16A2-17C5, 21A6"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.d2fgd19v6p47",
+          "span": {
+            "@class": "c3",
+            "#text": "Animals 6A3-6C11, 17D2-18C1, 21A7"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.9eti5ixoww4w",
+          "span": {
+            "@class": "c3",
+            "#text": "Vehicles 6D2-6E7, 18C3-18D6, 21A8"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.t9bpy73e8fi6",
+          "span": {
+            "@class": "c3",
+            "#text": "Banks and Mechanical Toys 7A3-93, 182-19D5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.trzz34usvb6e",
+          "span": {
+            "@class": "c3",
+            "#text": "Toys 95-9E12, 19E2--20B1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.54679s1i2i1f",
+          "span": {
+            "@class": "c3",
+            "#text": "Percussion Instruments 20B3-20B5"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.steiun55ycpb",
+          "span": {
+            "@class": "c3",
+            "#text": "String Instruments 11A3-11410, 20C2-20C3"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.5sxsxrt7fda3",
+          "span": {
+            "@class": "c3",
+            "#text": "Wind Instruments including Fifes, Trumpets and Organs 11B2-11C1, 20C5-20D1"
+          }
+        },
+        {
+          "@class": "c2",
+          "@id": "h.mnd9nov3g2ic",
+          "span": {
+            "@class": "c3",
+            "#text": "Firemen's Speaking Trumpets 11C3-11C7, 20D3"
+          }
+        }
+      ]
+    }
+  }
+}
