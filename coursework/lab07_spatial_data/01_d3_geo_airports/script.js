@@ -6,10 +6,13 @@ const width = 1000;
 
 /*** helper function ***/
 function height(projection, outline) {
-  const [[x0, y0], [x1, y1]] = d3.geoPath(projection.fitWidth(width, outline)).bounds(outline);
-  const dy = Math.ceil(y1 - y0), l = Math.min(Math.ceil(x1 - x0), dy);
-  
-  projection.scale(projection.scale() * (l - 1) / l).precision(0.2);
+  const [[x0, y0], [x1, y1]] = d3
+    .geoPath(projection.fitWidth(width, outline))
+    .bounds(outline);
+  const dy = Math.ceil(y1 - y0),
+    l = Math.min(Math.ceil(x1 - x0), dy);
+
+  projection.scale((projection.scale() * (l - 1)) / l).precision(0.2);
   return dy;
 }
 
@@ -20,23 +23,25 @@ function drawMap(world, data) {
   const outline = { type: "Sphere" };
   const projection = d3.geoNaturalEarth1();
   const path = d3.geoPath(projection);
+  //IN-CLASS: these must be layered in the correct sequence
 
-  const svg = d3.select('body')
+  const svg = d3
+    .select("body")
     .append("svg")
     .attr("viewBox", [0, 0, width, height(projection, outline)]);
 
   const defs = svg.append("defs");
 
-  defs.append("path")
-      .attr("id", "outline")
-      .attr("d", path(outline));
+  defs.append("path").attr("id", "outline").attr("d", path(outline));
 
-  defs.append("clipPath")
+  defs
+    .append("clipPath")
     .attr("id", "clip")
     .append("use")
     .attr("xlink:href", new URL("#outline", location));
 
-  const g = svg.append("g")
+  const g = svg
+    .append("g")
     .attr("clip-path", `url(${new URL("#clip", location)})`);
 
   g.append("use")
@@ -48,31 +53,34 @@ function drawMap(world, data) {
     .attr("stroke", "#ddd")
     .attr("fill", "none");
 
-  g.append("path")
-    .attr("d", path(land))
-    .attr("fill", "#ddd");
+  g.append("path").attr("d", path(land)).attr("fill", "#ddd");
 
-  svg.append("use")
+  svg
+    .append("use")
     .attr("xlink:href", new URL("#outline", location))
     .attr("stroke", "#000")
     .attr("fill", "none");
 
-  svg.append("g")
+  svg
+    .append("g") //IN-CLASS: group together w/ "g"
     .selectAll("circle")
     .data(data)
     .join("circle")
-    .attr("transform", d => `translate(${projection([d.longitude, d.latitude])})`)
+    .attr(
+      "transform",
+      (d) => `translate(${projection([d.longitude, d.latitude])})`
+    ) //IN-CLASS: must tell the point where to go based on the projection
     .attr("r", 1.5)
-    .append("title")
-    .text(d => d.name);
+    .append("title") //IN-CLASS: for accessibility, to allow for hover and speech-reader; for hover can create a larger clear circle to avoid requiring extreme precision with small points
+    .text((d) => d.name);
 }
 
 /*** load data ***/
 async function loadData() {
-  const world = await d3.json('data/land-50m.json');
-  const airports = await d3.csv('data/airports.csv');
+  const world = await d3.json("data/land-50m.json");
+  const airports = await d3.csv("data/airports.csv");
 
-  drawMap(world, airports)
+  drawMap(world, airports);
 }
 
 loadData();
