@@ -1,6 +1,4 @@
-// "d3" is globally available
-// because we have the d3 code
-// in our index.html file
+// "d3" is globally available because we have the d3 code in our index.html file
 
 // load JSON using d3.json
 d3.json("data/IoAD_artists_imgs.json").then((json) => {
@@ -9,6 +7,7 @@ d3.json("data/IoAD_artists_imgs.json").then((json) => {
   displayImages(json, artistCounts);
 });
 
+//---------------APP FUNCTION---------------
 // this function creates all of our DOM elements
 function displayImages(json, artistCounts) {
   // select a <div> with an id of "app"
@@ -16,19 +15,6 @@ function displayImages(json, artistCounts) {
   let app = d3.select("#app").text("");
 
   // take our JSON and sort it
-  // let data = json.sort((a,b) => (b.objectid > a.objectid) ? 1 : -1);
-
-  //     // objectid ascending, then attribution ascending
-  //     let data = json.sort((a, b) => {
-  //         if (a.objectid === b.objectid) {
-  //             // If objectids are equal, sort by attribution
-  //             return a.attribution > b.attribution ? 1 : -1;
-  //         } else {
-  //             // Sort by objectid
-  //             return a.objectid > b.objectid ? 1 : -1;
-  //         }
-  //     });
-
   // attribution ascending, then title ascending
   let data = json.sort((a, b) => {
     if (a.attributioninverted === b.attributioninverted) {
@@ -45,8 +31,19 @@ function displayImages(json, artistCounts) {
   // let data = json.sort((a,b) => (b.date > a.date) ? 1 : -1);
   // // date ascending
   // let data = json.sort((a,b) => (a.date > b.date) ? 1 : -1);
+  // // objectid ascending, then attribution ascending
+  // let data = json.sort((a,b) => (b.objectid > a.objectid) ? 1 : -1);
+  //     let data = json.sort((a, b) => {
+  //         if (a.objectid === b.objectid) {
+  //             // If objectids are equal, sort by attribution
+  //             return a.attribution > b.attribution ? 1 : -1;
+  //         } else {
+  //             // Sort by objectid
+  //             return a.objectid > b.objectid ? 1 : -1;
+  //         }
+  //     });
 
-  //---------------DISPLAY CARDS---------------
+  //---------------CARDS---------------
   // define "cards" for each item
   let card = app
     .selectAll("div.card")
@@ -104,7 +101,8 @@ function displayImages(json, artistCounts) {
     });
 }
 
-// // this function counts the number of works for each artist and stores them in an object
+//---------------OTHER FUNCTIONS---------------
+// this function counts the number of works for each artist and stores them in an object
 function countTitles(json) {
   const artistCounts = {};
 
