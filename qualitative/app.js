@@ -112,7 +112,7 @@ function displayImages(json, artistCounts) {
 }
 
 //---------------OTHER FUNCTIONS---------------
-// this function counts the number of works for each artist and stores them in an object, displayed with imae
+// FUNCTION counts the number of works for each artist and stores them in an object, displayed with image
 function countTitles(json) {
   const artistCounts = {};
 
@@ -127,7 +127,7 @@ function countTitles(json) {
   return artistCounts;
 }
 
-// this function counts the number of works and titles for each artist and stores them in an object, printed to the console
+// FUNCTION counts the number of works and titles for each artist and stores them in an object, printed to the console
 function countAndListTitles(json) {
   const listTitles = {};
 
