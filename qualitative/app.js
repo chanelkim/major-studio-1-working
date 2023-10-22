@@ -60,9 +60,7 @@ function displayImages(json, artistCounts) {
     .join("div")
     .attr("class", "card");
 
-  // create a div with a class of "image"
-  // and populate it with an <img/> tag
-  // that contains our filepath
+  // create a div with a class of "image" and populate it with an <img/> tag that contains our filepath
   card
     .append("div")
     .attr("class", "image")
@@ -76,28 +74,25 @@ function displayImages(json, artistCounts) {
       return d.imagematch;
     });
 
-  // create a paragraph that will
-  // hold the object date
+  // create a paragraph that will hold the object date
   card
     .append("p")
     .attr("class", "object-id")
     .text((d) => d.objectid);
 
-  // create a heading tag
-  // that will be the object title
+  // create a heading tag that will be the object title
   card
     .append("h3")
     .attr("class", "title")
     .text((d) => d.title);
 
-  // create a heading tag
-  // that will be the attribution
+  // create a heading tag that will be the attribution
   card
     .append("h2")
     .attr("class", "attributioninverted")
     .text((d) => d.attributioninverted);
 
-  // to display number of works per artist
+  // display number of works per artist
   card
     .append("p")
     .attr("class", "titlecount")
