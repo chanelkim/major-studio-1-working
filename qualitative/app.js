@@ -1,11 +1,20 @@
 // "d3" is globally available because we have the d3 code in our index.html file
 
+//---------------LOAD DATA---------------
 // load JSON using d3.json
 d3.json("data/IoAD_artists_imgs.json").then((json) => {
   const artistCounts = countTitles(json);
+  const listTitles = countAndListTitles(json);
   // execute our display images function
-  displayImages(json, artistCounts);
+  displayImages(json, artistCounts, listTitles);
 });
+
+// async function loadData(json) {
+//     const objects = await d3.json("data/IoAD_artists_imgs.json");
+//     const artistCounts = countTitles(json);
+//     displayImages(json, artistCounts);
+//   }
+//   loadData();
 
 //---------------APP FUNCTION---------------
 // this function creates all of our DOM elements
@@ -92,17 +101,18 @@ function displayImages(json, artistCounts) {
   card
     .append("p")
     .attr("class", "titlecount")
-    .text((d) => {
+    .text((d, i) => {
       const artist = d.attributioninverted;
       //   return `Contribution Count: ${artistCounts[artist] || 0}`;
       const totalWorks = artistCounts[artist] || 0;
-      const currentWorkIndex = data.indexOf(d) + 1; // Current work's index in the sorted data
-      return `${currentWorkIndex} of ${totalWorks}`;
+      const currentWorkIndex = i % totalWorks; // count per artist
+      //   const currentWorkIndex = data.indexOf(d) + 1; // Current work's index in ALL the sorted data
+      return `${currentWorkIndex + 1} of ${totalWorks}`;
     });
 }
 
 //---------------OTHER FUNCTIONS---------------
-// this function counts the number of works for each artist and stores them in an object
+// this function counts the number of works for each artist and stores them in an object, displayed with imae
 function countTitles(json) {
   const artistCounts = {};
 
@@ -114,6 +124,24 @@ function countTitles(json) {
       artistCounts[artist] = 1;
     }
   });
-
   return artistCounts;
+}
+
+// this function counts the number of works and titles for each artist and stores them in an object, printed to the console
+function countAndListTitles(json) {
+  const listTitles = {};
+
+  json.forEach((item) => {
+    const artist = item.attributioninverted;
+    if (artist in listTitles) {
+      listTitles[artist].works.push(item.title);
+    } else {
+      listTitles[artist] = {
+        // count: [item.title].length,
+        works: [item.title],
+      };
+    }
+  });
+  console.log(listTitles);
+  return listTitles;
 }
