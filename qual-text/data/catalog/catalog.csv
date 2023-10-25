@@ -1,0 +1,379 @@
+indexid,part,microfiche-num,theme,cat,subcat,type
+1,1,[1],Textiles Costume and Jewelry,Textiles,Embroidery and Needlework,Samplers
+2,1,[1],Textiles Costume and Jewelry,Textiles,Embroidery and Needlework,Embroidered Pictures
+3,1,"[2,3,4]",Textiles Costume and Jewelry,Textiles,Embroidery and Needlework,Needlework and Crewel Embroidery
+4,1,[5],Textiles Costume and Jewelry,Textiles,Embroidery and Needlework,Hooked and Embroidered Rugs
+5,1,"[5,6,7,8,9]",Textiles Costume and Jewelry,Textiles,Embroidery and Needlework,Applique and Pieced Quilts
+6,1,"[9,10]",Textiles Costume and Jewelry,Textiles,Lace Crocheting Knitting and Knotting,
+7,1,"[10,11]",Textiles Costume and Jewelry,Textiles,Woven Textiles,Linen Cotton Wool and Silk
+8,1,"[11,12]",Textiles Costume and Jewelry,Textiles,Woven Textiles,Woven Coverlets - Four Harness
+9,1,"[12,13,14]",Textiles Costume and Jewelry,Textiles,Woven Textiles,Woven Coverlets - Jacquard
+10,1,[14],Textiles Costume and Jewelry,Textiles,Woven Textiles,Rugs and Carpets
+11,1,"[14,15,16,17,18]",Textiles Costume and Jewelry,Textiles,Printed and Dyed Textiles,
+12,1,[18],Textiles Costume and Jewelry,Textiles,Flags,
+13,1,"[19,20,21]",Textiles Costume and Jewelry,Costume,Headwear,
+14,1,[21],Textiles Costume and Jewelry,Costume,Neckwear,
+15,1,"[22,23]",Textiles Costume and Jewelry,Costume,Undergarments and Nightwear,
+16,1,"[23,24]",Textiles Costume and Jewelry,Costume,Women's Apparel,Above the Waist
+17,1,[24],Textiles Costume and Jewelry,Costume,Women's Apparel,Aprons
+18,1,"[24,25,26,27,28,29]",Textiles Costume and Jewelry,Costume,Women's Apparel,Dresses and Coats
+19,1,[29],Textiles Costume and Jewelry,Costume,Men's Apparel,Above the Waist
+20,1,[30],Textiles Costume and Jewelry,Costume,Men's Apparel,Trousers
+21,1,"[31,32]",Textiles Costume and Jewelry,Costume,Men's Apparel,Suits and Coats
+22,1,[32],Textiles Costume and Jewelry,Costume,Men's Apparel,Uniforms
+23,1,"[32,33,34]",Textiles Costume and Jewelry,Costume,Infants' and Children's Apparel,
+24,1,[34],Textiles Costume and Jewelry,Costume,Footwear,Stockings
+25,1,[34],Textiles Costume and Jewelry,Costume,Footwear,Skates Clogs and Spurs
+26,1,"[35,36]",Textiles Costume and Jewelry,Costume,Footwear,Women's Shoes
+27,1,[36],Textiles Costume and Jewelry,Costume,Footwear,Men's Shoes
+28,1,[36],Textiles Costume and Jewelry,Costume,Footwear,Children's Shoes
+29,1,[37],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Belts
+30,1,[37],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Bootjacks and Shoe Forms
+31,1,"[37,38]",Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Buttons
+32,1,[38],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Canes and Walking Sticks
+33,1,[38],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Card Cases and Trays
+34,1,[38],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Collar and Cuff Box
+35,1,[38],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Fans
+36,1,[38],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Garters and Suspenders
+37,1,[38],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Gloves Mitts and Mittens
+38,1,"[38,40]",Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Handbags Purses Satchels and Wallets
+39,1,[40],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Muffs Parasols and Umbrellas
+40,1,"[40,41]",Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Pipes
+41,1,[41],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Pockets and Sachets
+42,1,[41],Textiles Costume and Jewelry,Costume Accessories,Costume Accessories (A-Z),Spectacles and Eyeglasses
+43,1,[41],Textiles Costume and Jewelry,Costume Accessories,Medical and Personal Hygiene Instruments,
+44,1,[41],Textiles Costume and Jewelry,Costume Accessories,Restraining Irons and Clothing,
+45,1,"[42,43,44,45]",Textiles Costume and Jewelry,Jewelry,Sets of Jewelry,
+46,1,[42],Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Bouquet Holders
+47,1,[42],Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Bracelets
+48,1,[42],Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Brooches
+49,1,[43],Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Buckles
+50,1,"[43,44]",Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Combs and Hair Ornaments
+51,1,[44],Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Cufflinks
+52,1,[44],Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Earrings
+53,1,[44],Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Necklaces
+54,1,"[44,45]",Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Pins
+55,1,[45],Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Rings
+56,1,[45],Textiles Costume and Jewelry,Jewelry,Jewelry (A-Z),Watches and Fobs
+57,1,"[46,47,48,49,50,51,52,53,54,55]",Textiles Costume and Jewelry,,,Oversize Renderings
+58,1,"[56,57]",Textiles Costume and Jewelry,,,Giant Renderings
+59,2,[1],The Art and Design of Utopian and Religious Communities,Pennsylvania German,Fracturs and Paintings,
+60,2,[1],The Art and Design of Utopian and Religious Communities,Pennsylvania German,Wood Carvings and Weathervanes,
+61,2,"[2,3]",The Art and Design of Utopian and Religious Communities,Pennsylvania German,Furniture and Decorative Accessories,Furniture
+62,2,"[3,4]",The Art and Design of Utopian and Religious Communities,Pennsylvania German,Furniture and Decorative Accessories,Boxes and Decorative Accessories
+63,2,"[4,5,6]",The Art and Design of Utopian and Religious Communities,Pennsylvania German,Ceramics and Chalkware,Ceramics
+64,2,"[5,6]",The Art and Design of Utopian and Religious Communities,Pennsylvania German,Ceramics and Chalkware,Chalkware
+65,2,[34],The Art and Design of Utopian and Religious Communities,Pennsylvania German,Textiles,
+66,2,"[6,7,8,35]",The Art and Design of Utopian and Religious Communities,Pennsylvania German,Domestic Utensils Tools and Hardware,Domestic Utensils
+67,2,[8],The Art and Design of Utopian and Religious Communities,Pennsylvania German,Domestic Utensils Tools and Hardware,Tools
+68,2,[9],The Art and Design of Utopian and Religious Communities,Pennsylvania German,Domestic Utensils Tools and Hardware,Hardware
+69,2,[9],The Art and Design of Utopian and Religious Communities,Zoar,Painting,
+70,2,[9],The Art and Design of Utopian and Religious Communities,Zoar,Furniture,
+71,2,[9],The Art and Design of Utopian and Religious Communities,Zoar,Ceramics,
+72,2,"[9,35]",The Art and Design of Utopian and Religious Communities,Zoar,Textiles and Costume,
+73,2,"[10,35]",The Art and Design of Utopian and Religious Communities,Zoar,Domestic Utensils and Tools,
+74,2,"[10,35]",The Art and Design of Utopian and Religious Communities,Economy,,
+75,2,"[10,11]",The Art and Design of Utopian and Religious Communities,Amana,,
+76,2,"[11,36]",The Art and Design of Utopian and Religious Communities,Bishop Hill,Furniture,
+77,2,[11],The Art and Design of Utopian and Religious Communities,Bishop Hill,Costume,
+78,2,"[11,36]",The Art and Design of Utopian and Religious Communities,Bishop Hill,Domestic Utensils and Tools,
+79,2,[12],The Art and Design of Utopian and Religious Communities,Shaker,Art and Architecture,Art
+80,2,[12],The Art and Design of Utopian and Religious Communities,Shaker,Art and Architecture,Architectural Details
+81,2,[12],The Art and Design of Utopian and Religious Communities,Shaker,Furniture and Furnishing Accessories,Chairs
+82,2,"[12,13]",The Art and Design of Utopian and Religious Communities,Shaker,Furniture and Furnishing Accessories,Tables Benches and Stools
+83,2,"[13,14]",The Art and Design of Utopian and Religious Communities,Shaker,Furniture and Furnishing Accessories,Chests Cupboards and Cabinets
+84,2,[14],The Art and Design of Utopian and Religious Communities,Shaker,Furniture and Furnishing Accessories,Beds
+85,2,"[14,36]",The Art and Design of Utopian and Religious Communities,Shaker,Furniture and Furnishing Accessories,Furnishing Accessories
+86,2,[15],The Art and Design of Utopian and Religious Communities,Shaker,Furniture and Furnishing Accessories,Clocks
+87,2,"[15,36]",The Art and Design of Utopian and Religious Communities,Shaker,Textiles and Costume,Textiles
+88,2,"[16,36]",The Art and Design of Utopian and Religious Communities,Shaker,Textiles and Costume,Costume and Costume Accessories
+89,2,[17],The Art and Design of Utopian and Religious Communities,Shaker,Domestic Utensils and Tools (A-Z),
+90,2,"[16,36]",The Art and Design of Utopian and Religious Communities,Quaker,Costume,
+91,2,[17],The Art and Design of Utopian and Religious Communities,Mormon,,
+92,2,"[18,19,20,36,37,38,40]",The Art and Design of Utopian and Religious Communities,Spanish Southwest,Art and Architecture,Paintings and Sculpture
+93,2,"[20,21,22,23,38]",The Art and Design of Utopian and Religious Communities,Spanish Southwest,Art and Architecture,Interiors and Architectural Details
+94,2,"[23,24,40]",The Art and Design of Utopian and Religious Communities,Spanish Southwest,Art and Architecture,Maps
+95,2,"[24,25,38,40]",The Art and Design of Utopian and Religious Communities,Spanish Southwest,Furniture and Mirrors,Furniture
+96,2,"[25,40]",The Art and Design of Utopian and Religious Communities,Spanish Southwest,Furniture and Mirrors,Mirrors
+97,2,"[25,26,38,40]",The Art and Design of Utopian and Religious Communities,Spanish Southwest,Textiles and Costume,
+98,2,"[26,27,40]",The Art and Design of Utopian and Religious Communities,Spanish Southwest,Domestic Utensils and Tools,Lighting Devices
+99,2,[27],The Art and Design of Utopian and Religious Communities,Spanish Southwest,Domestic Utensils and Tools,Domestic Utensils and Tools
+100,2,"[28,39]",The Art and Design of Utopian and Religious Communities,Spanish Southwest,Saddlery and Weapons,Saddles and Leatherwork
+101,2,"[29,30]",The Art and Design of Utopian and Religious Communities,Spanish Southwest,Saddlery and Weapons,Spurs
+102,2,[30],The Art and Design of Utopian and Religious Communities,Spanish Southwest,Saddlery and Weapons,Bits
+103,2,[31],The Art and Design of Utopian and Religious Communities,Spanish Southwest,Saddlery and Weapons,Weapons
+104,2,[31],The Art and Design of Utopian and Religious Communities,Spanish Southwest,Musical Instruments,Bells
+105,2,[31],The Art and Design of Utopian and Religious Communities,Spanish Southwest,Musical Instruments,Stringed Instruments
+106,2,"[31,32]",The Art and Design of Utopian and Religious Communities,California Petroglyphs,,
+107,2,[32],The Art and Design of Utopian and Religious Communities,American Indian,,
+108,2,"[33,34,35,36,37,38,39]",The Art and Design of Utopian and Religious Communities,,,Oversize Renderings
+109,2,[40],The Art and Design of Utopian and Religious Communities,,,Giant Renderings
+110,3,"[13,20]",Architecture and Naive Art,Architecture,Interiors,Rooms - Domestic Interiors
+111,3,"[13,20]",Architecture and Naive Art,Architecture,Interiors,Rooms - Business and Industrial
+112,3,"[13,20]",Architecture and Naive Art,Architecture,Interiors,Rooms - Public Buildings and Gathering Places
+113,3,"[13,20,21]",Architecture and Naive Art,Architecture,Interiors,Stage Sets and Backdrops
+114,3,"[1,13,21]",Architecture and Naive Art,Architecture,Interiors,Architectural Details and Paneling
+115,3,"[1,13,21]",Architecture and Naive Art,Architecture,Interiors,Railway Car Interiors
+116,3,"[2,13,21]",Architecture and Naive Art,Architecture,Interiors,Wall Treatments - Decorated Painted and Stenciled
+117,3,"[2,3,4,14,15,21]",Architecture and Naive Art,Architecture,Interiors,Wall Treatments - Wallpaper and Bandboxes
+118,3,"[4,21]",Architecture and Naive Art,Architecture,Interiors,Floor Treatments
+119,3,"[4,5,15]",Architecture and Naive Art,Architecture,Exteriors,Architectural Details and Ornament
+120,3,[5],Architecture and Naive Art,Architecture,Exteriors,Firemarks
+121,3,"[5,6,15]",Architecture and Naive Art,Architecture,Exteriors,Hitching Posts
+122,3,"[6,16,17,21]",Architecture and Naive Art,Architecture,Gardens,Gardens
+123,3,"[6,17]",Architecture and Naive Art,Architecture,Gardens,Garden Ornaments and Metal Sculpture
+124,3,"[7,8,17]",Architecture and Naive Art,Architecture,Gardens,Cemetery Art
+125,3,"[8,18]",Architecture and Naive Art,Architecture,Waterworks,
+126,3,"[8,9,10,11,18]",Architecture and Naive Art,Architecture,Ornamental Iron,
+127,3,"[12,18,19,21]",Architecture and Naive Art,Naive Art,Paintings Documents and Prints,
+128,3,"[12,19]",Architecture and Naive Art,Naive Art,Valentines and Paper Cuttings,
+129,3,"[13,14,15,16,17,18,19]",Architecture and Naive Art,,,Oversize Renderings
+130,3,"[20,21]",Architecture and Naive Art,,,Giant Renderings
+131,4,[1],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Adzes Axes and Hatchets
+132,4,[1],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Augers
+133,4,[1],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Bark Peelers
+134,4,[1],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Beehives
+135,4,[1],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Blacksmith Tools
+136,4,[1],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Braces Bits and Drills
+137,4,[1],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Branding Irons and Markers
+138,4,[2],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Bristle Removers
+139,4,[2],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Brushes and Brush Cutters
+140,4,[2],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Carpet Stretchers
+141,4,[2],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Chisels
+142,4,[3],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Clam Rakes
+143,4,[3],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Clamps
+144,4,[3],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Combs
+145,4,[3],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Corn Planters
+146,4,"[3,15]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Cranberry Pickers
+147,4,"[3,15]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Drawknives and Knives
+148,4,"[3,15]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Firefighting Equipment
+149,4,[3],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Fish Spears
+150,4,"[3,4]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Flails
+151,4,[15],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Frows and Frow Clubs
+152,4,[4],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Gauges
+153,4,[4],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Grain Cradles
+154,4,[4],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Hammers Mallets and Gavels
+155,4,"[4,15]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Hay Forks
+156,4,[4],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Hide Stretchers
+157,4,[4],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Hoes and Picks
+158,4,"[4,15]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Hooks
+159,4,[4],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Jacks
+160,4,[4],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Millstones
+161,4,[4],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Pinkers
+162,4,[4],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Planes
+163,4,"[5,15]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Plows
+164,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Potato Planters
+165,4,"[5,15]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Printing Equipment and Stamps
+166,4,[15],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Reamers
+167,4,"[5,15]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Saws
+168,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Scrapers
+169,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Screens
+170,4,[15],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Shaving Horses
+171,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Shears
+172,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Shoemakers and Leather Working Tools
+173,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Shovels and Scoops
+174,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Sickels
+175,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Snow Guards
+176,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Splints
+177,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Spoke Cutters
+178,4,[5],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Spreader for Rigging
+179,4,[15],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Sugar Industry Tools
+180,4,"[5,6]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Turpentine Industry Tools
+181,4,[6],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Well Beam
+182,4,[6],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Wiremaking Machine
+183,4,[6],Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Wrenches
+184,4,"[6,15]",Tools Hardware Firearms and Vehicles,Tools and Equipment (A-Z),,Yokes
+185,4,[6],Tools Hardware Firearms and Vehicles,Hardware,Nails and Pins,
+186,4,"[6,15]",Tools Hardware Firearms and Vehicles,Hardware,Bolts Locks and Latches,
+187,4,[8],Tools Hardware Firearms and Vehicles,Hardware,Drawer Pulls,
+188,4,[8],Tools Hardware Firearms and Vehicles,Hardware,Hinges,
+189,4,[9],Tools Hardware Firearms and Vehicles,Hardware,Door Knockers,
+190,4,"[9,15]",Tools Hardware Firearms and Vehicles,Hardware,Tiebacks,
+191,4,[10],Tools Hardware Firearms and Vehicles,Hardware,Marine Hardware,
+192,4,"[10,16]",Tools Hardware Firearms and Vehicles,Armaments and Military Supplies,Firearms,
+193,4,"[10,11,16]",Tools Hardware Firearms and Vehicles,Armaments and Military Supplies,Powder Horns and Flasks,
+194,4,[11],Tools Hardware Firearms and Vehicles,Armaments and Military Supplies,Ammunition Containers and Bullet Molds,
+195,4,[11],Tools Hardware Firearms and Vehicles,Armaments and Military Supplies,Cross Bows,
+196,4,"[11,16]",Tools Hardware Firearms and Vehicles,Armaments and Military Supplies,Swords Sabers and Daggers,
+197,4,[12],Tools Hardware Firearms and Vehicles,Armaments and Military Supplies,Knapsacks and Canteens,
+198,4,"[12,16]",Tools Hardware Firearms and Vehicles,Harness and Saddlery,Collars and Hobbles,
+199,4,"[12,16]",Tools Hardware Firearms and Vehicles,Harness and Saddlery,Saddles Bridles and Stirrups,
+200,4,[12],Tools Hardware Firearms and Vehicles,Harness and Saddlery,Horse Shoes,
+201,4,"[12,16]",Tools Hardware Firearms and Vehicles,Harness and Saddlery,Whips and Whip Sockets,
+202,4,[12],Tools Hardware Firearms and Vehicles,Vehicles,Bicycles,
+203,4,[13],Tools Hardware Firearms and Vehicles,Vehicles,Baby Carriages,
+204,4,"[13,16]",Tools Hardware Firearms and Vehicles,Vehicles,Coaches and Wagons,
+205,4,"[13,16]",Tools Hardware Firearms and Vehicles,Vehicles,Sleighs and Sleds,
+206,4,[13],Tools Hardware Firearms and Vehicles,Vehicles,Carts and Wheelbarrows,
+207,4,"[13,16]",Tools Hardware Firearms and Vehicles,Calibrated Instruments,Barometers Thermometers and Compasses,
+208,4,[16],Tools Hardware Firearms and Vehicles,Calibrated Instruments,Octants,
+209,4,[13],Tools Hardware Firearms and Vehicles,Calibrated Instruments,Plumblines and Levels,
+210,4,[13],Tools Hardware Firearms and Vehicles,Calibrated Instruments,Scales,
+211,4,"[14,16]",Tools Hardware Firearms and Vehicles,Machines,,
+212,4,"[15,16]",Tools Hardware Firearms and Vehicles,,,Oversize Renderings
+213,5,"[1,28]",Domestic Utensils,Fireplace Equipment and Stoves,Fireplace Tools,
+214,5,[1],Domestic Utensils,Fireplace Equipment and Stoves,Andirons,
+215,5,[1],Domestic Utensils,Fireplace Equipment and Stoves,Firebacks,
+216,5,"[2,28]",Domestic Utensils,Fireplace Equipment and Stoves,Gridirons Waffle Irons and Toasters,
+217,5,"[2,3,4,5]",Domestic Utensils,Fireplace Equipment and Stoves,Trivets and Flatiron Holders,
+218,5,"[5,28]",Domestic Utensils,Fireplace Equipment and Stoves,Ovens and Broilers,
+219,5,"[5,6]",Domestic Utensils,Fireplace Equipment and Stoves,Warmers,
+220,5,"[6,28]",Domestic Utensils,Fireplace Equipment and Stoves,Stoves and Stove Equipment,
+221,5,[7],Domestic Utensils,Fireplace Equipment and Stoves,Match Boxes,
+222,5,"[7,8,9,28,29]",Domestic Utensils,Lighting Devices,Candlesticks and Holders,
+223,5,"[9,10,29]",Domestic Utensils,Lighting Devices,Chandeliers and Sconces,
+224,5,"[10,11,12,13,29]",Domestic Utensils,Lighting Devices,Lamps,
+225,5,"[14,15,16,29]",Domestic Utensils,Lighting Devices,Lanterns and Torches,
+226,5,[16],Domestic Utensils,Lighting Devices,Lighting Accessories,
+227,5,[16],Domestic Utensils,Textile Implements,Spinning and Weaving Implements,
+228,5,"[17,18]",Domestic Utensils,Textile Implements,Sewing Tools,
+229,5,[18],Domestic Utensils,Domestic Utensils (A-Z),,Apple Peelers
+230,5,[18],Domestic Utensils,Domestic Utensils (A-Z),,Asparagus Buncher
+231,5,[18],Domestic Utensils,Domestic Utensils (A-Z),,Barrels Buckets Kegs Tubs and Piggins
+232,5,"[18,19]",Domestic Utensils,Domestic Utensils (A-Z),,Baskets
+233,5,[19],Domestic Utensils,Domestic Utensils (A-Z),,Bottles
+234,5,[19],Domestic Utensils,Domestic Utensils (A-Z),,Bowls
+235,5,[19],Domestic Utensils,Domestic Utensils (A-Z),,Boxes
+236,5,[19],Domestic Utensils,Domestic Utensils (A-Z),,Broom
+237,5,"[19,20,29]",Domestic Utensils,Domestic Utensils (A-Z),,Buttermolds and Tubs
+238,5,[20],Domestic Utensils,Domestic Utensils (A-Z),,Cans and lars
+239,5,[20],Domestic Utensils,Domestic Utensils (A-Z),,Candlemolds
+240,5,[20],Domestic Utensils,Domestic Utensils (A-Z),,Cherry Pitters
+241,5,"[20,21,29]",Domestic Utensils,Domestic Utensils (A-Z),,Churns
+242,5,[21],Domestic Utensils,Domestic Utensils (A-Z),,Clothes Pins
+243,5,[21],Domestic Utensils,Domestic Utensils (A-Z),,Clothes Washers
+244,5,[21],Domestic Utensils,Domestic Utensils (A-Z),,Coffee and Teapots
+245,5,"[21,29]",Domestic Utensils,Domestic Utensils (A-Z),,Coffee Grinders and Mills
+246,5,[21],Domestic Utensils,Domestic Utensils (A-Z),,Coffee Roasters
+247,5,[21],Domestic Utensils,Domestic Utensils (A-Z),,Compotes
+248,5,[21],Domestic Utensils,Domestic Utensils (A-Z),,Cookie Cutters
+249,5,[21],Domestic Utensils,Domestic Utensils (A-Z),,Cork Compressors
+250,5,"[21,29]",Domestic Utensils,Domestic Utensils (A-Z),,Crimpers
+251,5,[21],Domestic Utensils,Domestic Utensils (A-Z),,Cruets
+252,5,"[21,22]",Domestic Utensils,Domestic Utensils (A-Z),,Cups Goblets Mugs and Tankards
+253,5,[22],Domestic Utensils,Domestic Utensils (A-Z),,Dippers and Ladles
+254,5,[22],Domestic Utensils,Domestic Utensils (A-Z),,Dough Bins and Mixers
+255,5,[22],Domestic Utensils,Domestic Utensils (A-Z),,Draining Boards
+256,5,"[22,29]",Domestic Utensils,Domestic Utensils (A-Z),,Egg Beaters and Cookers
+257,5,[22],Domestic Utensils,Domestic Utensils (A-Z),,Flour Bins and Sifters
+258,5,[22],Domestic Utensils,Domestic Utensils (A-Z),,Fruit Slicer
+259,5,[22],Domestic Utensils,Domestic Utensils (A-Z),,Funnels
+260,5,[22],Domestic Utensils,Domestic Utensils (A-Z),,Gourds
+261,5,[22],Domestic Utensils,Domestic Utensils (A-Z),,Graters
+262,5,"[22,29]",Domestic Utensils,Domestic Utensils (A-Z),,Grinders
+263,5,[23],Domestic Utensils,Domestic Utensils (A-Z),,Ice Cream Freezer
+264,5,[23],Domestic Utensils,Domestic Utensils (A-Z),,Irons
+265,5,"[23,24]",Domestic Utensils,Domestic Utensils (A-Z),,Kettles
+266,5,[24],Domestic Utensils,Domestic Utensils (A-Z),,Knives and Forks Knife Sharpeners and Holders
+267,5,[24],Domestic Utensils,Domestic Utensils (A-Z),,Mashers
+268,5,[25],Domestic Utensils,Domestic Utensils (A-Z),,Measuring Cups
+269,5,[25],Domestic Utensils,Domestic Utensils (A-Z),,Molds
+270,5,"[25,29]",Domestic Utensils,Domestic Utensils (A-Z),,Mortars and Pestles
+271,5,[25],Domestic Utensils,Domestic Utensils (A-Z),,Muffin Pans
+272,5,"[25,30]",Domestic Utensils,Domestic Utensils (A-Z),,Nut Crackers
+273,5,[25],Domestic Utensils,Domestic Utensils (A-Z),,Pail
+274,5,[25],Domestic Utensils,Domestic Utensils (A-Z),,Pan Slider
+275,5,[25],Domestic Utensils,Domestic Utensils (A-Z),,Pastry Squeezer
+276,5,[25],Domestic Utensils,Domestic Utensils (A-Z),,Pill Coater
+277,5,"[25,26]",Domestic Utensils,Domestic Utensils (A-Z),,Pitcher
+278,5,[26],Domestic Utensils,Domestic Utensils (A-Z),,Porringers
+279,5,[26],Domestic Utensils,Domestic Utensils (A-Z),,Pots and Pans
+280,5,"[26,30]",Domestic Utensils,Domestic Utensils (A-Z),,Rolling Pins
+281,5,[26],Domestic Utensils,Domestic Utensils (A-Z),,Salt Shakers
+282,5,[26],Domestic Utensils,Domestic Utensils (A-Z),,Sauerkraut Stomper
+283,5,[26],Domestic Utensils,Domestic Utensils (A-Z),,Sausage Stuffers
+284,5,[26],Domestic Utensils,Domestic Utensils (A-Z),,Scoops
+285,5,[26],Domestic Utensils,Domestic Utensils (A-Z),,Skewers and Holders
+286,5,"[26,27,30]",Domestic Utensils,Domestic Utensils (A-Z),,Skimmers and Sieves
+287,5,[27],Domestic Utensils,Domestic Utensils (A-Z),,Spatula
+288,5,"[27,30]",Domestic Utensils,Domestic Utensils (A-Z),,Spoons
+289,5,[27],Domestic Utensils,Domestic Utensils (A-Z),,Sugar Cutters
+290,5,[27],Domestic Utensils,Domestic Utensils (A-Z),,Tongs
+291,5,[27],Domestic Utensils,Domestic Utensils (A-Z),,Traps
+292,5,"[28,29,30]",Domestic Utensils,,,Oversize Renderings
+293,6,"[1,2,3,4,5,6,7,8,30,35]",Furniture and Decorative Accessories,Furniture,Chairs and Tables,Chairs
+294,6,"[8,9,30]",Furniture and Decorative Accessories,Furniture,Chairs and Tables,Settles Settees Sofas and Daybeds
+295,6,"[9,10,30]",Furniture and Decorative Accessories,Furniture,Chairs and Tables,Benches and Stools
+296,6,"[10,11,12,13,30]",Furniture and Decorative Accessories,Furniture,Chairs and Tables,Tables
+297,6,"[13,14,15,31,35]",Furniture and Decorative Accessories,Furniture,Case Furniture,Chests and Boxes
+298,6,"[16,17,31,35]",Furniture and Decorative Accessories,Furniture,Case Furniture,Cupboards Cabinets and Shelves
+299,6,"[17,31,32]",Furniture and Decorative Accessories,Furniture,Case Furniture,Highboys
+300,6,"[18,32]",Furniture and Decorative Accessories,Furniture,Case Furniture,Lowboys and Sideboards
+301,6,"[18,19,32]",Furniture and Decorative Accessories,Furniture,Case Furniture,Desks and Secretaries
+302,6,"[20,35]",Furniture and Decorative Accessories,Furniture,Beds and Cradles,Beds
+303,6,[20],Furniture and Decorative Accessories,Furniture,Beds and Cradles,Cradles
+304,6,"[21,32]",Furniture and Decorative Accessories,Furnishing Accessories,Bathtubs,
+305,6,"[21,32]",Furniture and Decorative Accessories,Furnishing Accessories,Books and Albums,
+306,6,"[21,32]",Furniture and Decorative Accessories,Furnishing Accessories,Boxes and Cases,Knife Boxes
+307,6,"[21,22]",Furniture and Decorative Accessories,Furnishing Accessories,Boxes and Cases,Boxes and Cases
+308,6,"[22,33,35]",Furniture and Decorative Accessories,Furnishing Accessories,Cellarets and Wine Coolers,
+309,6,"[22,23,24,25,33,35]",Furniture and Decorative Accessories,Furnishing Accessories,Clocks,
+310,6,"[25,33,35]",Furniture and Decorative Accessories,Furnishing Accessories,Decorations,
+311,6,[25],Furniture and Decorative Accessories,Furnishing Accessories,Desk Accessories,
+312,6,[25],Furniture and Decorative Accessories,Furnishing Accessories,Door Stops,
+313,6,"[26,33]",Furniture and Decorative Accessories,Furnishing Accessories,Fire Screens,
+314,6,[26],Furniture and Decorative Accessories,Furnishing Accessories,Globes,
+315,6,"[26,27,34,35]",Furniture and Decorative Accessories,Furnishing Accessories,Mirrors and Frames,
+316,6,"[27,34]",Furniture and Decorative Accessories,Furnishing Accessories,Racks and Stands,
+317,6,[27],Furniture and Decorative Accessories,Furnishing Accessories,Safes and Mail Boxes,
+318,6,[28],Furniture and Decorative Accessories,Furnishing Accessories,Tobacco Accessories,
+319,6,[28],Furniture and Decorative Accessories,Furnishing Accessories,Trays,
+320,6,"[28,34]",Furniture and Decorative Accessories,Furnishing Accessories,Trunks and Hat Boxes,
+321,6,[29],Furniture and Decorative Accessories,Furnishing Accessories,Vases,
+322,6,[29],Furniture and Decorative Accessories,Furnishing Accessories,Wall Pockets,
+323,6,"[30,31,32,33,34]",Furniture and Decorative Accessories,,,Oversize Renderings
+324,6,[35],Furniture and Decorative Accessories,,,Giant Renderings
+325,7,"[1,2,15,25]",Wood Carvings and Weathervanes,Wood Carvings,Marine Carvings,Figureheads and Bowsprits
+326,7,"[2,16]",Wood Carvings and Weathervanes,Wood Carvings,Marine Carvings,Billets and Mast Sheathes
+327,7,"[3,16,25]",Wood Carvings and Weathervanes,Wood Carvings,Marine Carvings,Stern Pieces and Trailboards
+328,7,"[3,16]",Wood Carvings and Weathervanes,Wood Carvings,Marine Carvings,Other Ship Carvings
+329,7,"[3,4,16,17]",Wood Carvings and Weathervanes,Wood Carvings,Circus Carvings,
+330,7,"[4,17,25]",Wood Carvings and Weathervanes,Wood Carvings,Carousel Carvings,
+331,7,"[4,5,6,18,19,20,25]",Wood Carvings and Weathervanes,Wood Carvings,Advertising Figures and Signs,Figures - Cigar Store Indians
+332,7,"[6,7,20,21,25]",Wood Carvings and Weathervanes,Wood Carvings,Advertising Figures and Signs,Figures - Shop Figures and Other Cigar Store Figures
+333,7,"[7,8,21,25]",Wood Carvings and Weathervanes,Wood Carvings,Advertising Figures and Signs,Signs
+334,7,"[8,9,21,22,25]",Wood Carvings and Weathervanes,Wood Carvings,Wooden Sculpture,Human and Religious Figures
+335,7,[9],Wood Carvings and Weathervanes,Wood Carvings,Wooden Sculpture,Animals and Birds (except Eagles)
+336,7,"[10,22,25]",Wood Carvings and Weathervanes,Wood Carvings,Wooden Sculpture,Eagles
+337,7,"[10,11,22]",Wood Carvings and Weathervanes,Wood Carvings,Wooden Sculpture,Decoys
+338,7,"[11,22]",Wood Carvings and Weathervanes,Scrimshaw,,
+339,7,"[11,12,22,25]",Wood Carvings and Weathervanes,Weathervanes and Whirligigs,Weathervanes,Wood
+340,7,"[12,13,14,23]",Wood Carvings and Weathervanes,Weathervanes and Whirligigs,Weathervanes,Metal
+341,7,"[14,24,25]",Wood Carvings and Weathervanes,Weathervanes and Whirligigs,Whirligigs,
+342,7,"[15,16,17,18,19,20,21,22,23,24]",Wood Carvings and Weathervanes,,,Oversize Renderings
+343,7,[25],Wood Carvings and Weathervanes,,,Giant Renderings
+344,8,"[1,2,3,4,5,6,32,35]",Ceramics and Glass,Ceramics,Earthenware,Earthenware
+345,8,[6],Ceramics and Glass,Ceramics,Earthenware,Majolica
+346,8,[6],Ceramics and Glass,Ceramics,Earthenware,Lusterware
+347,8,"[7,8,9,10,11,12,13,14,15,16,32,33]",Ceramics and Glass,Ceramics,Stoneware,
+348,8,[16],Ceramics and Glass,Ceramics,Ironstone,
+349,8,"[16,17,18,33]",Ceramics and Glass,Ceramics,Porcelain,
+350,8,"[18,33]",Ceramics and Glass,Ceramics,Tiles and Plaques,
+351,8,"[19,34]",Ceramics and Glass,Ceramics,Ceramic Figures,
+352,8,"[19,20,35]",Ceramics and Glass,Chalkware,,
+353,8,"[20,21,22,23,24]",Ceramics and Glass,Glass,Free Blown,
+354,8,"[24,25,26,27,28,34,35]",Ceramics and Glass,Glass,Mold Blown,
+355,8,"[28,29,30,34,35]",Ceramics and Glass,Glass,Pressed Glass,
+356,8,[31],Ceramics and Glass,Glass,Painted Glass and Decorated Glass,
+357,8,"[32,33,34]",Ceramics and Glass,,,Oversize Renderings
+358,8,[35],Ceramics and Glass,,,Giant Renderings
+359,9,"[1,2,3,4,5,6]",Silver Copper Pewter and Toleware,Silver,,
+360,9,"[6,7,8,9]",Silver Copper Pewter and Toleware,Pewter,,
+361,9,"[9,10,11]",Silver Copper Pewter and Toleware,Toleware,,
+362,10,"[1,2,3,4,12,13,14,15,21]",Toys and Musical Instruments,Toys,Dolls,
+363,10,"[4,15]",Toys and Musical Instruments,Toys,Dolls Accessories,
+364,10,"[5,16,17,21]",Toys and Musical Instruments,Toys,Marionettes and Puppets,
+365,10,"[6,17,18,21]",Toys and Musical Instruments,Toys,Animals,
+366,10,"[6,18,21]",Toys and Musical Instruments,Toys,Vehicles,
+367,10,"[7,8,9,18,19]",Toys and Musical Instruments,Toys,Banks and Mechanical Toys,
+368,10,"[9,19,20]",Toys and Musical Instruments,Toys,Toys,
+369,10,[10],Toys and Musical Instruments,Games,,
+370,10,[10],Toys and Musical Instruments,Musical Instruments,Percussion Instruments,Bells
+371,10,"[10,20]",Toys and Musical Instruments,Musical Instruments,Percussion Instruments,Drums
+372,10,"[10,20]",Toys and Musical Instruments,Musical Instruments,Percussion Instruments,Piano
+373,10,[10],Toys and Musical Instruments,Musical Instruments,Percussion Instruments,Rattles and Alarms
+374,10,"[11,20]",Toys and Musical Instruments,Musical Instruments,String Instruments,
+375,10,"[11,20]",Toys and Musical Instruments,Musical Instruments,Wind Instruments including Fifes Trumpets and Organs,
+376,10,"[11,20]",Toys and Musical Instruments,Musical Instruments,Firemen's Speaking Trumpets,
+377,10,"[12,13,14,15,16,17,18,19,20]",Toys and Musical Instruments,,,Oversize Renderings
+378,10,[21],Toys and Musical Instruments,,,Giant Renderings

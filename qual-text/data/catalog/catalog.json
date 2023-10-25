@@ -1,0 +1,3404 @@
+[
+ {
+   "indexid": 1,
+   "part": 1,
+   "microfiche-num": "[1]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Embroidery and Needlework",
+   "type": "Samplers"
+ },
+ {
+   "indexid": 2,
+   "part": 1,
+   "microfiche-num": "[1]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Embroidery and Needlework",
+   "type": "Embroidered Pictures"
+ },
+ {
+   "indexid": 3,
+   "part": 1,
+   "microfiche-num": "[2,3,4]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Embroidery and Needlework",
+   "type": "Needlework and Crewel Embroidery"
+ },
+ {
+   "indexid": 4,
+   "part": 1,
+   "microfiche-num": "[5]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Embroidery and Needlework",
+   "type": "Hooked and Embroidered Rugs"
+ },
+ {
+   "indexid": 5,
+   "part": 1,
+   "microfiche-num": "[5,6,7,8,9]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Embroidery and Needlework",
+   "type": "Applique and Pieced Quilts"
+ },
+ {
+   "indexid": 6,
+   "part": 1,
+   "microfiche-num": "[9,10]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Lace Crocheting Knitting and Knotting",
+   "type": ""
+ },
+ {
+   "indexid": 7,
+   "part": 1,
+   "microfiche-num": "[10,11]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Woven Textiles",
+   "type": "Linen Cotton Wool and Silk"
+ },
+ {
+   "indexid": 8,
+   "part": 1,
+   "microfiche-num": "[11,12]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Woven Textiles",
+   "type": "Woven Coverlets - Four Harness"
+ },
+ {
+   "indexid": 9,
+   "part": 1,
+   "microfiche-num": "[12,13,14]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Woven Textiles",
+   "type": "Woven Coverlets - Jacquard"
+ },
+ {
+   "indexid": 10,
+   "part": 1,
+   "microfiche-num": "[14]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Woven Textiles",
+   "type": "Rugs and Carpets"
+ },
+ {
+   "indexid": 11,
+   "part": 1,
+   "microfiche-num": "[14,15,16,17,18]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Printed and Dyed Textiles",
+   "type": ""
+ },
+ {
+   "indexid": 12,
+   "part": 1,
+   "microfiche-num": "[18]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Textiles",
+   "subcat": "Flags",
+   "type": ""
+ },
+ {
+   "indexid": 13,
+   "part": 1,
+   "microfiche-num": "[19,20,21]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Headwear",
+   "type": ""
+ },
+ {
+   "indexid": 14,
+   "part": 1,
+   "microfiche-num": "[21]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Neckwear",
+   "type": ""
+ },
+ {
+   "indexid": 15,
+   "part": 1,
+   "microfiche-num": "[22,23]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Undergarments and Nightwear",
+   "type": ""
+ },
+ {
+   "indexid": 16,
+   "part": 1,
+   "microfiche-num": "[23,24]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Women's Apparel",
+   "type": "Above the Waist"
+ },
+ {
+   "indexid": 17,
+   "part": 1,
+   "microfiche-num": "[24]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Women's Apparel",
+   "type": "Aprons"
+ },
+ {
+   "indexid": 18,
+   "part": 1,
+   "microfiche-num": "[24,25,26,27,28,29]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Women's Apparel",
+   "type": "Dresses and Coats"
+ },
+ {
+   "indexid": 19,
+   "part": 1,
+   "microfiche-num": "[29]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Men's Apparel",
+   "type": "Above the Waist"
+ },
+ {
+   "indexid": 20,
+   "part": 1,
+   "microfiche-num": "[30]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Men's Apparel",
+   "type": "Trousers"
+ },
+ {
+   "indexid": 21,
+   "part": 1,
+   "microfiche-num": "[31,32]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Men's Apparel",
+   "type": "Suits and Coats"
+ },
+ {
+   "indexid": 22,
+   "part": 1,
+   "microfiche-num": "[32]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Men's Apparel",
+   "type": "Uniforms"
+ },
+ {
+   "indexid": 23,
+   "part": 1,
+   "microfiche-num": "[32,33,34]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Infants' and Children's Apparel",
+   "type": ""
+ },
+ {
+   "indexid": 24,
+   "part": 1,
+   "microfiche-num": "[34]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Footwear",
+   "type": "Stockings"
+ },
+ {
+   "indexid": 25,
+   "part": 1,
+   "microfiche-num": "[34]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Footwear",
+   "type": "Skates Clogs and Spurs"
+ },
+ {
+   "indexid": 26,
+   "part": 1,
+   "microfiche-num": "[35,36]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Footwear",
+   "type": "Women's Shoes"
+ },
+ {
+   "indexid": 27,
+   "part": 1,
+   "microfiche-num": "[36]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Footwear",
+   "type": "Men's Shoes"
+ },
+ {
+   "indexid": 28,
+   "part": 1,
+   "microfiche-num": "[36]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume",
+   "subcat": "Footwear",
+   "type": "Children's Shoes"
+ },
+ {
+   "indexid": 29,
+   "part": 1,
+   "microfiche-num": "[37]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Belts"
+ },
+ {
+   "indexid": 30,
+   "part": 1,
+   "microfiche-num": "[37]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Bootjacks and Shoe Forms"
+ },
+ {
+   "indexid": 31,
+   "part": 1,
+   "microfiche-num": "[37,38]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Buttons"
+ },
+ {
+   "indexid": 32,
+   "part": 1,
+   "microfiche-num": "[38]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Canes and Walking Sticks"
+ },
+ {
+   "indexid": 33,
+   "part": 1,
+   "microfiche-num": "[38]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Card Cases and Trays"
+ },
+ {
+   "indexid": 34,
+   "part": 1,
+   "microfiche-num": "[38]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Collar and Cuff Box"
+ },
+ {
+   "indexid": 35,
+   "part": 1,
+   "microfiche-num": "[38]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Fans"
+ },
+ {
+   "indexid": 36,
+   "part": 1,
+   "microfiche-num": "[38]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Garters and Suspenders"
+ },
+ {
+   "indexid": 37,
+   "part": 1,
+   "microfiche-num": "[38]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Gloves Mitts and Mittens"
+ },
+ {
+   "indexid": 38,
+   "part": 1,
+   "microfiche-num": "[38,40]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Handbags Purses Satchels and Wallets"
+ },
+ {
+   "indexid": 39,
+   "part": 1,
+   "microfiche-num": "[40]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Muffs Parasols and Umbrellas"
+ },
+ {
+   "indexid": 40,
+   "part": 1,
+   "microfiche-num": "[40,41]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Pipes"
+ },
+ {
+   "indexid": 41,
+   "part": 1,
+   "microfiche-num": "[41]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Pockets and Sachets"
+ },
+ {
+   "indexid": 42,
+   "part": 1,
+   "microfiche-num": "[41]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Costume Accessories (A-Z)",
+   "type": "Spectacles and Eyeglasses"
+ },
+ {
+   "indexid": 43,
+   "part": 1,
+   "microfiche-num": "[41]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Medical and Personal Hygiene Instruments",
+   "type": ""
+ },
+ {
+   "indexid": 44,
+   "part": 1,
+   "microfiche-num": "[41]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Costume Accessories",
+   "subcat": "Restraining Irons and Clothing",
+   "type": ""
+ },
+ {
+   "indexid": 45,
+   "part": 1,
+   "microfiche-num": "[42,43,44,45]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Sets of Jewelry",
+   "type": ""
+ },
+ {
+   "indexid": 46,
+   "part": 1,
+   "microfiche-num": "[42]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Bouquet Holders"
+ },
+ {
+   "indexid": 47,
+   "part": 1,
+   "microfiche-num": "[42]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Bracelets"
+ },
+ {
+   "indexid": 48,
+   "part": 1,
+   "microfiche-num": "[42]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Brooches"
+ },
+ {
+   "indexid": 49,
+   "part": 1,
+   "microfiche-num": "[43]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Buckles"
+ },
+ {
+   "indexid": 50,
+   "part": 1,
+   "microfiche-num": "[43,44]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Combs and Hair Ornaments"
+ },
+ {
+   "indexid": 51,
+   "part": 1,
+   "microfiche-num": "[44]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Cufflinks"
+ },
+ {
+   "indexid": 52,
+   "part": 1,
+   "microfiche-num": "[44]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Earrings"
+ },
+ {
+   "indexid": 53,
+   "part": 1,
+   "microfiche-num": "[44]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Necklaces"
+ },
+ {
+   "indexid": 54,
+   "part": 1,
+   "microfiche-num": "[44,45]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Pins"
+ },
+ {
+   "indexid": 55,
+   "part": 1,
+   "microfiche-num": "[45]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Rings"
+ },
+ {
+   "indexid": 56,
+   "part": 1,
+   "microfiche-num": "[45]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "Jewelry",
+   "subcat": "Jewelry (A-Z)",
+   "type": "Watches and Fobs"
+ },
+ {
+   "indexid": 57,
+   "part": 1,
+   "microfiche-num": "[46,47,48,49,50,51,52,53,54,55]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "",
+   "subcat": "",
+   "type": "Oversize Renderings"
+ },
+ {
+   "indexid": 58,
+   "part": 1,
+   "microfiche-num": "[56,57]",
+   "theme": "Textiles Costume and Jewelry",
+   "cat": "",
+   "subcat": "",
+   "type": "Giant Renderings"
+ },
+ {
+   "indexid": 59,
+   "part": 2,
+   "microfiche-num": "[1]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Pennsylvania German",
+   "subcat": "Fracturs and Paintings",
+   "type": ""
+ },
+ {
+   "indexid": 60,
+   "part": 2,
+   "microfiche-num": "[1]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Pennsylvania German",
+   "subcat": "Wood Carvings and Weathervanes",
+   "type": ""
+ },
+ {
+   "indexid": 61,
+   "part": 2,
+   "microfiche-num": "[2,3]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Pennsylvania German",
+   "subcat": "Furniture and Decorative Accessories",
+   "type": "Furniture"
+ },
+ {
+   "indexid": 62,
+   "part": 2,
+   "microfiche-num": "[3,4]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Pennsylvania German",
+   "subcat": "Furniture and Decorative Accessories",
+   "type": "Boxes and Decorative Accessories"
+ },
+ {
+   "indexid": 63,
+   "part": 2,
+   "microfiche-num": "[4,5,6]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Pennsylvania German",
+   "subcat": "Ceramics and Chalkware",
+   "type": "Ceramics"
+ },
+ {
+   "indexid": 64,
+   "part": 2,
+   "microfiche-num": "[5,6]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Pennsylvania German",
+   "subcat": "Ceramics and Chalkware",
+   "type": "Chalkware"
+ },
+ {
+   "indexid": 65,
+   "part": 2,
+   "microfiche-num": "[34]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Pennsylvania German",
+   "subcat": "Textiles",
+   "type": ""
+ },
+ {
+   "indexid": 66,
+   "part": 2,
+   "microfiche-num": "[6,7,8,35]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Pennsylvania German",
+   "subcat": "Domestic Utensils Tools and Hardware",
+   "type": "Domestic Utensils"
+ },
+ {
+   "indexid": 67,
+   "part": 2,
+   "microfiche-num": "[8]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Pennsylvania German",
+   "subcat": "Domestic Utensils Tools and Hardware",
+   "type": "Tools"
+ },
+ {
+   "indexid": 68,
+   "part": 2,
+   "microfiche-num": "[9]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Pennsylvania German",
+   "subcat": "Domestic Utensils Tools and Hardware",
+   "type": "Hardware"
+ },
+ {
+   "indexid": 69,
+   "part": 2,
+   "microfiche-num": "[9]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Zoar",
+   "subcat": "Painting",
+   "type": ""
+ },
+ {
+   "indexid": 70,
+   "part": 2,
+   "microfiche-num": "[9]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Zoar",
+   "subcat": "Furniture",
+   "type": ""
+ },
+ {
+   "indexid": 71,
+   "part": 2,
+   "microfiche-num": "[9]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Zoar",
+   "subcat": "Ceramics",
+   "type": ""
+ },
+ {
+   "indexid": 72,
+   "part": 2,
+   "microfiche-num": "[9,35]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Zoar",
+   "subcat": "Textiles and Costume",
+   "type": ""
+ },
+ {
+   "indexid": 73,
+   "part": 2,
+   "microfiche-num": "[10,35]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Zoar",
+   "subcat": "Domestic Utensils and Tools",
+   "type": ""
+ },
+ {
+   "indexid": 74,
+   "part": 2,
+   "microfiche-num": "[10,35]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Economy",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 75,
+   "part": 2,
+   "microfiche-num": "[10,11]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Amana",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 76,
+   "part": 2,
+   "microfiche-num": "[11,36]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Bishop Hill",
+   "subcat": "Furniture",
+   "type": ""
+ },
+ {
+   "indexid": 77,
+   "part": 2,
+   "microfiche-num": "[11]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Bishop Hill",
+   "subcat": "Costume",
+   "type": ""
+ },
+ {
+   "indexid": 78,
+   "part": 2,
+   "microfiche-num": "[11,36]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Bishop Hill",
+   "subcat": "Domestic Utensils and Tools",
+   "type": ""
+ },
+ {
+   "indexid": 79,
+   "part": 2,
+   "microfiche-num": "[12]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Art and Architecture",
+   "type": "Art"
+ },
+ {
+   "indexid": 80,
+   "part": 2,
+   "microfiche-num": "[12]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Art and Architecture",
+   "type": "Architectural Details"
+ },
+ {
+   "indexid": 81,
+   "part": 2,
+   "microfiche-num": "[12]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Furniture and Furnishing Accessories",
+   "type": "Chairs"
+ },
+ {
+   "indexid": 82,
+   "part": 2,
+   "microfiche-num": "[12,13]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Furniture and Furnishing Accessories",
+   "type": "Tables Benches and Stools"
+ },
+ {
+   "indexid": 83,
+   "part": 2,
+   "microfiche-num": "[13,14]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Furniture and Furnishing Accessories",
+   "type": "Chests Cupboards and Cabinets"
+ },
+ {
+   "indexid": 84,
+   "part": 2,
+   "microfiche-num": "[14]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Furniture and Furnishing Accessories",
+   "type": "Beds"
+ },
+ {
+   "indexid": 85,
+   "part": 2,
+   "microfiche-num": "[14,36]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Furniture and Furnishing Accessories",
+   "type": "Furnishing Accessories"
+ },
+ {
+   "indexid": 86,
+   "part": 2,
+   "microfiche-num": "[15]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Furniture and Furnishing Accessories",
+   "type": "Clocks"
+ },
+ {
+   "indexid": 87,
+   "part": 2,
+   "microfiche-num": "[15,36]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Textiles and Costume",
+   "type": "Textiles"
+ },
+ {
+   "indexid": 88,
+   "part": 2,
+   "microfiche-num": "[16,36]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Textiles and Costume",
+   "type": "Costume and Costume Accessories"
+ },
+ {
+   "indexid": 89,
+   "part": 2,
+   "microfiche-num": "[17]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Shaker",
+   "subcat": "Domestic Utensils and Tools (A-Z)",
+   "type": ""
+ },
+ {
+   "indexid": 90,
+   "part": 2,
+   "microfiche-num": "[16,36]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Quaker",
+   "subcat": "Costume",
+   "type": ""
+ },
+ {
+   "indexid": 91,
+   "part": 2,
+   "microfiche-num": "[17]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Mormon",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 92,
+   "part": 2,
+   "microfiche-num": "[18,19,20,36,37,38,40]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Art and Architecture",
+   "type": "Paintings and Sculpture"
+ },
+ {
+   "indexid": 93,
+   "part": 2,
+   "microfiche-num": "[20,21,22,23,38]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Art and Architecture",
+   "type": "Interiors and Architectural Details"
+ },
+ {
+   "indexid": 94,
+   "part": 2,
+   "microfiche-num": "[23,24,40]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Art and Architecture",
+   "type": "Maps"
+ },
+ {
+   "indexid": 95,
+   "part": 2,
+   "microfiche-num": "[24,25,38,40]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Furniture and Mirrors",
+   "type": "Furniture"
+ },
+ {
+   "indexid": 96,
+   "part": 2,
+   "microfiche-num": "[25,40]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Furniture and Mirrors",
+   "type": "Mirrors"
+ },
+ {
+   "indexid": 97,
+   "part": 2,
+   "microfiche-num": "[25,26,38,40]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Textiles and Costume",
+   "type": ""
+ },
+ {
+   "indexid": 98,
+   "part": 2,
+   "microfiche-num": "[26,27,40]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Domestic Utensils and Tools",
+   "type": "Lighting Devices"
+ },
+ {
+   "indexid": 99,
+   "part": 2,
+   "microfiche-num": "[27]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Domestic Utensils and Tools",
+   "type": "Domestic Utensils and Tools"
+ },
+ {
+   "indexid": 100,
+   "part": 2,
+   "microfiche-num": "[28,39]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Saddlery and Weapons",
+   "type": "Saddles and Leatherwork"
+ },
+ {
+   "indexid": 101,
+   "part": 2,
+   "microfiche-num": "[29,30]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Saddlery and Weapons",
+   "type": "Spurs"
+ },
+ {
+   "indexid": 102,
+   "part": 2,
+   "microfiche-num": "[30]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Saddlery and Weapons",
+   "type": "Bits"
+ },
+ {
+   "indexid": 103,
+   "part": 2,
+   "microfiche-num": "[31]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Saddlery and Weapons",
+   "type": "Weapons"
+ },
+ {
+   "indexid": 104,
+   "part": 2,
+   "microfiche-num": "[31]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Musical Instruments",
+   "type": "Bells"
+ },
+ {
+   "indexid": 105,
+   "part": 2,
+   "microfiche-num": "[31]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "Spanish Southwest",
+   "subcat": "Musical Instruments",
+   "type": "Stringed Instruments"
+ },
+ {
+   "indexid": 106,
+   "part": 2,
+   "microfiche-num": "[31,32]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "California Petroglyphs",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 107,
+   "part": 2,
+   "microfiche-num": "[32]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "American Indian",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 108,
+   "part": 2,
+   "microfiche-num": "[33,34,35,36,37,38,39]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "",
+   "subcat": "",
+   "type": "Oversize Renderings"
+ },
+ {
+   "indexid": 109,
+   "part": 2,
+   "microfiche-num": "[40]",
+   "theme": "The Art and Design of Utopian and Religious Communities",
+   "cat": "",
+   "subcat": "",
+   "type": "Giant Renderings"
+ },
+ {
+   "indexid": 110,
+   "part": 3,
+   "microfiche-num": "[13,20]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Interiors",
+   "type": "Rooms - Domestic Interiors"
+ },
+ {
+   "indexid": 111,
+   "part": 3,
+   "microfiche-num": "[13,20]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Interiors",
+   "type": "Rooms - Business and Industrial"
+ },
+ {
+   "indexid": 112,
+   "part": 3,
+   "microfiche-num": "[13,20]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Interiors",
+   "type": "Rooms - Public Buildings and Gathering Places"
+ },
+ {
+   "indexid": 113,
+   "part": 3,
+   "microfiche-num": "[13,20,21]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Interiors",
+   "type": "Stage Sets and Backdrops"
+ },
+ {
+   "indexid": 114,
+   "part": 3,
+   "microfiche-num": "[1,13,21]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Interiors",
+   "type": "Architectural Details and Paneling"
+ },
+ {
+   "indexid": 115,
+   "part": 3,
+   "microfiche-num": "[1,13,21]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Interiors",
+   "type": "Railway Car Interiors"
+ },
+ {
+   "indexid": 116,
+   "part": 3,
+   "microfiche-num": "[2,13,21]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Interiors",
+   "type": "Wall Treatments - Decorated Painted and Stenciled"
+ },
+ {
+   "indexid": 117,
+   "part": 3,
+   "microfiche-num": "[2,3,4,14,15,21]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Interiors",
+   "type": "Wall Treatments - Wallpaper and Bandboxes"
+ },
+ {
+   "indexid": 118,
+   "part": 3,
+   "microfiche-num": "[4,21]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Interiors",
+   "type": "Floor Treatments"
+ },
+ {
+   "indexid": 119,
+   "part": 3,
+   "microfiche-num": "[4,5,15]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Exteriors",
+   "type": "Architectural Details and Ornament"
+ },
+ {
+   "indexid": 120,
+   "part": 3,
+   "microfiche-num": "[5]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Exteriors",
+   "type": "Firemarks"
+ },
+ {
+   "indexid": 121,
+   "part": 3,
+   "microfiche-num": "[5,6,15]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Exteriors",
+   "type": "Hitching Posts"
+ },
+ {
+   "indexid": 122,
+   "part": 3,
+   "microfiche-num": "[6,16,17,21]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Gardens",
+   "type": "Gardens"
+ },
+ {
+   "indexid": 123,
+   "part": 3,
+   "microfiche-num": "[6,17]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Gardens",
+   "type": "Garden Ornaments and Metal Sculpture"
+ },
+ {
+   "indexid": 124,
+   "part": 3,
+   "microfiche-num": "[7,8,17]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Gardens",
+   "type": "Cemetery Art"
+ },
+ {
+   "indexid": 125,
+   "part": 3,
+   "microfiche-num": "[8,18]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Waterworks",
+   "type": ""
+ },
+ {
+   "indexid": 126,
+   "part": 3,
+   "microfiche-num": "[8,9,10,11,18]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Architecture",
+   "subcat": "Ornamental Iron",
+   "type": ""
+ },
+ {
+   "indexid": 127,
+   "part": 3,
+   "microfiche-num": "[12,18,19,21]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Naive Art",
+   "subcat": "Paintings Documents and Prints",
+   "type": ""
+ },
+ {
+   "indexid": 128,
+   "part": 3,
+   "microfiche-num": "[12,19]",
+   "theme": "Architecture and Naive Art",
+   "cat": "Naive Art",
+   "subcat": "Valentines and Paper Cuttings",
+   "type": ""
+ },
+ {
+   "indexid": 129,
+   "part": 3,
+   "microfiche-num": "[13,14,15,16,17,18,19]",
+   "theme": "Architecture and Naive Art",
+   "cat": "",
+   "subcat": "",
+   "type": "Oversize Renderings"
+ },
+ {
+   "indexid": 130,
+   "part": 3,
+   "microfiche-num": "[20,21]",
+   "theme": "Architecture and Naive Art",
+   "cat": "",
+   "subcat": "",
+   "type": "Giant Renderings"
+ },
+ {
+   "indexid": 131,
+   "part": 4,
+   "microfiche-num": "[1]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Adzes Axes and Hatchets"
+ },
+ {
+   "indexid": 132,
+   "part": 4,
+   "microfiche-num": "[1]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Augers"
+ },
+ {
+   "indexid": 133,
+   "part": 4,
+   "microfiche-num": "[1]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Bark Peelers"
+ },
+ {
+   "indexid": 134,
+   "part": 4,
+   "microfiche-num": "[1]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Beehives"
+ },
+ {
+   "indexid": 135,
+   "part": 4,
+   "microfiche-num": "[1]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Blacksmith Tools"
+ },
+ {
+   "indexid": 136,
+   "part": 4,
+   "microfiche-num": "[1]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Braces Bits and Drills"
+ },
+ {
+   "indexid": 137,
+   "part": 4,
+   "microfiche-num": "[1]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Branding Irons and Markers"
+ },
+ {
+   "indexid": 138,
+   "part": 4,
+   "microfiche-num": "[2]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Bristle Removers"
+ },
+ {
+   "indexid": 139,
+   "part": 4,
+   "microfiche-num": "[2]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Brushes and Brush Cutters"
+ },
+ {
+   "indexid": 140,
+   "part": 4,
+   "microfiche-num": "[2]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Carpet Stretchers"
+ },
+ {
+   "indexid": 141,
+   "part": 4,
+   "microfiche-num": "[2]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Chisels"
+ },
+ {
+   "indexid": 142,
+   "part": 4,
+   "microfiche-num": "[3]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Clam Rakes"
+ },
+ {
+   "indexid": 143,
+   "part": 4,
+   "microfiche-num": "[3]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Clamps"
+ },
+ {
+   "indexid": 144,
+   "part": 4,
+   "microfiche-num": "[3]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Combs"
+ },
+ {
+   "indexid": 145,
+   "part": 4,
+   "microfiche-num": "[3]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Corn Planters"
+ },
+ {
+   "indexid": 146,
+   "part": 4,
+   "microfiche-num": "[3,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Cranberry Pickers"
+ },
+ {
+   "indexid": 147,
+   "part": 4,
+   "microfiche-num": "[3,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Drawknives and Knives"
+ },
+ {
+   "indexid": 148,
+   "part": 4,
+   "microfiche-num": "[3,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Firefighting Equipment"
+ },
+ {
+   "indexid": 149,
+   "part": 4,
+   "microfiche-num": "[3]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Fish Spears"
+ },
+ {
+   "indexid": 150,
+   "part": 4,
+   "microfiche-num": "[3,4]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Flails"
+ },
+ {
+   "indexid": 151,
+   "part": 4,
+   "microfiche-num": "[15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Frows and Frow Clubs"
+ },
+ {
+   "indexid": 152,
+   "part": 4,
+   "microfiche-num": "[4]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Gauges"
+ },
+ {
+   "indexid": 153,
+   "part": 4,
+   "microfiche-num": "[4]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Grain Cradles"
+ },
+ {
+   "indexid": 154,
+   "part": 4,
+   "microfiche-num": "[4]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Hammers Mallets and Gavels"
+ },
+ {
+   "indexid": 155,
+   "part": 4,
+   "microfiche-num": "[4,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Hay Forks"
+ },
+ {
+   "indexid": 156,
+   "part": 4,
+   "microfiche-num": "[4]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Hide Stretchers"
+ },
+ {
+   "indexid": 157,
+   "part": 4,
+   "microfiche-num": "[4]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Hoes and Picks"
+ },
+ {
+   "indexid": 158,
+   "part": 4,
+   "microfiche-num": "[4,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Hooks"
+ },
+ {
+   "indexid": 159,
+   "part": 4,
+   "microfiche-num": "[4]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Jacks"
+ },
+ {
+   "indexid": 160,
+   "part": 4,
+   "microfiche-num": "[4]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Millstones"
+ },
+ {
+   "indexid": 161,
+   "part": 4,
+   "microfiche-num": "[4]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Pinkers"
+ },
+ {
+   "indexid": 162,
+   "part": 4,
+   "microfiche-num": "[4]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Planes"
+ },
+ {
+   "indexid": 163,
+   "part": 4,
+   "microfiche-num": "[5,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Plows"
+ },
+ {
+   "indexid": 164,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Potato Planters"
+ },
+ {
+   "indexid": 165,
+   "part": 4,
+   "microfiche-num": "[5,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Printing Equipment and Stamps"
+ },
+ {
+   "indexid": 166,
+   "part": 4,
+   "microfiche-num": "[15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Reamers"
+ },
+ {
+   "indexid": 167,
+   "part": 4,
+   "microfiche-num": "[5,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Saws"
+ },
+ {
+   "indexid": 168,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Scrapers"
+ },
+ {
+   "indexid": 169,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Screens"
+ },
+ {
+   "indexid": 170,
+   "part": 4,
+   "microfiche-num": "[15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Shaving Horses"
+ },
+ {
+   "indexid": 171,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Shears"
+ },
+ {
+   "indexid": 172,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Shoemakers and Leather Working Tools"
+ },
+ {
+   "indexid": 173,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Shovels and Scoops"
+ },
+ {
+   "indexid": 174,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Sickels"
+ },
+ {
+   "indexid": 175,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Snow Guards"
+ },
+ {
+   "indexid": 176,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Splints"
+ },
+ {
+   "indexid": 177,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Spoke Cutters"
+ },
+ {
+   "indexid": 178,
+   "part": 4,
+   "microfiche-num": "[5]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Spreader for Rigging"
+ },
+ {
+   "indexid": 179,
+   "part": 4,
+   "microfiche-num": "[15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Sugar Industry Tools"
+ },
+ {
+   "indexid": 180,
+   "part": 4,
+   "microfiche-num": "[5,6]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Turpentine Industry Tools"
+ },
+ {
+   "indexid": 181,
+   "part": 4,
+   "microfiche-num": "[6]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Well Beam"
+ },
+ {
+   "indexid": 182,
+   "part": 4,
+   "microfiche-num": "[6]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Wiremaking Machine"
+ },
+ {
+   "indexid": 183,
+   "part": 4,
+   "microfiche-num": "[6]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Wrenches"
+ },
+ {
+   "indexid": 184,
+   "part": 4,
+   "microfiche-num": "[6,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Tools and Equipment (A-Z)",
+   "subcat": "",
+   "type": "Yokes"
+ },
+ {
+   "indexid": 185,
+   "part": 4,
+   "microfiche-num": "[6]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Hardware",
+   "subcat": "Nails and Pins",
+   "type": ""
+ },
+ {
+   "indexid": 186,
+   "part": 4,
+   "microfiche-num": "[6,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Hardware",
+   "subcat": "Bolts Locks and Latches",
+   "type": ""
+ },
+ {
+   "indexid": 187,
+   "part": 4,
+   "microfiche-num": "[8]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Hardware",
+   "subcat": "Drawer Pulls",
+   "type": ""
+ },
+ {
+   "indexid": 188,
+   "part": 4,
+   "microfiche-num": "[8]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Hardware",
+   "subcat": "Hinges",
+   "type": ""
+ },
+ {
+   "indexid": 189,
+   "part": 4,
+   "microfiche-num": "[9]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Hardware",
+   "subcat": "Door Knockers",
+   "type": ""
+ },
+ {
+   "indexid": 190,
+   "part": 4,
+   "microfiche-num": "[9,15]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Hardware",
+   "subcat": "Tiebacks",
+   "type": ""
+ },
+ {
+   "indexid": 191,
+   "part": 4,
+   "microfiche-num": "[10]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Hardware",
+   "subcat": "Marine Hardware",
+   "type": ""
+ },
+ {
+   "indexid": 192,
+   "part": 4,
+   "microfiche-num": "[10,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Armaments and Military Supplies",
+   "subcat": "Firearms",
+   "type": ""
+ },
+ {
+   "indexid": 193,
+   "part": 4,
+   "microfiche-num": "[10,11,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Armaments and Military Supplies",
+   "subcat": "Powder Horns and Flasks",
+   "type": ""
+ },
+ {
+   "indexid": 194,
+   "part": 4,
+   "microfiche-num": "[11]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Armaments and Military Supplies",
+   "subcat": "Ammunition Containers and Bullet Molds",
+   "type": ""
+ },
+ {
+   "indexid": 195,
+   "part": 4,
+   "microfiche-num": "[11]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Armaments and Military Supplies",
+   "subcat": "Cross Bows",
+   "type": ""
+ },
+ {
+   "indexid": 196,
+   "part": 4,
+   "microfiche-num": "[11,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Armaments and Military Supplies",
+   "subcat": "Swords Sabers and Daggers",
+   "type": ""
+ },
+ {
+   "indexid": 197,
+   "part": 4,
+   "microfiche-num": "[12]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Armaments and Military Supplies",
+   "subcat": "Knapsacks and Canteens",
+   "type": ""
+ },
+ {
+   "indexid": 198,
+   "part": 4,
+   "microfiche-num": "[12,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Harness and Saddlery",
+   "subcat": "Collars and Hobbles",
+   "type": ""
+ },
+ {
+   "indexid": 199,
+   "part": 4,
+   "microfiche-num": "[12,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Harness and Saddlery",
+   "subcat": "Saddles Bridles and Stirrups",
+   "type": ""
+ },
+ {
+   "indexid": 200,
+   "part": 4,
+   "microfiche-num": "[12]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Harness and Saddlery",
+   "subcat": "Horse Shoes",
+   "type": ""
+ },
+ {
+   "indexid": 201,
+   "part": 4,
+   "microfiche-num": "[12,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Harness and Saddlery",
+   "subcat": "Whips and Whip Sockets",
+   "type": ""
+ },
+ {
+   "indexid": 202,
+   "part": 4,
+   "microfiche-num": "[12]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Vehicles",
+   "subcat": "Bicycles",
+   "type": ""
+ },
+ {
+   "indexid": 203,
+   "part": 4,
+   "microfiche-num": "[13]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Vehicles",
+   "subcat": "Baby Carriages",
+   "type": ""
+ },
+ {
+   "indexid": 204,
+   "part": 4,
+   "microfiche-num": "[13,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Vehicles",
+   "subcat": "Coaches and Wagons",
+   "type": ""
+ },
+ {
+   "indexid": 205,
+   "part": 4,
+   "microfiche-num": "[13,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Vehicles",
+   "subcat": "Sleighs and Sleds",
+   "type": ""
+ },
+ {
+   "indexid": 206,
+   "part": 4,
+   "microfiche-num": "[13]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Vehicles",
+   "subcat": "Carts and Wheelbarrows",
+   "type": ""
+ },
+ {
+   "indexid": 207,
+   "part": 4,
+   "microfiche-num": "[13,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Calibrated Instruments",
+   "subcat": "Barometers Thermometers and Compasses",
+   "type": ""
+ },
+ {
+   "indexid": 208,
+   "part": 4,
+   "microfiche-num": "[16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Calibrated Instruments",
+   "subcat": "Octants",
+   "type": ""
+ },
+ {
+   "indexid": 209,
+   "part": 4,
+   "microfiche-num": "[13]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Calibrated Instruments",
+   "subcat": "Plumblines and Levels",
+   "type": ""
+ },
+ {
+   "indexid": 210,
+   "part": 4,
+   "microfiche-num": "[13]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Calibrated Instruments",
+   "subcat": "Scales",
+   "type": ""
+ },
+ {
+   "indexid": 211,
+   "part": 4,
+   "microfiche-num": "[14,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "Machines",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 212,
+   "part": 4,
+   "microfiche-num": "[15,16]",
+   "theme": "Tools Hardware Firearms and Vehicles",
+   "cat": "",
+   "subcat": "",
+   "type": "Oversize Renderings"
+ },
+ {
+   "indexid": 213,
+   "part": 5,
+   "microfiche-num": "[1,28]",
+   "theme": "Domestic Utensils",
+   "cat": "Fireplace Equipment and Stoves",
+   "subcat": "Fireplace Tools",
+   "type": ""
+ },
+ {
+   "indexid": 214,
+   "part": 5,
+   "microfiche-num": "[1]",
+   "theme": "Domestic Utensils",
+   "cat": "Fireplace Equipment and Stoves",
+   "subcat": "Andirons",
+   "type": ""
+ },
+ {
+   "indexid": 215,
+   "part": 5,
+   "microfiche-num": "[1]",
+   "theme": "Domestic Utensils",
+   "cat": "Fireplace Equipment and Stoves",
+   "subcat": "Firebacks",
+   "type": ""
+ },
+ {
+   "indexid": 216,
+   "part": 5,
+   "microfiche-num": "[2,28]",
+   "theme": "Domestic Utensils",
+   "cat": "Fireplace Equipment and Stoves",
+   "subcat": "Gridirons Waffle Irons and Toasters",
+   "type": ""
+ },
+ {
+   "indexid": 217,
+   "part": 5,
+   "microfiche-num": "[2,3,4,5]",
+   "theme": "Domestic Utensils",
+   "cat": "Fireplace Equipment and Stoves",
+   "subcat": "Trivets and Flatiron Holders",
+   "type": ""
+ },
+ {
+   "indexid": 218,
+   "part": 5,
+   "microfiche-num": "[5,28]",
+   "theme": "Domestic Utensils",
+   "cat": "Fireplace Equipment and Stoves",
+   "subcat": "Ovens and Broilers",
+   "type": ""
+ },
+ {
+   "indexid": 219,
+   "part": 5,
+   "microfiche-num": "[5,6]",
+   "theme": "Domestic Utensils",
+   "cat": "Fireplace Equipment and Stoves",
+   "subcat": "Warmers",
+   "type": ""
+ },
+ {
+   "indexid": 220,
+   "part": 5,
+   "microfiche-num": "[6,28]",
+   "theme": "Domestic Utensils",
+   "cat": "Fireplace Equipment and Stoves",
+   "subcat": "Stoves and Stove Equipment",
+   "type": ""
+ },
+ {
+   "indexid": 221,
+   "part": 5,
+   "microfiche-num": "[7]",
+   "theme": "Domestic Utensils",
+   "cat": "Fireplace Equipment and Stoves",
+   "subcat": "Match Boxes",
+   "type": ""
+ },
+ {
+   "indexid": 222,
+   "part": 5,
+   "microfiche-num": "[7,8,9,28,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Lighting Devices",
+   "subcat": "Candlesticks and Holders",
+   "type": ""
+ },
+ {
+   "indexid": 223,
+   "part": 5,
+   "microfiche-num": "[9,10,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Lighting Devices",
+   "subcat": "Chandeliers and Sconces",
+   "type": ""
+ },
+ {
+   "indexid": 224,
+   "part": 5,
+   "microfiche-num": "[10,11,12,13,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Lighting Devices",
+   "subcat": "Lamps",
+   "type": ""
+ },
+ {
+   "indexid": 225,
+   "part": 5,
+   "microfiche-num": "[14,15,16,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Lighting Devices",
+   "subcat": "Lanterns and Torches",
+   "type": ""
+ },
+ {
+   "indexid": 226,
+   "part": 5,
+   "microfiche-num": "[16]",
+   "theme": "Domestic Utensils",
+   "cat": "Lighting Devices",
+   "subcat": "Lighting Accessories",
+   "type": ""
+ },
+ {
+   "indexid": 227,
+   "part": 5,
+   "microfiche-num": "[16]",
+   "theme": "Domestic Utensils",
+   "cat": "Textile Implements",
+   "subcat": "Spinning and Weaving Implements",
+   "type": ""
+ },
+ {
+   "indexid": 228,
+   "part": 5,
+   "microfiche-num": "[17,18]",
+   "theme": "Domestic Utensils",
+   "cat": "Textile Implements",
+   "subcat": "Sewing Tools",
+   "type": ""
+ },
+ {
+   "indexid": 229,
+   "part": 5,
+   "microfiche-num": "[18]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Apple Peelers"
+ },
+ {
+   "indexid": 230,
+   "part": 5,
+   "microfiche-num": "[18]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Asparagus Buncher"
+ },
+ {
+   "indexid": 231,
+   "part": 5,
+   "microfiche-num": "[18]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Barrels Buckets Kegs Tubs and Piggins"
+ },
+ {
+   "indexid": 232,
+   "part": 5,
+   "microfiche-num": "[18,19]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Baskets"
+ },
+ {
+   "indexid": 233,
+   "part": 5,
+   "microfiche-num": "[19]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Bottles"
+ },
+ {
+   "indexid": 234,
+   "part": 5,
+   "microfiche-num": "[19]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Bowls"
+ },
+ {
+   "indexid": 235,
+   "part": 5,
+   "microfiche-num": "[19]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Boxes"
+ },
+ {
+   "indexid": 236,
+   "part": 5,
+   "microfiche-num": "[19]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Broom"
+ },
+ {
+   "indexid": 237,
+   "part": 5,
+   "microfiche-num": "[19,20,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Buttermolds and Tubs"
+ },
+ {
+   "indexid": 238,
+   "part": 5,
+   "microfiche-num": "[20]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Cans and lars"
+ },
+ {
+   "indexid": 239,
+   "part": 5,
+   "microfiche-num": "[20]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Candlemolds"
+ },
+ {
+   "indexid": 240,
+   "part": 5,
+   "microfiche-num": "[20]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Cherry Pitters"
+ },
+ {
+   "indexid": 241,
+   "part": 5,
+   "microfiche-num": "[20,21,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Churns"
+ },
+ {
+   "indexid": 242,
+   "part": 5,
+   "microfiche-num": "[21]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Clothes Pins"
+ },
+ {
+   "indexid": 243,
+   "part": 5,
+   "microfiche-num": "[21]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Clothes Washers"
+ },
+ {
+   "indexid": 244,
+   "part": 5,
+   "microfiche-num": "[21]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Coffee and Teapots"
+ },
+ {
+   "indexid": 245,
+   "part": 5,
+   "microfiche-num": "[21,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Coffee Grinders and Mills"
+ },
+ {
+   "indexid": 246,
+   "part": 5,
+   "microfiche-num": "[21]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Coffee Roasters"
+ },
+ {
+   "indexid": 247,
+   "part": 5,
+   "microfiche-num": "[21]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Compotes"
+ },
+ {
+   "indexid": 248,
+   "part": 5,
+   "microfiche-num": "[21]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Cookie Cutters"
+ },
+ {
+   "indexid": 249,
+   "part": 5,
+   "microfiche-num": "[21]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Cork Compressors"
+ },
+ {
+   "indexid": 250,
+   "part": 5,
+   "microfiche-num": "[21,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Crimpers"
+ },
+ {
+   "indexid": 251,
+   "part": 5,
+   "microfiche-num": "[21]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Cruets"
+ },
+ {
+   "indexid": 252,
+   "part": 5,
+   "microfiche-num": "[21,22]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Cups Goblets Mugs and Tankards"
+ },
+ {
+   "indexid": 253,
+   "part": 5,
+   "microfiche-num": "[22]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Dippers and Ladles"
+ },
+ {
+   "indexid": 254,
+   "part": 5,
+   "microfiche-num": "[22]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Dough Bins and Mixers"
+ },
+ {
+   "indexid": 255,
+   "part": 5,
+   "microfiche-num": "[22]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Draining Boards"
+ },
+ {
+   "indexid": 256,
+   "part": 5,
+   "microfiche-num": "[22,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Egg Beaters and Cookers"
+ },
+ {
+   "indexid": 257,
+   "part": 5,
+   "microfiche-num": "[22]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Flour Bins and Sifters"
+ },
+ {
+   "indexid": 258,
+   "part": 5,
+   "microfiche-num": "[22]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Fruit Slicer"
+ },
+ {
+   "indexid": 259,
+   "part": 5,
+   "microfiche-num": "[22]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Funnels"
+ },
+ {
+   "indexid": 260,
+   "part": 5,
+   "microfiche-num": "[22]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Gourds"
+ },
+ {
+   "indexid": 261,
+   "part": 5,
+   "microfiche-num": "[22]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Graters"
+ },
+ {
+   "indexid": 262,
+   "part": 5,
+   "microfiche-num": "[22,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Grinders"
+ },
+ {
+   "indexid": 263,
+   "part": 5,
+   "microfiche-num": "[23]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Ice Cream Freezer"
+ },
+ {
+   "indexid": 264,
+   "part": 5,
+   "microfiche-num": "[23]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Irons"
+ },
+ {
+   "indexid": 265,
+   "part": 5,
+   "microfiche-num": "[23,24]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Kettles"
+ },
+ {
+   "indexid": 266,
+   "part": 5,
+   "microfiche-num": "[24]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Knives and Forks Knife Sharpeners and Holders"
+ },
+ {
+   "indexid": 267,
+   "part": 5,
+   "microfiche-num": "[24]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Mashers"
+ },
+ {
+   "indexid": 268,
+   "part": 5,
+   "microfiche-num": "[25]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Measuring Cups"
+ },
+ {
+   "indexid": 269,
+   "part": 5,
+   "microfiche-num": "[25]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Molds"
+ },
+ {
+   "indexid": 270,
+   "part": 5,
+   "microfiche-num": "[25,29]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Mortars and Pestles"
+ },
+ {
+   "indexid": 271,
+   "part": 5,
+   "microfiche-num": "[25]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Muffin Pans"
+ },
+ {
+   "indexid": 272,
+   "part": 5,
+   "microfiche-num": "[25,30]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Nut Crackers"
+ },
+ {
+   "indexid": 273,
+   "part": 5,
+   "microfiche-num": "[25]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Pail"
+ },
+ {
+   "indexid": 274,
+   "part": 5,
+   "microfiche-num": "[25]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Pan Slider"
+ },
+ {
+   "indexid": 275,
+   "part": 5,
+   "microfiche-num": "[25]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Pastry Squeezer"
+ },
+ {
+   "indexid": 276,
+   "part": 5,
+   "microfiche-num": "[25]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Pill Coater"
+ },
+ {
+   "indexid": 277,
+   "part": 5,
+   "microfiche-num": "[25,26]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Pitcher"
+ },
+ {
+   "indexid": 278,
+   "part": 5,
+   "microfiche-num": "[26]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Porringers"
+ },
+ {
+   "indexid": 279,
+   "part": 5,
+   "microfiche-num": "[26]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Pots and Pans"
+ },
+ {
+   "indexid": 280,
+   "part": 5,
+   "microfiche-num": "[26,30]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Rolling Pins"
+ },
+ {
+   "indexid": 281,
+   "part": 5,
+   "microfiche-num": "[26]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Salt Shakers"
+ },
+ {
+   "indexid": 282,
+   "part": 5,
+   "microfiche-num": "[26]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Sauerkraut Stomper"
+ },
+ {
+   "indexid": 283,
+   "part": 5,
+   "microfiche-num": "[26]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Sausage Stuffers"
+ },
+ {
+   "indexid": 284,
+   "part": 5,
+   "microfiche-num": "[26]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Scoops"
+ },
+ {
+   "indexid": 285,
+   "part": 5,
+   "microfiche-num": "[26]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Skewers and Holders"
+ },
+ {
+   "indexid": 286,
+   "part": 5,
+   "microfiche-num": "[26,27,30]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Skimmers and Sieves"
+ },
+ {
+   "indexid": 287,
+   "part": 5,
+   "microfiche-num": "[27]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Spatula"
+ },
+ {
+   "indexid": 288,
+   "part": 5,
+   "microfiche-num": "[27,30]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Spoons"
+ },
+ {
+   "indexid": 289,
+   "part": 5,
+   "microfiche-num": "[27]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Sugar Cutters"
+ },
+ {
+   "indexid": 290,
+   "part": 5,
+   "microfiche-num": "[27]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Tongs"
+ },
+ {
+   "indexid": 291,
+   "part": 5,
+   "microfiche-num": "[27]",
+   "theme": "Domestic Utensils",
+   "cat": "Domestic Utensils (A-Z)",
+   "subcat": "",
+   "type": "Traps"
+ },
+ {
+   "indexid": 292,
+   "part": 5,
+   "microfiche-num": "[28,29,30]",
+   "theme": "Domestic Utensils",
+   "cat": "",
+   "subcat": "",
+   "type": "Oversize Renderings"
+ },
+ {
+   "indexid": 293,
+   "part": 6,
+   "microfiche-num": "[1,2,3,4,5,6,7,8,30,35]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Chairs and Tables",
+   "type": "Chairs"
+ },
+ {
+   "indexid": 294,
+   "part": 6,
+   "microfiche-num": "[8,9,30]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Chairs and Tables",
+   "type": "Settles Settees Sofas and Daybeds"
+ },
+ {
+   "indexid": 295,
+   "part": 6,
+   "microfiche-num": "[9,10,30]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Chairs and Tables",
+   "type": "Benches and Stools"
+ },
+ {
+   "indexid": 296,
+   "part": 6,
+   "microfiche-num": "[10,11,12,13,30]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Chairs and Tables",
+   "type": "Tables"
+ },
+ {
+   "indexid": 297,
+   "part": 6,
+   "microfiche-num": "[13,14,15,31,35]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Case Furniture",
+   "type": "Chests and Boxes"
+ },
+ {
+   "indexid": 298,
+   "part": 6,
+   "microfiche-num": "[16,17,31,35]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Case Furniture",
+   "type": "Cupboards Cabinets and Shelves"
+ },
+ {
+   "indexid": 299,
+   "part": 6,
+   "microfiche-num": "[17,31,32]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Case Furniture",
+   "type": "Highboys"
+ },
+ {
+   "indexid": 300,
+   "part": 6,
+   "microfiche-num": "[18,32]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Case Furniture",
+   "type": "Lowboys and Sideboards"
+ },
+ {
+   "indexid": 301,
+   "part": 6,
+   "microfiche-num": "[18,19,32]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Case Furniture",
+   "type": "Desks and Secretaries"
+ },
+ {
+   "indexid": 302,
+   "part": 6,
+   "microfiche-num": "[20,35]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Beds and Cradles",
+   "type": "Beds"
+ },
+ {
+   "indexid": 303,
+   "part": 6,
+   "microfiche-num": "[20]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furniture",
+   "subcat": "Beds and Cradles",
+   "type": "Cradles"
+ },
+ {
+   "indexid": 304,
+   "part": 6,
+   "microfiche-num": "[21,32]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Bathtubs",
+   "type": ""
+ },
+ {
+   "indexid": 305,
+   "part": 6,
+   "microfiche-num": "[21,32]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Books and Albums",
+   "type": ""
+ },
+ {
+   "indexid": 306,
+   "part": 6,
+   "microfiche-num": "[21,32]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Boxes and Cases",
+   "type": "Knife Boxes"
+ },
+ {
+   "indexid": 307,
+   "part": 6,
+   "microfiche-num": "[21,22]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Boxes and Cases",
+   "type": "Boxes and Cases"
+ },
+ {
+   "indexid": 308,
+   "part": 6,
+   "microfiche-num": "[22,33,35]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Cellarets and Wine Coolers",
+   "type": ""
+ },
+ {
+   "indexid": 309,
+   "part": 6,
+   "microfiche-num": "[22,23,24,25,33,35]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Clocks",
+   "type": ""
+ },
+ {
+   "indexid": 310,
+   "part": 6,
+   "microfiche-num": "[25,33,35]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Decorations",
+   "type": ""
+ },
+ {
+   "indexid": 311,
+   "part": 6,
+   "microfiche-num": "[25]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Desk Accessories",
+   "type": ""
+ },
+ {
+   "indexid": 312,
+   "part": 6,
+   "microfiche-num": "[25]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Door Stops",
+   "type": ""
+ },
+ {
+   "indexid": 313,
+   "part": 6,
+   "microfiche-num": "[26,33]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Fire Screens",
+   "type": ""
+ },
+ {
+   "indexid": 314,
+   "part": 6,
+   "microfiche-num": "[26]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Globes",
+   "type": ""
+ },
+ {
+   "indexid": 315,
+   "part": 6,
+   "microfiche-num": "[26,27,34,35]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Mirrors and Frames",
+   "type": ""
+ },
+ {
+   "indexid": 316,
+   "part": 6,
+   "microfiche-num": "[27,34]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Racks and Stands",
+   "type": ""
+ },
+ {
+   "indexid": 317,
+   "part": 6,
+   "microfiche-num": "[27]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Safes and Mail Boxes",
+   "type": ""
+ },
+ {
+   "indexid": 318,
+   "part": 6,
+   "microfiche-num": "[28]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Tobacco Accessories",
+   "type": ""
+ },
+ {
+   "indexid": 319,
+   "part": 6,
+   "microfiche-num": "[28]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Trays",
+   "type": ""
+ },
+ {
+   "indexid": 320,
+   "part": 6,
+   "microfiche-num": "[28,34]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Trunks and Hat Boxes",
+   "type": ""
+ },
+ {
+   "indexid": 321,
+   "part": 6,
+   "microfiche-num": "[29]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Vases",
+   "type": ""
+ },
+ {
+   "indexid": 322,
+   "part": 6,
+   "microfiche-num": "[29]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "Furnishing Accessories",
+   "subcat": "Wall Pockets",
+   "type": ""
+ },
+ {
+   "indexid": 323,
+   "part": 6,
+   "microfiche-num": "[30,31,32,33,34]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "",
+   "subcat": "",
+   "type": "Oversize Renderings"
+ },
+ {
+   "indexid": 324,
+   "part": 6,
+   "microfiche-num": "[35]",
+   "theme": "Furniture and Decorative Accessories",
+   "cat": "",
+   "subcat": "",
+   "type": "Giant Renderings"
+ },
+ {
+   "indexid": 325,
+   "part": 7,
+   "microfiche-num": "[1,2,15,25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Marine Carvings",
+   "type": "Figureheads and Bowsprits"
+ },
+ {
+   "indexid": 326,
+   "part": 7,
+   "microfiche-num": "[2,16]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Marine Carvings",
+   "type": "Billets and Mast Sheathes"
+ },
+ {
+   "indexid": 327,
+   "part": 7,
+   "microfiche-num": "[3,16,25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Marine Carvings",
+   "type": "Stern Pieces and Trailboards"
+ },
+ {
+   "indexid": 328,
+   "part": 7,
+   "microfiche-num": "[3,16]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Marine Carvings",
+   "type": "Other Ship Carvings"
+ },
+ {
+   "indexid": 329,
+   "part": 7,
+   "microfiche-num": "[3,4,16,17]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Circus Carvings",
+   "type": ""
+ },
+ {
+   "indexid": 330,
+   "part": 7,
+   "microfiche-num": "[4,17,25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Carousel Carvings",
+   "type": ""
+ },
+ {
+   "indexid": 331,
+   "part": 7,
+   "microfiche-num": "[4,5,6,18,19,20,25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Advertising Figures and Signs",
+   "type": "Figures - Cigar Store Indians"
+ },
+ {
+   "indexid": 332,
+   "part": 7,
+   "microfiche-num": "[6,7,20,21,25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Advertising Figures and Signs",
+   "type": "Figures - Shop Figures and Other Cigar Store Figures"
+ },
+ {
+   "indexid": 333,
+   "part": 7,
+   "microfiche-num": "[7,8,21,25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Advertising Figures and Signs",
+   "type": "Signs"
+ },
+ {
+   "indexid": 334,
+   "part": 7,
+   "microfiche-num": "[8,9,21,22,25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Wooden Sculpture",
+   "type": "Human and Religious Figures"
+ },
+ {
+   "indexid": 335,
+   "part": 7,
+   "microfiche-num": "[9]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Wooden Sculpture",
+   "type": "Animals and Birds (except Eagles)"
+ },
+ {
+   "indexid": 336,
+   "part": 7,
+   "microfiche-num": "[10,22,25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Wooden Sculpture",
+   "type": "Eagles"
+ },
+ {
+   "indexid": 337,
+   "part": 7,
+   "microfiche-num": "[10,11,22]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Wood Carvings",
+   "subcat": "Wooden Sculpture",
+   "type": "Decoys"
+ },
+ {
+   "indexid": 338,
+   "part": 7,
+   "microfiche-num": "[11,22]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Scrimshaw",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 339,
+   "part": 7,
+   "microfiche-num": "[11,12,22,25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Weathervanes and Whirligigs",
+   "subcat": "Weathervanes",
+   "type": "Wood"
+ },
+ {
+   "indexid": 340,
+   "part": 7,
+   "microfiche-num": "[12,13,14,23]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Weathervanes and Whirligigs",
+   "subcat": "Weathervanes",
+   "type": "Metal"
+ },
+ {
+   "indexid": 341,
+   "part": 7,
+   "microfiche-num": "[14,24,25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "Weathervanes and Whirligigs",
+   "subcat": "Whirligigs",
+   "type": ""
+ },
+ {
+   "indexid": 342,
+   "part": 7,
+   "microfiche-num": "[15,16,17,18,19,20,21,22,23,24]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "",
+   "subcat": "",
+   "type": "Oversize Renderings"
+ },
+ {
+   "indexid": 343,
+   "part": 7,
+   "microfiche-num": "[25]",
+   "theme": "Wood Carvings and Weathervanes",
+   "cat": "",
+   "subcat": "",
+   "type": "Giant Renderings"
+ },
+ {
+   "indexid": 344,
+   "part": 8,
+   "microfiche-num": "[1,2,3,4,5,6,32,35]",
+   "theme": "Ceramics and Glass",
+   "cat": "Ceramics",
+   "subcat": "Earthenware",
+   "type": "Earthenware"
+ },
+ {
+   "indexid": 345,
+   "part": 8,
+   "microfiche-num": "[6]",
+   "theme": "Ceramics and Glass",
+   "cat": "Ceramics",
+   "subcat": "Earthenware",
+   "type": "Majolica"
+ },
+ {
+   "indexid": 346,
+   "part": 8,
+   "microfiche-num": "[6]",
+   "theme": "Ceramics and Glass",
+   "cat": "Ceramics",
+   "subcat": "Earthenware",
+   "type": "Lusterware"
+ },
+ {
+   "indexid": 347,
+   "part": 8,
+   "microfiche-num": "[7,8,9,10,11,12,13,14,15,16,32,33]",
+   "theme": "Ceramics and Glass",
+   "cat": "Ceramics",
+   "subcat": "Stoneware",
+   "type": ""
+ },
+ {
+   "indexid": 348,
+   "part": 8,
+   "microfiche-num": "[16]",
+   "theme": "Ceramics and Glass",
+   "cat": "Ceramics",
+   "subcat": "Ironstone",
+   "type": ""
+ },
+ {
+   "indexid": 349,
+   "part": 8,
+   "microfiche-num": "[16,17,18,33]",
+   "theme": "Ceramics and Glass",
+   "cat": "Ceramics",
+   "subcat": "Porcelain",
+   "type": ""
+ },
+ {
+   "indexid": 350,
+   "part": 8,
+   "microfiche-num": "[18,33]",
+   "theme": "Ceramics and Glass",
+   "cat": "Ceramics",
+   "subcat": "Tiles and Plaques",
+   "type": ""
+ },
+ {
+   "indexid": 351,
+   "part": 8,
+   "microfiche-num": "[19,34]",
+   "theme": "Ceramics and Glass",
+   "cat": "Ceramics",
+   "subcat": "Ceramic Figures",
+   "type": ""
+ },
+ {
+   "indexid": 352,
+   "part": 8,
+   "microfiche-num": "[19,20,35]",
+   "theme": "Ceramics and Glass",
+   "cat": "Chalkware",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 353,
+   "part": 8,
+   "microfiche-num": "[20,21,22,23,24]",
+   "theme": "Ceramics and Glass",
+   "cat": "Glass",
+   "subcat": "Free Blown",
+   "type": ""
+ },
+ {
+   "indexid": 354,
+   "part": 8,
+   "microfiche-num": "[24,25,26,27,28,34,35]",
+   "theme": "Ceramics and Glass",
+   "cat": "Glass",
+   "subcat": "Mold Blown",
+   "type": ""
+ },
+ {
+   "indexid": 355,
+   "part": 8,
+   "microfiche-num": "[28,29,30,34,35]",
+   "theme": "Ceramics and Glass",
+   "cat": "Glass",
+   "subcat": "Pressed Glass",
+   "type": ""
+ },
+ {
+   "indexid": 356,
+   "part": 8,
+   "microfiche-num": "[31]",
+   "theme": "Ceramics and Glass",
+   "cat": "Glass",
+   "subcat": "Painted Glass and Decorated Glass",
+   "type": ""
+ },
+ {
+   "indexid": 357,
+   "part": 8,
+   "microfiche-num": "[32,33,34]",
+   "theme": "Ceramics and Glass",
+   "cat": "",
+   "subcat": "",
+   "type": "Oversize Renderings"
+ },
+ {
+   "indexid": 358,
+   "part": 8,
+   "microfiche-num": "[35]",
+   "theme": "Ceramics and Glass",
+   "cat": "",
+   "subcat": "",
+   "type": "Giant Renderings"
+ },
+ {
+   "indexid": 359,
+   "part": 9,
+   "microfiche-num": "[1,2,3,4,5,6]",
+   "theme": "Silver Copper Pewter and Toleware",
+   "cat": "Silver",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 360,
+   "part": 9,
+   "microfiche-num": "[6,7,8,9]",
+   "theme": "Silver Copper Pewter and Toleware",
+   "cat": "Pewter",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 361,
+   "part": 9,
+   "microfiche-num": "[9,10,11]",
+   "theme": "Silver Copper Pewter and Toleware",
+   "cat": "Toleware",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 362,
+   "part": 10,
+   "microfiche-num": "[1,2,3,4,12,13,14,15,21]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Toys",
+   "subcat": "Dolls",
+   "type": ""
+ },
+ {
+   "indexid": 363,
+   "part": 10,
+   "microfiche-num": "[4,15]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Toys",
+   "subcat": "Dolls Accessories",
+   "type": ""
+ },
+ {
+   "indexid": 364,
+   "part": 10,
+   "microfiche-num": "[5,16,17,21]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Toys",
+   "subcat": "Marionettes and Puppets",
+   "type": ""
+ },
+ {
+   "indexid": 365,
+   "part": 10,
+   "microfiche-num": "[6,17,18,21]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Toys",
+   "subcat": "Animals",
+   "type": ""
+ },
+ {
+   "indexid": 366,
+   "part": 10,
+   "microfiche-num": "[6,18,21]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Toys",
+   "subcat": "Vehicles",
+   "type": ""
+ },
+ {
+   "indexid": 367,
+   "part": 10,
+   "microfiche-num": "[7,8,9,18,19]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Toys",
+   "subcat": "Banks and Mechanical Toys",
+   "type": ""
+ },
+ {
+   "indexid": 368,
+   "part": 10,
+   "microfiche-num": "[9,19,20]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Toys",
+   "subcat": "Toys",
+   "type": ""
+ },
+ {
+   "indexid": 369,
+   "part": 10,
+   "microfiche-num": "[10]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Games",
+   "subcat": "",
+   "type": ""
+ },
+ {
+   "indexid": 370,
+   "part": 10,
+   "microfiche-num": "[10]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Musical Instruments",
+   "subcat": "Percussion Instruments",
+   "type": "Bells"
+ },
+ {
+   "indexid": 371,
+   "part": 10,
+   "microfiche-num": "[10,20]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Musical Instruments",
+   "subcat": "Percussion Instruments",
+   "type": "Drums"
+ },
+ {
+   "indexid": 372,
+   "part": 10,
+   "microfiche-num": "[10,20]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Musical Instruments",
+   "subcat": "Percussion Instruments",
+   "type": "Piano"
+ },
+ {
+   "indexid": 373,
+   "part": 10,
+   "microfiche-num": "[10]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Musical Instruments",
+   "subcat": "Percussion Instruments",
+   "type": "Rattles and Alarms"
+ },
+ {
+   "indexid": 374,
+   "part": 10,
+   "microfiche-num": "[11,20]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Musical Instruments",
+   "subcat": "String Instruments",
+   "type": ""
+ },
+ {
+   "indexid": 375,
+   "part": 10,
+   "microfiche-num": "[11,20]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Musical Instruments",
+   "subcat": "Wind Instruments including Fifes Trumpets and Organs",
+   "type": ""
+ },
+ {
+   "indexid": 376,
+   "part": 10,
+   "microfiche-num": "[11,20]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "Musical Instruments",
+   "subcat": "Firemen's Speaking Trumpets",
+   "type": ""
+ },
+ {
+   "indexid": 377,
+   "part": 10,
+   "microfiche-num": "[12,13,14,15,16,17,18,19,20]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "",
+   "subcat": "",
+   "type": "Oversize Renderings"
+ },
+ {
+   "indexid": 378,
+   "part": 10,
+   "microfiche-num": "[21]",
+   "theme": "Toys and Musical Instruments",
+   "cat": "",
+   "subcat": "",
+   "type": "Giant Renderings"
+ }
+]
