@@ -84,7 +84,9 @@ function displayImages(json, artistCounts) {
   card
     .append("h3")
     .attr("class", "title")
-    .text((d) => d.title);
+    .text((d) => {
+      return `${d.title} (${d.beginyear} - ${d.endyear})`;
+    });
 
   // create a heading tag that will be the attribution
   card
