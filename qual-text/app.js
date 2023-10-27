@@ -1,3 +1,4 @@
+// SOURCE: https://d3-graph-gallery.com/graph/network_basic.html
 // set the dimensions and margins of the graph
 var margin = { top: 40, right: 40, bottom: 40, left: 40 };
 // Get the dimensions of the user's screen
