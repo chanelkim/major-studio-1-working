@@ -1,249 +1,192 @@
-// "d3" is globally available because we have the d3 code in our index.html file
+// set the dimensions and margins of the graph
+var margin = { top: 40, right: 40, bottom: 40, left: 40 };
+// Get the dimensions of the user's screen
+var screenWidth = window.innerWidth;
+var screenHeight = window.innerHeight;
 
-function displayTitle(json) {
-  // Select a <div> with an id of "app" where titles will be added
-  let app = d3.select("#app").text("");
+// Calculate the width and height of the chart area, taking into account the margins
+var width = screenWidth - margin.left - margin.right;
+var height = screenHeight - margin.top - margin.bottom;
 
-  // Sort the JSON data by title and objectid
-  let data = json.sort((a, b) => {
-    if (a.title === b.title) {
-      // If titles are equal, sort by objectid
-      return a.objectid > b.objectid ? 1 : -1;
-    } else {
-      // Sort by title
-      return a.title > b.title ? 1 : -1;
+// append the svg object to the body of the page
+var svg = d3
+  .select("#my_dataviz")
+  .append("svg")
+  .attr("width", screenWidth)
+  .attr("height", screenHeight)
+  .append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+try {
+  d3.json("data/test/reformatted_data.json", function (data) {
+    // ------------ INITIALIZE LINKS ------------
+    var link = svg
+      .selectAll("line")
+      .data(data.links)
+      .enter()
+      .append("line")
+      .style("stroke", "#aaa")
+      .attr("shared_words", function (d) {
+        return d.shared_words.join(", "); // Convert the shared words array to a string
+      });
+    console.log(data.links);
+
+    // ------------ LINKS TOOLTIP ------------
+    link.append("title").text(function (d) {
+      return "Shared Words: " + d.shared_words.join(", ");
+    });
+
+    // ------------ SCALE PREP FOR NODES ------------
+    // Calculate the maximum shared word count in your data
+    var maxSharedWords = d3.max(data.links, function (d) {
+      return d.shared_words ? d.shared_words.length : 0;
+    });
+    console.log("Max shared words: ", maxSharedWords);
+
+    data.links.forEach(function (d) {
+      console.log(
+        "Shared Words for " +
+          d.source +
+          ": " +
+          d.shared_words +
+          " " +
+          (d.shared_words ? d.shared_words.length : 0)
+      );
+    });
+
+    // Define a linear scale with the calculated domain
+    var wordCountScale = d3
+      .scaleLinear()
+      .domain([0, maxSharedWords])
+      // .domain([0, 10])
+      .range([10, maxSharedWords * 1.1]); // Adjust the range values as needed
+
+    // ------------ INITIALIZE NODES ------------
+    var node = svg
+      .selectAll("circle")
+      .data(data.links)
+      .enter()
+      .append("circle")
+      // .attr("r", 20)
+      .attr("r", function (d) {
+        if (d.shared_words) {
+          return wordCountScale(d.shared_words.length);
+        } else {
+          return 0; // or a default size if there are no shared words
+        }
+      })
+      .style("fill", "#69b3a2");
+    console.log(data.nodes);
+    // Create an SVG group for controlling the size of the circles
+
+    // --- ATTEMPT TO CREATE SEPARATE NODES FOR SIZE AND POSITION ---
+    // // Create a group for node size
+    // var nodeSize = svg
+    //   .selectAll(".node-size")
+    //   .data(data.links)
+    //   .enter()
+    //   .append("circle")
+    //   .attr("class", "node-size")
+    //   .attr("r", function (d) {
+    //     if (d.shared_words) {
+    //       return wordCountScale(d.shared_words.length);
+    //     } else {
+    //       return 0; // or a default size if there are no shared words
+    //     }
+    //   })
+    //   .style("fill", "#69b3a2");
+
+    // // Create a group for node position
+    // var nodePosition = svg
+    //   .selectAll(".node-position")
+    //   .data(data.nodes)
+    //   .enter()
+    //   .append("circle")
+    //   .attr("class", "node-position")
+    //   .attr("r", 0) // Initialize with zero radius
+    //   .style("fill", "#69b3a2");
+
+    // Add labels to the nodes
+    var nodeLabels = svg
+      .selectAll("text")
+      .data(data.nodes)
+      .enter()
+      .append("text")
+      .text(function (d) {
+        return d.name;
+      })
+      .attr("dy", -25) // Adjust the label position (vertical offset)
+      .style("text-anchor", "middle") // Center the text on the node
+      .style("fill", "#000000");
+
+    // Let's list the force we wanna apply on the network
+    var simulation = d3
+      .forceSimulation(data.nodes) // Force algorithm is applied to data.nodes
+      .force(
+        "link",
+        d3
+          .forceLink() // This force provides links between nodes
+          .id(function (d) {
+            return d.id;
+          }) // This provide  the id of a node
+          .links(data.links) // and this the list of links
+          .distance(screenWidth / 3)
+      )
+      .force("charge", d3.forceManyBody().strength(-400)) // This adds repulsion between nodes. Play with the -400 for the repulsion strength
+      .force("center", d3.forceCenter(width / 2, height / 2)) // This force attracts nodes to the center of the svg area
+      .on("tick", ticked);
+    // .strength(-800);
+
+    // This function is run at each iteration of the force algorithm, updating the nodes position.
+    function ticked() {
+      link
+        .attr("x1", function (d) {
+          return d.source.x;
+        })
+        .attr("y1", function (d) {
+          return d.source.y;
+        })
+        .attr("x2", function (d) {
+          return d.target.x;
+        })
+        .attr("y2", function (d) {
+          return d.target.y;
+        });
+
+      node
+        .attr("cx", function (d) {
+          return d.x;
+        })
+        .attr("cy", function (d) {
+          return d.y;
+        });
+
+      // nodePosition
+      //   .attr("cx", function (d) {
+      //     return d.x;
+      //   })
+      //   .attr("cy", function (d) {
+      //     return d.y;
+      //   });
+
+      // nodeSize
+      //   .attr("cx", function (d) {
+      //     return d.x;
+      //   })
+      //   .attr("cy", function (d) {
+      //     return d.y;
+      //   });
+
+      // Update the node label positions
+      nodeLabels
+        .attr("x", function (d) {
+          return d.x;
+        })
+        .attr("y", function (d) {
+          return d.y; // Adjust the vertical position of the label
+        });
     }
   });
-
-  // Define "cards" for each item
-  let card = app
-    .selectAll("div.card")
-    .data(data)
-    .join("div")
-    .attr("class", "card");
-
-  card
-    .append("p")
-    .attr("class", "partsOfSpeech")
-    .text((d) => {
-      const spans = processRita(d.title);
-    });
-
-  card
-    .append("p")
-    .attr("class", "title")
-    .html((d) => {
-      const quoteResult = extractAndRemoveTextInQuotes(d.title);
-      const quoteExtractedText = quoteResult.extractedText;
-      const quoteModifiedTitle = quoteResult.modifiedTitle;
-
-      const parenResult = extractAndRemoveTextInParentheses(quoteModifiedTitle);
-      const parenExtractedText = parenResult.extractedText;
-      const parenModifiedTitle = parenResult.modifiedTitle;
-
-      // Check if the title has been modified
-      const isModified =
-        quoteModifiedTitle !== d.title || parenModifiedTitle !== d.title;
-
-      if (isModified) {
-        // If modified, display the modified title and extracted text
-        const extractedTextHtmlQuote = quoteExtractedText
-          ? `<br>In Quotes: ${quoteExtractedText}`
-          : "";
-        const extractedTextHtmlParens = parenExtractedText
-          ? `<br>Description: ${parenExtractedText}`
-          : "";
-        return `${extractedTextHtmlQuote}${extractedTextHtmlParens}<br>Modified Title: ${parenModifiedTitle}`;
-      } else {
-        // If not modified, display the original title
-        return `<br>Title: ${d.title}`;
-      }
-    });
+} catch (error) {
+  console.error("D3.js error:", error);
 }
-
-function extractAndRemoveTextInQuotes(title) {
-  const regex = /"([^"]+)"(?=\s|$)/g;
-  const matches = [];
-  let match;
-
-  while ((match = regex.exec(title)) !== null) {
-    matches.push(match[0]);
-  }
-
-  // Join the extracted text into a single string with spaces as separators
-  const extractedText = matches.join(" ");
-
-  // Use a single replace operation to remove the extracted text from the title
-  const modifiedTitle = title.replace(regex, "").trim();
-
-  // Return both the extracted text and the modified title
-  return { extractedText, modifiedTitle };
-}
-
-function extractAndRemoveTextInParentheses(title) {
-  const regex = /\(([^)]+)\)/g;
-  const matches = [];
-  let match;
-
-  while ((match = regex.exec(title)) !== null) {
-    matches.push(match[0]);
-  }
-
-  // Join the extracted text into a single string with spaces as separators
-  const extractedText = matches.join(" ");
-
-  // Use a single replace operation to remove the extracted text from the title
-  const modifiedTitle = title.replace(regex, "").trim();
-
-  // Return both the extracted text and the modified title
-  return { extractedText, modifiedTitle };
-}
-
-function processRita(title) {
-  // Create a Rita string from the title
-  let rs = new RiString(title);
-  // console.log(rs)
-
-  // Break the phrase into words
-  let words = rs.words();
-  // Get part-of-speech tags
-  let pos = rs.pos();
-  // console.log(pos)
-  let app = d3.select("#app2");
-  let spans = [];
-  let allWords = [];
-
-  // let's go through all words
-  words.forEach((word, i) => {
-    allWords.push(word);
-    // let's make one span per word
-    let span = app.append("span").text(word);
-
-    //REF: https://rednoise.org/rita/reference/postags.html
-    //if the word is a noun, let's attach the class "noun"
-    if (
-      pos[i] == "nn" ||
-      pos[i] == "nns" ||
-      pos[i] == "nnp" ||
-      pos[i] == "nnps"
-    ) {
-      span.attr("class", "noun");
-      // nouns.push(word)
-
-      //if the word is a verb, attach the class "verb"
-    } else if (
-      pos[i] == "vb" ||
-      pos[i] == "vbd" ||
-      pos[i] == "vbg" ||
-      pos[i] == "vbn" ||
-      pos[i] == "vbp" ||
-      pos[i] == "vbz"
-    ) {
-      span.attr("class", "verb");
-      //if the word is an adjective, attach the class "adjective"
-    } else if (pos[i] == "jj" || pos[i] == "jjr" || pos[i] == "jjs") {
-      span.attr("class", "adjective");
-    } else if (
-      pos[i] == "rb" ||
-      pos[i] == "rbr" ||
-      pos[i] == "rbs" ||
-      pos[i] == "wrb"
-    ) {
-      span.attr("class", "adverb");
-    } else if (
-      pos[i] == '"' ||
-      pos[i] == "(" ||
-      pos[i] == ")" ||
-      pos[i] == "," ||
-      pos[i] == "-" ||
-      pos[i] == "&" ||
-      pos[i] == "[" ||
-      pos[i] == "]" ||
-      pos[i] == "cd" ||
-      pos[i] == "ex" ||
-      pos[i] == "fw" ||
-      pos[i] == "ls" ||
-      pos[i] == "md" ||
-      pos[i] == "pdt" ||
-      pos[i] == "pos" ||
-      pos[i] == "prp" ||
-      pos[i] == "prp$" ||
-      pos[i] == "rp" ||
-      pos[i] == "to" ||
-      pos[i] == "uh" ||
-      pos[i] == "wdt" ||
-      pos[i] == "wp" ||
-      pos[i] == "wp$" ||
-      pos[i] == "dt" ||
-      pos[i] == "in" ||
-      pos[i] == "cc" ||
-      pos[i] == "sym"
-    ) {
-      span.attr("class", "na");
-    }
-
-    // by placing each word into an array separately we have lost the white spaces, let's add them back
-    if (!RiTa.isPunctuation(pos[i + 1])) {
-      app.append("span").text(" ");
-    }
-    spans.push(span);
-  });
-
-  // Append spans to the 'app' element
-  spans.forEach((span) => {
-    app.node().appendChild(span.node());
-  });
-
-  let nouns = allWords.filter(
-    (word, i) =>
-      pos[i] === "nn" ||
-      pos[i] === "nns" ||
-      pos[i] === "nnp" ||
-      pos[i] === "nnps"
-  );
-  return { spans, nouns };
-}
-
-// Create an array to store the objects for each title
-let processedTitles = [];
-// console.log(processedTitles)
-
-// Load JSON using d3.json
-d3.json("data/IoAD_artists_imgs.json")
-  .then((json) => {
-    // Execute our display titles function
-    displayTitle(json);
-    json.forEach((item) => {
-      let result = processRita(item.title);
-      processedTitles.push(result);
-    });
-  })
-  .then(() => {
-    let allNouns = [];
-
-    // Iterate through the processed titles and collect nouns
-    processedTitles.forEach((titleObj) => {
-      allNouns = allNouns.concat(titleObj.nouns);
-    });
-
-    // Now 'allNouns' contains all the nouns from all processed titles
-
-    // You can count the occurrences of each noun using a JavaScript object
-    let nounCounts = {};
-    allNouns.forEach((noun) => {
-      if (nounCounts[noun]) {
-        nounCounts[noun] += 1;
-      } else {
-        nounCounts[noun] = 1;
-      }
-    });
-
-    // Convert object to an array of key-value pairs
-    const nounArray = Object.entries(nounCounts);
-
-    // Sort the array by count in descending order
-    nounArray.sort((a, b) => b[1] - a[1]);
-    // nounArray.sort((a, b) => parseInt(b[1], 10) - parseInt(a[1], 10));
-    console.log(nounArray);
-    console.log(nounArray.length);
-  });

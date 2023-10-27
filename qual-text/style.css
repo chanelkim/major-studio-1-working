@@ -5,7 +5,7 @@
 
 body {
   overflow: auto;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #165472;
   padding: 2rem;
   color: #fff;
@@ -17,21 +17,29 @@ p {
 }
 
 /* unvisited link */
-a:link { color: white; }
+a:link {
+  color: white;
+}
 
 /* visited link */
-a:visited { color: lightgray; }
+a:visited {
+  color: lightgray;
+}
 
 /* mouse over link */
-a:hover { color: lavender; }
+a:hover {
+  color: lavender;
+}
 
 /* selected link */
-a:active { color: red; }
+a:active {
+  color: red;
+}
 
-#app{
-  margin-top:2rem;
-  display:grid;
-  grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+#app {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 2rem;
 }
 
@@ -43,22 +51,24 @@ a:active { color: red; }
   background-color: #74992e;
 }
 .adjective {
-   background-color: #992e7b;
+  background-color: #992e7b;
 }
 .verb {
-   background-color: #f3e812;
-   color:#165472;
+  background-color: #f3e812;
+  color: #165472;
 }
 .adverb {
-  background-color: orange
-  ;
-  color:#165472;
+  background-color: orange;
+  color: #165472;
 }
 .na {
   background-color: black;
 }
-.noun, .adjective, .verb, .adverb, .na{
-   padding-left:2px;
-   padding-right:2px;
+.noun,
+.adjective,
+.verb,
+.adverb,
+.na {
+  padding-left: 2px;
+  padding-right: 2px;
 }
- 
