@@ -26,7 +26,7 @@ try {
       .data(data.links)
       .enter()
       .append("line")
-      .style("stroke", "#aaa")
+      .style("stroke", "#000000")
       .attr("shared_words", function (d) {
         return d.shared_words.join(", "); // Convert the shared words array to a string
       });
@@ -76,7 +76,7 @@ try {
           return 0; // or a default size if there are no shared words
         }
       })
-      .style("fill", "#69b3a2");
+      .style("fill", "#000000");
     console.log(data.nodes);
     // Create an SVG group for controlling the size of the circles
 
