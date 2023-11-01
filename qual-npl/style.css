@@ -16,6 +16,10 @@ p {
   color: #000000;
 }
 
+h3 {
+  font-size: smaller;
+}
+
 /* unvisited link */
 a:link {
   color: darkolivegreen;
@@ -23,7 +27,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: lightgray;
+  color: dimgray;
 }
 
 /* mouse over link */

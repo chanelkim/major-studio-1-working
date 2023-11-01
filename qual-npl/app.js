@@ -95,6 +95,7 @@ d3.json(titlesDataPath).then((titlesData) => {
       beginyear: item.beginyear,
       endyear: item.endyear,
       wordMatch: item.word,
+      id: item.objectID,
       artist: item.name,
       title: item.title,
       imagematch: item.url,
@@ -113,16 +114,31 @@ function displayImages(json) {
   // this is where we want all of our images to be added
   let app = d3.select("#app").text("");
 
-  // take our JSON and sort it
-  // word ascending, then title ascending
+  //   // take our JSON and sort it
+  //   // word ascending, then title ascending
+  //   let data = json.sort((a, b) => {
+  //     if (a.wordMatch === b.wordMatch) {
+  //       // If words are equal, sort by title A-Z
+  //       //   return b.title > a.title ? 1 : -1;
+  //       return a.title.localeCompare(b.title);
+  //     } else {
+  //       // Sort by word
+  //       return a.wordMatch > b.wordMatch ? 1 : -1;
+  //     }
+  //   });
+  // Sort the data first by wordMatch, then by objectID, and finally by title
   let data = json.sort((a, b) => {
-    if (a.wordMatch === b.wordMatch) {
-      // If artist names are equal, sort by title A-Z
-      //   return b.title > a.title ? 1 : -1;
-      return a.title.localeCompare(b.title);
+    // Compare by wordMatch first
+    if (a.wordMatch !== b.wordMatch) {
+      return a.wordMatch.localeCompare(b.wordMatch);
     } else {
-      // Sort by word
-      return a.wordMatch > b.wordMatch ? 1 : -1;
+      // If wordMatch values are equal, sort by objectID
+      if (a.id !== b.id) {
+        return a.id - b.id;
+      } else {
+        // If objectIDs are equal, sort by title A-Z
+        return a.title.localeCompare(b.title);
+      }
     }
   });
 
@@ -146,14 +162,16 @@ function displayImages(json) {
   card
     .append("p")
     .attr("class", "wordmatch")
-    .text((d) => d.wordMatch);
+    .text((d) => {
+      return `"${d.wordMatch}" (${d.id})`;
+    });
 
   // create a heading tag that will be the object title
   card
     .append("h3")
     .attr("class", "title")
-    .text((d) => {
-      return `${d.title} (${d.beginyear} - ${d.endyear})`;
+    .html((d) => {
+      return `${d.title}<br>(${d.beginyear} - ${d.endyear})`;
     });
 
   // create a heading tag that will be the attribution
