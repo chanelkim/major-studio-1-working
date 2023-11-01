@@ -17,13 +17,33 @@ var svg = d3
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("data/textLinks-results.json");
-// .then(function (data)
-{
-  consoleJSON();
-}
-// );
+// Select the button element by its ID
+const loadButton = document.getElementById("load-json-button");
 
-function consoleJSON() {
-  console.log();
-}
+// Select the UL element for displaying the keys
+const keyList = document.getElementById("key-list");
+
+// Add a click event listener to the button
+loadButton.addEventListener("click", () => {
+  // Define the path to your JSON file
+  const jsonFilePath = "data/textLinks-results.json";
+
+  // Use D3.js to load the JSON file
+  d3.json(jsonFilePath).then((data) => {
+    // Log the loaded JSON object to the console
+    console.log(data);
+
+    // Extract the keys of the JSON object
+    const keys = Object.keys(data);
+
+    // Clear any previous content from the list
+    keyList.innerHTML = "";
+
+    // Create list items for each key and append them to the UL
+    keys.forEach((key) => {
+      const listItem = document.createElement("p");
+      listItem.textContent = key;
+      keyList.appendChild(listItem);
+    });
+  });
+});
