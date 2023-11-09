@@ -1,15 +1,20 @@
+/* 
+---------- IN-CLASS CONCEPTS ----------
+  1. Spreader (...)
+  2. Ternery Operator
+  3. Array.Map
+*/
+
 // using constants makes it easy to update when values change
 // many editors also autocomplete variable names
 // by convention, constants in JS have UPPERCASE names
-
 const CLASS = "class";
 const PETAL_LENGTH = "petallength";
-const PETAL_WIDTH =  "petalwidth";
+const PETAL_WIDTH = "petalwidth";
 const SEPAL_LENGTH = "sepallength";
 const SEPAL_WIDTH = "sepalwidth";
-const TOOLTIP_WIDTH =  150;
-const TOOLTIP_HEIGHT =  20;
-
+const TOOLTIP_WIDTH = 150;
+const TOOLTIP_HEIGHT = 20;
 
 // we can set up our state schema before we have any data
 let state = {
@@ -39,9 +44,9 @@ async function dataLoad() {
   const data = await d3.json("./iris_json.json");
 
   // once data is on state, we can access it from any other function because state is a global variable
-  
+
   // we also populate our checkboxes with values from the data
-  const checkboxValues = Array.from(new Set(data.map(d => d[CLASS])));
+  const checkboxValues = Array.from(new Set(data.map((d) => d[CLASS])));
 
   // copy the data into the state variable, add a unique ID for each object and add the filters
   setState({
@@ -65,7 +70,7 @@ function setState(nextState) {
 }
 
 function onCheckboxChange(d) {
-  console.log(d.target.name)
+  console.log(d.target.name);
   // first, was the clicked box already checked or not?
   const index = state.filters.checked.indexOf(d.target.name);
   const isBoxChecked = index > -1;
@@ -74,9 +79,10 @@ function onCheckboxChange(d) {
   if (isBoxChecked) {
     nextCheckedValues = [
       ...state.filters.checked.slice(0, index),
-      ...state.filters.checked.slice(index + 1),
+      ...state.filters.checked.slice(index + 1), //IN-CLASS: when .slice has only one parameter, goes to the end of the array
     ];
     // otherwise, add it to the checked values
+    //IN-CLASS: ... "spreader" is like scotch-tape, a way to take things out; only making one change and then putting it back together again; in this case, we are looking at everything in the state shopping cart ...state.filters (in filters)
   } else {
     nextCheckedValues = [...state.filters.checked, d.target.name];
   }
@@ -87,9 +93,10 @@ function onCheckboxChange(d) {
     },
   });
 }
+//IN-CLASS: filters has two attributes, which are lists;
 
 function onRadioChange(d) {
-  console.log(d)
+  console.log(d);
   const nextSelected = d.target.value;
   setState({
     sizeBy: {
@@ -101,7 +108,7 @@ function onRadioChange(d) {
 
 function onMouseEvent(d) {
   if (d.type === "mouseenter") {
-    console.log("mouseenter")
+    console.log("mouseenter");
     setState({
       tooltip: {
         value: d.target.__data__,
@@ -113,7 +120,7 @@ function onMouseEvent(d) {
       },
     });
   } else if (d.type === "mouseleave") {
-    console.log("mouseleave")
+    console.log("mouseleave");
     setState({
       tooltip: {
         ...state.tooltip,
@@ -165,11 +172,7 @@ function initializeLayout() {
     .attr("width", TOOLTIP_WIDTH)
     .attr("fill", "#fff")
     .attr("stroke", "#000");
-  tooltip
-    .append("text")
-    .attr("x", 5)
-    .attr("y", 14)
-    .attr("font-size", 13);
+  tooltip.append("text").attr("x", 5).attr("y", 14).attr("font-size", 13);
 
   // add left menu
   const leftMenu = parent.append("div").attr("class", "left-menu");
@@ -186,10 +189,11 @@ function initializeLayout() {
     .html(
       state.sizeBy.menu
         .map(
-          d =>
+          //IN-CLASS: .map checks all the values in the payload
+          (d) =>
             `<input type="radio" name="sizeby" value="${d}" ${
               state.sizeBy.selected === d ? "checked" : ""
-            }>${d}<br>`
+            }>${d}<br>` //IN-CLASS: ternery operator, only one can be selected
         )
         .join("")
     )
@@ -201,14 +205,14 @@ function initializeLayout() {
 function draw() {
   // filter data based on state.filters
   const filteredData = state.data
-    .filter(d => state.filters.checked.indexOf(d[CLASS]) > -1)
+    .filter((d) => state.filters.checked.indexOf(d[CLASS]) > -1)
     .sort((a, b) =>
       d3.descending(a[state.sizeBy.selected], b[state.sizeBy.selected])
     );
 
   // update our scales based on filteredData
-  xScale.domain([0, d3.max(filteredData, d => d[state.sizeBy.selected])]);
-  yScale.domain(filteredData.map(d => d.id));
+  xScale.domain([0, d3.max(filteredData, (d) => d[state.sizeBy.selected])]);
+  yScale.domain(filteredData.map((d) => d.id));
   colorScale.domain(state.filters.menu);
   const barHeight = yScale.bandwidth();
 
@@ -224,7 +228,7 @@ function draw() {
     .join("div")
     .attr("class", "check-row")
     .html(
-      d => `
+      (d) => `
       <input name="${d}" type="checkbox" ${
         state.filters.checked.indexOf(d) > -1 ? "checked" : ""
       }></input>
@@ -235,34 +239,35 @@ function draw() {
 
   // update bars based on filteredData
   const barX = xScale.range()[0];
-  let bars = d3.select(".bars")
+  let bars = d3
+    .select(".bars")
     .selectAll("rect")
     .data(filteredData)
     .join("rect")
     .attr("height", barHeight)
-    .attr("y", d => yScale(d.id))
-    .attr("x", barX)
-  
+    .attr("y", (d) => yScale(d.id))
+    .attr("x", barX);
+
   // mouse event
-  bars.on("mouseenter", onMouseEvent)
-   .on("mouseleave", onMouseEvent)
-   .classed("highlight", d => d.id === state.tooltip.value.id);
+  bars
+    .on("mouseenter", onMouseEvent)
+    .on("mouseleave", onMouseEvent)
+    .classed("highlight", (d) => d.id === state.tooltip.value.id);
 
   // animate our bars
   // add transition before the attribute you are trying to animate
-  bars.transition()
+  bars
+    .transition()
     .duration(1000)
-    .attr("width", d => xScale(d[state.sizeBy.selected]) - barX) 
-    .attr("fill", (d, i) => colorScale(d[CLASS]))
-  
+    .attr("width", (d) => xScale(d[state.sizeBy.selected]) - barX)
+    .attr("fill", (d, i) => colorScale(d[CLASS]));
+
   // update tooltip based on state.tooltip
   const tooltip = d3.select(".tooltip");
   tooltip
     .attr(
       "transform",
-      `translate(${state.tooltip.coordinates[0]}, ${
-        state.tooltip.coordinates[1]
-      })`
+      `translate(${state.tooltip.coordinates[0]}, ${state.tooltip.coordinates[1]})`
     )
     .classed("visible", state.tooltip.visible);
   tooltip.select("text").text(() => {
@@ -278,7 +283,7 @@ function draw() {
     .join("div")
     .attr("class", "legend-row")
     .html(
-      d => `
+      (d) => `
       <div class="box" style="background-color:${colorScale(d)};"></div>
       <div class="legend-label">${d}</div>
     `
