@@ -22,7 +22,7 @@ let dimensions = [window.innerWidth, window.innerHeight];
 let checkboxValues = ["Iris-setosa", "Iris-versicolor", "Iris-virginica"];
 
 // the state object will contain items that change in runtime and that we want to keep track
-//IN-CLASS: state as global JSON, nesting all these in one place; STATE MANAGMENT, a central store you are writing to for keeping track of things; can then console.log "state" instead of looking for each
+//IN-CLASS: state as global JSON, nesting all these in one place; STATE MANAGMENT, a central store you are writing to for keeping track of things; can then console.log "state" instead of looking for
 let state = {
   filters: {
     //IN-CLASS: need the filters for data (this is for the checked event listener)
