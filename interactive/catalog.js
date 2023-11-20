@@ -133,6 +133,7 @@ function toggleActiveClass(event) {
   }
 }
 
+/* NEXT STEP: NEED TO UPDATE/DEBUG THIS FUNCTION TO DISPLAY ARRAY ITEMS */
 // Function to update visibility of related categories, subcategories, and types based on the selected theme
 function updateVisibility(selectedTheme, themeRelations) {
   console.log("Selected Theme:", selectedTheme);
@@ -172,13 +173,6 @@ function updateVisibility(selectedTheme, themeRelations) {
   updateDisplay(relatedTypes);
 }
 
-function processData(data) {
-  // Process and use the loaded data here
-  console.log("Data loaded:", data);
-}
-// Call the dataLoad function to initiate the process
-dataLoad();
-
 // Function to set initial label texts
 function setInitialLabelTexts(data) {
   document.querySelectorAll(".btn-check").forEach(function (element) {
@@ -195,3 +189,13 @@ function setInitialLabelTexts(data) {
     }
   });
 }
+
+/* NEXT STEP: NEED TO CONNECT OBJECTS TO BUTTONS */
+function processData(data) {
+  // Process and use the loaded data here
+  console.log("Data loaded:", data);
+}
+
+/* INITITATE ASYNC DATA LOAD */
+// Call the dataLoad function to initiate the process
+dataLoad();
