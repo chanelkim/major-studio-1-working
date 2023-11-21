@@ -10,17 +10,17 @@ const TOOLTIP_HEIGHT = 20;
 
 // STATE SCHEMA
 let state = {
-  data: [],
-  filters: {
-    menu: [],
-    checked: [],
-  },
-  tooltip: {
-    value: "",
-    visible: false,
-    coordinates: [0, 0],
-  },
-  dimensions: [window.innerWidth, window.innerHeight],
+  // data: [],
+  // filters: {
+  //   menu: [],
+  //   checked: [],
+  // },
+  // tooltip: {
+  //   value: "",
+  //   visible: false,
+  //   coordinates: [0, 0],
+  // },
+  // dimensions: [window.innerWidth, window.innerHeight],
   radioButtonMenu: {
     selectedOption: null,
   },
@@ -32,26 +32,34 @@ let state = {
   },
 };
 
-// LOAD DATA
+/* LOAD DATA ------------------*/
+let catalogData;
+
 async function dataLoad() {
   try {
     // Load data asynchronously
-    const catalogData = await d3.json("data/catalog_cleaned.json");
+    objectData = await d3.json("data/IoAD_artists_imgs.json");
+    catalogData = await d3.json("data/catalog_cleaned.json");
 
     // Group themes by section
     const groupedData = groupDataBySection(catalogData);
+    // Map themes to subsections
+    const themeRelations = relateThemes(catalogData);
 
     // Set up the layout before we have data
-    initializeLayout(groupedData);
+    initializeLayout(groupedData, themeRelations);
 
     // Data has been loaded successfully, you can now work with the data
     processData(catalogData);
+    processData(objectData);
   } catch (error) {
     console.error("Error loading data:", error);
   }
 }
 
-// Function to group themes by section
+/* 1. CATALOG ------------------
+related FUNCTIONS for organizing CATALOG DATA ------------------*/
+// Function to group themes by section ------------------
 function groupDataBySection(data) {
   const groupedData = {};
 
@@ -64,12 +72,64 @@ function groupDataBySection(data) {
 
     groupedData[section].push(item);
   });
-
+  console.log("Sections:", groupedData);
   return groupedData;
 }
 
-// Function to set up the layout
-function initializeLayout(groupedData) {
+// Function to relate themes to category, subcategory, type ------------------
+function relateThemes(data) {
+  // Create a map to associate themes with their related categories, subcategories, and types
+  const themeRelations = new Map();
+
+  data.forEach((item) => {
+    const catalogID = item.catalogid;
+
+    item.theme.forEach((theme) => {
+      // Check if the theme already exists in the map
+      if (!themeRelations.has(theme)) {
+        themeRelations.set(theme, {
+          theme: [theme],
+          category: [],
+          subcategory: [],
+          type: [],
+        });
+      }
+
+      // Add categories, subcategories, and types to the theme entry only if they include the theme
+      if (item.category.some((category) => category.includes(theme))) {
+        themeRelations.get(theme).category.push(...item.category);
+        themeRelations.get(theme).subcategory.push(...item.subcategory);
+        themeRelations.get(theme).type.push(...item.type);
+      } else {
+        // If category does not include theme, add only matching subcategories and types
+        themeRelations
+          .get(theme)
+          .subcategory.push(
+            ...item.subcategory.filter((subcategory) =>
+              subcategory.includes(theme)
+            )
+          );
+        themeRelations
+          .get(theme)
+          .type.push(...item.type.filter((type) => type.includes(theme)));
+      }
+    });
+  });
+
+  // Convert arrays to sets to remove duplicates
+  themeRelations.forEach((value) => {
+    value.category = [...new Set(value.category)];
+    value.subcategory = [...new Set(value.subcategory)];
+    value.type = [...new Set(value.type)];
+  });
+
+  console.log("Theme relationships:", themeRelations);
+  return themeRelations;
+}
+
+/* INITIALIZE LAYOUT ------------------*/
+// Function to set up the layout ------------------
+function initializeLayout(groupedData, themeRelations) {
   const radioGroupContainer = document.getElementById("radioGroup");
 
   Object.keys(groupedData).forEach((section) => {
@@ -104,90 +164,163 @@ function initializeLayout(groupedData) {
           // Add the theme to the set to avoid duplication
           addedThemes.add(theme);
 
-          // Add a click event to toggle the active class
-          radioInput.addEventListener("click", toggleActiveClass);
+          // Add a click event to toggle the active class and visibility of related arrays
+          radioInput.addEventListener("change", () => {
+            const selectedTheme = theme;
+            // Toggle the visibility of category, subcategory, and type based on the selected theme
+            toggleVisibility(selectedTheme, themeRelations);
+
+            // Toggle the "active" class for the clicked radio button
+            const radioButtons = document.querySelectorAll(
+              'input[name="options"]'
+            );
+            radioButtons.forEach((radio) => {
+              radio.classList.remove("active");
+            });
+
+            radioInput.classList.toggle("active");
+          });
         }
       });
     });
-
     colDiv.appendChild(fieldset);
     radioGroupContainer.appendChild(colDiv);
   });
 
+  // Add a container for the related radios
+  const relatedRadiosContainer = document.createElement("div");
+  relatedRadiosContainer.id = "relatedRadios";
+  relatedRadiosContainer.className = "col-12";
+  radioGroupContainer.appendChild(relatedRadiosContainer);
+
   console.log("Initializing layout...");
 }
 
-// Function to toggle the active class
-function toggleActiveClass(event) {
-  // Find all radio buttons
-  const radioButtons = document.querySelectorAll('input[type="radio"]');
+/* related FUNCTIONS for RADIO BUTTONS ------------------*/
+// Function to update visibility of category, subcategory, and type based on the selected theme ------------------
+function toggleVisibility(selectedTheme, themeRelations) {
+  console.log("Selected Theme:", selectedTheme);
+  // Get the container where the new radio buttons will be appended
+  const container = document.getElementById("relatedRadios");
 
-  // Remove the "active" class from all radio buttons
-  radioButtons.forEach((radio) => {
-    radio.classList.remove("active");
+  // Clear any existing radio buttons in the container
+  container.innerHTML = "";
+
+  // Get the related themes based on the selected theme
+  const relatedThemes = themeRelations.get(selectedTheme);
+  console.log("Relationships:", relatedThemes);
+
+  const relatedCategories = themeRelations.get(selectedTheme).category;
+  const relatedSubcategories = themeRelations.get(selectedTheme).subcategory;
+  const relatedTypes = themeRelations.get(selectedTheme).type;
+
+  // Display related category radios
+  console.log("Related Category:", relatedCategories);
+  relatedCategories.forEach((category) => {
+    createRadioButton(container, "category", category);
   });
 
-  // Toggle the "active" class for the clicked radio button
-  if (event.currentTarget.tagName === "INPUT") {
-    event.currentTarget.classList.toggle("active");
-  }
-}
+  // Display related subcategory radios
+  console.log("Related Subcategory:", relatedSubcategories);
+  relatedSubcategories.forEach((subcategory) => {
+    createRadioButton(container, "subcategory", subcategory);
+  });
 
-/* NEXT STEP: NEED TO UPDATE/DEBUG THIS FUNCTION TO DISPLAY ARRAY ITEMS */
-// Function to update visibility of related categories, subcategories, and types based on the selected theme
-function updateVisibility(selectedTheme, themeRelations) {
-  console.log("Selected Theme:", selectedTheme);
-
-  // Hide all radios initially
-  const allRadios = document.querySelectorAll('input[type="radio"]');
-  allRadios.forEach((radio) => (radio.style.display = "none"));
-
-  const relatedCategories = themeRelations.get(selectedTheme).categories;
-  const relatedSubcategories = themeRelations.get(selectedTheme).subcategories;
-  const relatedTypes = themeRelations.get(selectedTheme).types;
-
-  console.log("Related Categories:", relatedCategories);
-  console.log("Related Subcategories:", relatedSubcategories);
-  console.log("Related Types:", relatedTypes);
-
-  // Function to update display property for a set of radios
-  function updateDisplay(radioNames) {
-    radioNames.forEach((radioName) => {
-      const radios = document.querySelectorAll(`input[name="${radioName}"]`);
-      console.log(`Updating display property for ${radioName} radios`);
-
-      radios.forEach((radio) => {
-        // Only show radios that are related to the selected theme
-        if (radio.getAttribute("data-theme") === selectedTheme) {
-          radio.style.display = "block";
-        } else {
-          radio.style.display = "none";
-        }
-      });
-    });
-  }
+  // Display related type radios
+  console.log("Related Type:", relatedTypes);
+  console.log("---------------------------");
+  relatedTypes.forEach((type) => {
+    createRadioButton(container, "type", type);
+  });
 
   // Show radios corresponding to the selected theme
-  updateDisplay(relatedCategories);
-  updateDisplay(relatedSubcategories);
-  updateDisplay(relatedTypes);
+  if (selectedTheme) {
+    // const relatedCategory = relatedThemes.category;
+    // console.log(relatedCategory);
+    // const relatedSubcategories = relatedThemes.subcategory;
+    // const relatedTypes = relatedThemes.type;
+
+    // Helper function to handle the click event for new radio buttons
+    const handleRadioButtonClick = (value) => {
+      console.log("New radio button clicked:", value);
+    };
+
+    // Display related category radios
+    relatedCategories.forEach((category) => {
+      const radio = document.querySelector(
+        `input[name="category"][data-label="${category}"]`
+      );
+      if (radio) {
+        radio.style.display = "inline-block";
+        // Add a click event to the new radio button
+        radio.addEventListener("change", () =>
+          handleRadioButtonClick(category)
+        );
+      }
+    });
+
+    // Display related subcategory radios
+    relatedSubcategories.forEach((subcategory) => {
+      const radio = document.querySelector(
+        `input[name="subcategory"][data-label="${subcategory}"]`
+      );
+      if (radio) {
+        radio.style.display = "inline-block";
+        // Add a click event to the new radio button
+        radio.addEventListener("change", () =>
+          handleRadioButtonClick(subcategory)
+        );
+      }
+    });
+
+    // Display related type radios
+    relatedTypes.forEach((type) => {
+      const radio = document.querySelector(
+        `input[name="type"][data-label="${type}"]`
+      );
+      if (radio) {
+        radio.style.display = "inline-block";
+        // Add a click event to the new radio button
+        radio.addEventListener("change", () => handleRadioButtonClick(type));
+      }
+    });
+  }
 }
 
-// Function to set initial label texts
-function setInitialLabelTexts(data) {
-  document.querySelectorAll(".btn-check").forEach(function (element) {
-    var labelElement = document.querySelector(
-      'label[for="' + element.id + '"]'
-    );
+// Function to create and append a radio button to the specified container ------------------
+// function createRadioButton(container, name, label) {
+//   const radioInput = document.createElement("input");
+//   radioInput.type = "radio";
+//   radioInput.className = "btn-check col";
+//   radioInput.name = name;
+//   radioInput.autocomplete = "off";
+//   radioInput.setAttribute("data-label", label);
 
-    if (labelElement) {
-      element.addEventListener("change", function () {
-        labelElement.textContent = data.find(
-          (item) => "option" + item.id === this.id
-        ).section;
-      });
-    }
-  });
+//   const radioLabel = document.createElement("label");
+//   radioLabel.className = "btn btn-outline-primary text-dark col";
+//   radioLabel.htmlFor = `${name}_${label}`;
+//   radioLabel.textContent = label;
+
+//   container.appendChild(radioInput);
+//   container.appendChild(radioLabel);
+// }
+function createRadioButton(container, groupName, catalogId, value) {
+  const radioInput = document.createElement("input");
+  const uniqueId = `${groupName}_${catalogId}_${value}`;
+  radioInput.type = "radio";
+  radioInput.name = groupName;
+  radioInput.value = value;
+  radioInput.id = uniqueId;
+
+  const label = document.createElement("label");
+  label.htmlFor = uniqueId;
+  label.textContent = value;
+
+  container.appendChild(radioInput);
+  container.appendChild(label);
+
+  // // Add a click event to the new radio button
+  // radioInput.addEventListener("change", () => handleRadioButtonClick(value));
 }
 
 /* NEXT STEP: NEED TO CONNECT OBJECTS TO BUTTONS */

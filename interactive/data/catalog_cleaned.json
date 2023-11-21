@@ -227,7 +227,7 @@
     "catalogid": 29,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Belts"],
     "section": 1
   },
@@ -235,7 +235,7 @@
     "catalogid": 30,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Bootjacks", "Shoe", "Forms"],
     "section": 1
   },
@@ -243,7 +243,7 @@
     "catalogid": 31,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Buttons"],
     "section": 1
   },
@@ -251,7 +251,7 @@
     "catalogid": 32,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Canes", "Walking", "Sticks"],
     "section": 1
   },
@@ -259,7 +259,7 @@
     "catalogid": 33,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Card", "Cases", "Trays"],
     "section": 1
   },
@@ -267,7 +267,7 @@
     "catalogid": 34,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Collar", "Cuff", "Box"],
     "section": 1
   },
@@ -275,7 +275,7 @@
     "catalogid": 35,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Fans"],
     "section": 1
   },
@@ -283,7 +283,7 @@
     "catalogid": 36,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Garters", "Suspenders"],
     "section": 1
   },
@@ -291,7 +291,7 @@
     "catalogid": 37,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Gloves", "Mitts", "Mittens"],
     "section": 1
   },
@@ -299,7 +299,7 @@
     "catalogid": 38,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Handbags", "Purses", "Satchels", "Wallets"],
     "section": 1
   },
@@ -307,7 +307,7 @@
     "catalogid": 39,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Muffs", "Parasols", "Umbrellas"],
     "section": 1
   },
@@ -315,7 +315,7 @@
     "catalogid": 40,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Pipes"],
     "section": 1
   },
@@ -323,7 +323,7 @@
     "catalogid": 41,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Pockets", "Sachets"],
     "section": 1
   },
@@ -331,7 +331,7 @@
     "catalogid": 42,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Costume", "Accessories"],
-    "subcategory": ["Costume", "Accessories", "Z"],
+    "subcategory": ["Costume", "Accessories"],
     "type": ["Spectacles", "Eyeglasses"],
     "section": 1
   },
@@ -363,7 +363,7 @@
     "catalogid": 46,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Bouquet", "Holders"],
     "section": 1
   },
@@ -371,7 +371,7 @@
     "catalogid": 47,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Bracelets"],
     "section": 1
   },
@@ -379,7 +379,7 @@
     "catalogid": 48,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Brooches"],
     "section": 1
   },
@@ -387,7 +387,7 @@
     "catalogid": 49,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Buckles"],
     "section": 1
   },
@@ -395,7 +395,7 @@
     "catalogid": 50,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Combs", "Hair", "Ornaments"],
     "section": 1
   },
@@ -403,7 +403,7 @@
     "catalogid": 51,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Cufflinks"],
     "section": 1
   },
@@ -411,7 +411,7 @@
     "catalogid": 52,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Earrings"],
     "section": 1
   },
@@ -419,7 +419,7 @@
     "catalogid": 53,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Necklaces"],
     "section": 1
   },
@@ -427,7 +427,7 @@
     "catalogid": 54,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Pins"],
     "section": 1
   },
@@ -435,7 +435,7 @@
     "catalogid": 55,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Rings"],
     "section": 1
   },
@@ -443,7 +443,7 @@
     "catalogid": 56,
     "theme": ["Textiles", "Costume", "Jewelry"],
     "category": ["Jewelry"],
-    "subcategory": ["Jewelry", "Z"],
+    "subcategory": ["Jewelry"],
     "type": ["Watches", "Fobs"],
     "section": 1
   },
@@ -707,7 +707,7 @@
     "catalogid": 89,
     "theme": ["Art", "Design", "Utopian", "Religious", "Communities"],
     "category": ["Shaker"],
-    "subcategory": ["Domestic", "Utensils", "Tools", "Z"],
+    "subcategory": ["Domestic", "Utensils", "Tools"],
     "type": [],
     "section": 2
   },
@@ -1042,7 +1042,7 @@
   {
     "catalogid": 131,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Adzes", "Axes", "Hatchets"],
     "section": 4
@@ -1050,7 +1050,7 @@
   {
     "catalogid": 132,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Augers"],
     "section": 4
@@ -1058,7 +1058,7 @@
   {
     "catalogid": 133,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Bark", "Peelers"],
     "section": 4
@@ -1066,7 +1066,7 @@
   {
     "catalogid": 134,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Beehives"],
     "section": 4
@@ -1074,7 +1074,7 @@
   {
     "catalogid": 135,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Blacksmith", "Tools"],
     "section": 4
@@ -1082,7 +1082,7 @@
   {
     "catalogid": 136,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Braces", "Bits", "Drills"],
     "section": 4
@@ -1090,7 +1090,7 @@
   {
     "catalogid": 137,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Branding", "Irons", "Markers"],
     "section": 4
@@ -1098,7 +1098,7 @@
   {
     "catalogid": 138,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Bristle", "Removers"],
     "section": 4
@@ -1106,7 +1106,7 @@
   {
     "catalogid": 139,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Brushes", "Brush", "Cutters"],
     "section": 4
@@ -1114,7 +1114,7 @@
   {
     "catalogid": 140,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Carpet", "Stretchers"],
     "section": 4
@@ -1122,7 +1122,7 @@
   {
     "catalogid": 141,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Chisels"],
     "section": 4
@@ -1130,7 +1130,7 @@
   {
     "catalogid": 142,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Clam", "Rakes"],
     "section": 4
@@ -1138,7 +1138,7 @@
   {
     "catalogid": 143,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Clamps"],
     "section": 4
@@ -1146,7 +1146,7 @@
   {
     "catalogid": 144,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Combs"],
     "section": 4
@@ -1154,7 +1154,7 @@
   {
     "catalogid": 145,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Corn", "Planters"],
     "section": 4
@@ -1162,7 +1162,7 @@
   {
     "catalogid": 146,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Cranberry", "Pickers"],
     "section": 4
@@ -1170,7 +1170,7 @@
   {
     "catalogid": 147,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Drawknives", "Knives"],
     "section": 4
@@ -1178,7 +1178,7 @@
   {
     "catalogid": 148,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Firefighting", "Equipment"],
     "section": 4
@@ -1186,7 +1186,7 @@
   {
     "catalogid": 149,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Fish", "Spears"],
     "section": 4
@@ -1194,7 +1194,7 @@
   {
     "catalogid": 150,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Flails"],
     "section": 4
@@ -1202,7 +1202,7 @@
   {
     "catalogid": 151,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Frows", "Frow", "Clubs"],
     "section": 4
@@ -1210,7 +1210,7 @@
   {
     "catalogid": 152,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Gauges"],
     "section": 4
@@ -1218,7 +1218,7 @@
   {
     "catalogid": 153,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Grain", "Cradles"],
     "section": 4
@@ -1226,7 +1226,7 @@
   {
     "catalogid": 154,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Hammers", "Mallets", "Gavels"],
     "section": 4
@@ -1234,7 +1234,7 @@
   {
     "catalogid": 155,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Hay", "Forks"],
     "section": 4
@@ -1242,7 +1242,7 @@
   {
     "catalogid": 156,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Hide", "Stretchers"],
     "section": 4
@@ -1250,7 +1250,7 @@
   {
     "catalogid": 157,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Hoes", "Picks"],
     "section": 4
@@ -1258,7 +1258,7 @@
   {
     "catalogid": 158,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Hooks"],
     "section": 4
@@ -1266,7 +1266,7 @@
   {
     "catalogid": 159,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Jacks"],
     "section": 4
@@ -1274,7 +1274,7 @@
   {
     "catalogid": 160,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Millstones"],
     "section": 4
@@ -1282,7 +1282,7 @@
   {
     "catalogid": 161,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Pinkers"],
     "section": 4
@@ -1290,7 +1290,7 @@
   {
     "catalogid": 162,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Planes"],
     "section": 4
@@ -1298,7 +1298,7 @@
   {
     "catalogid": 163,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Plows"],
     "section": 4
@@ -1306,7 +1306,7 @@
   {
     "catalogid": 164,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Potato", "Planters"],
     "section": 4
@@ -1314,7 +1314,7 @@
   {
     "catalogid": 165,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Printing", "Equipment", "Stamps"],
     "section": 4
@@ -1322,7 +1322,7 @@
   {
     "catalogid": 166,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Reamers"],
     "section": 4
@@ -1330,7 +1330,7 @@
   {
     "catalogid": 167,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Saws"],
     "section": 4
@@ -1338,7 +1338,7 @@
   {
     "catalogid": 168,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Scrapers"],
     "section": 4
@@ -1346,7 +1346,7 @@
   {
     "catalogid": 169,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Screens"],
     "section": 4
@@ -1354,7 +1354,7 @@
   {
     "catalogid": 170,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Shaving", "Horses"],
     "section": 4
@@ -1362,7 +1362,7 @@
   {
     "catalogid": 171,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Shears"],
     "section": 4
@@ -1370,7 +1370,7 @@
   {
     "catalogid": 172,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Shoemakers", "Leather", "Working", "Tools"],
     "section": 4
@@ -1378,7 +1378,7 @@
   {
     "catalogid": 173,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Shovels", "Scoops"],
     "section": 4
@@ -1386,7 +1386,7 @@
   {
     "catalogid": 174,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Sickels"],
     "section": 4
@@ -1394,7 +1394,7 @@
   {
     "catalogid": 175,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Snow", "Guards"],
     "section": 4
@@ -1402,7 +1402,7 @@
   {
     "catalogid": 176,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Splints"],
     "section": 4
@@ -1410,7 +1410,7 @@
   {
     "catalogid": 177,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Spoke", "Cutters"],
     "section": 4
@@ -1418,7 +1418,7 @@
   {
     "catalogid": 178,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Spreader", "Rigging"],
     "section": 4
@@ -1426,7 +1426,7 @@
   {
     "catalogid": 179,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Sugar", "Industry", "Tools"],
     "section": 4
@@ -1434,7 +1434,7 @@
   {
     "catalogid": 180,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Turpentine", "Industry", "Tools"],
     "section": 4
@@ -1442,7 +1442,7 @@
   {
     "catalogid": 181,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Well", "Beam"],
     "section": 4
@@ -1450,7 +1450,7 @@
   {
     "catalogid": 182,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Wiremaking", "Machine"],
     "section": 4
@@ -1458,7 +1458,7 @@
   {
     "catalogid": 183,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Wrenches"],
     "section": 4
@@ -1466,7 +1466,7 @@
   {
     "catalogid": 184,
     "theme": ["Tools", "Hardware", "Firearms", "Vehicles"],
-    "category": ["Tools", "Equipment", "Z"],
+    "category": ["Tools", "Equipment"],
     "subcategory": [],
     "type": ["Yokes"],
     "section": 4
@@ -1826,7 +1826,7 @@
   {
     "catalogid": 229,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Apple", "Peelers"],
     "section": 5
@@ -1834,7 +1834,7 @@
   {
     "catalogid": 230,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Asparagus", "Buncher"],
     "section": 5
@@ -1842,7 +1842,7 @@
   {
     "catalogid": 231,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Barrels", "Buckets", "Kegs", "Tubs", "Piggins"],
     "section": 5
@@ -1850,7 +1850,7 @@
   {
     "catalogid": 232,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Baskets"],
     "section": 5
@@ -1858,7 +1858,7 @@
   {
     "catalogid": 233,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Bottles"],
     "section": 5
@@ -1866,7 +1866,7 @@
   {
     "catalogid": 234,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Bowls"],
     "section": 5
@@ -1874,7 +1874,7 @@
   {
     "catalogid": 235,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Boxes"],
     "section": 5
@@ -1882,7 +1882,7 @@
   {
     "catalogid": 236,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Broom"],
     "section": 5
@@ -1890,7 +1890,7 @@
   {
     "catalogid": 237,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Buttermolds", "Tubs"],
     "section": 5
@@ -1898,7 +1898,7 @@
   {
     "catalogid": 238,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Cans", "lars"],
     "section": 5
@@ -1906,7 +1906,7 @@
   {
     "catalogid": 239,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Candlemolds"],
     "section": 5
@@ -1914,7 +1914,7 @@
   {
     "catalogid": 240,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Cherry", "Pitters"],
     "section": 5
@@ -1922,7 +1922,7 @@
   {
     "catalogid": 241,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Churns"],
     "section": 5
@@ -1930,7 +1930,7 @@
   {
     "catalogid": 242,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Clothes", "Pins"],
     "section": 5
@@ -1938,7 +1938,7 @@
   {
     "catalogid": 243,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Clothes", "Washers"],
     "section": 5
@@ -1946,7 +1946,7 @@
   {
     "catalogid": 244,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Coffee", "Teapots"],
     "section": 5
@@ -1954,7 +1954,7 @@
   {
     "catalogid": 245,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Coffee", "Grinders", "Mills"],
     "section": 5
@@ -1962,7 +1962,7 @@
   {
     "catalogid": 246,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Coffee", "Roasters"],
     "section": 5
@@ -1970,7 +1970,7 @@
   {
     "catalogid": 247,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Compotes"],
     "section": 5
@@ -1978,7 +1978,7 @@
   {
     "catalogid": 248,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Cookie", "Cutters"],
     "section": 5
@@ -1986,7 +1986,7 @@
   {
     "catalogid": 249,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Cork", "Compressors"],
     "section": 5
@@ -1994,7 +1994,7 @@
   {
     "catalogid": 250,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Crimpers"],
     "section": 5
@@ -2002,7 +2002,7 @@
   {
     "catalogid": 251,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Cruets"],
     "section": 5
@@ -2010,7 +2010,7 @@
   {
     "catalogid": 252,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Cups", "Goblets", "Mugs", "Tankards"],
     "section": 5
@@ -2018,7 +2018,7 @@
   {
     "catalogid": 253,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Dippers", "Ladles"],
     "section": 5
@@ -2026,7 +2026,7 @@
   {
     "catalogid": 254,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Dough", "Bins", "Mixers"],
     "section": 5
@@ -2034,7 +2034,7 @@
   {
     "catalogid": 255,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Draining", "Boards"],
     "section": 5
@@ -2042,7 +2042,7 @@
   {
     "catalogid": 256,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Egg", "Beaters", "Cookers"],
     "section": 5
@@ -2050,7 +2050,7 @@
   {
     "catalogid": 257,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Flour", "Bins", "Sifters"],
     "section": 5
@@ -2058,7 +2058,7 @@
   {
     "catalogid": 258,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Fruit", "Slicer"],
     "section": 5
@@ -2066,7 +2066,7 @@
   {
     "catalogid": 259,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Funnels"],
     "section": 5
@@ -2074,7 +2074,7 @@
   {
     "catalogid": 260,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Gourds"],
     "section": 5
@@ -2082,7 +2082,7 @@
   {
     "catalogid": 261,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Graters"],
     "section": 5
@@ -2090,7 +2090,7 @@
   {
     "catalogid": 262,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Grinders"],
     "section": 5
@@ -2098,7 +2098,7 @@
   {
     "catalogid": 263,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Ice", "Cream", "Freezer"],
     "section": 5
@@ -2106,7 +2106,7 @@
   {
     "catalogid": 264,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Irons"],
     "section": 5
@@ -2114,7 +2114,7 @@
   {
     "catalogid": 265,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Kettles"],
     "section": 5
@@ -2122,7 +2122,7 @@
   {
     "catalogid": 266,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Knives", "Forks", "Knife", "Sharpeners", "Holders"],
     "section": 5
@@ -2130,7 +2130,7 @@
   {
     "catalogid": 267,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Mashers"],
     "section": 5
@@ -2138,7 +2138,7 @@
   {
     "catalogid": 268,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Measuring", "Cups"],
     "section": 5
@@ -2146,7 +2146,7 @@
   {
     "catalogid": 269,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Molds"],
     "section": 5
@@ -2154,7 +2154,7 @@
   {
     "catalogid": 270,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Mortars", "Pestles"],
     "section": 5
@@ -2162,7 +2162,7 @@
   {
     "catalogid": 271,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Muffin", "Pans"],
     "section": 5
@@ -2170,7 +2170,7 @@
   {
     "catalogid": 272,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Nut", "Crackers"],
     "section": 5
@@ -2178,7 +2178,7 @@
   {
     "catalogid": 273,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Pail"],
     "section": 5
@@ -2186,7 +2186,7 @@
   {
     "catalogid": 274,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Pan", "Slider"],
     "section": 5
@@ -2194,7 +2194,7 @@
   {
     "catalogid": 275,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Pastry", "Squeezer"],
     "section": 5
@@ -2202,7 +2202,7 @@
   {
     "catalogid": 276,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Pill", "Coater"],
     "section": 5
@@ -2210,7 +2210,7 @@
   {
     "catalogid": 277,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Pitcher"],
     "section": 5
@@ -2218,7 +2218,7 @@
   {
     "catalogid": 278,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Porringers"],
     "section": 5
@@ -2226,7 +2226,7 @@
   {
     "catalogid": 279,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Pots", "Pans"],
     "section": 5
@@ -2234,7 +2234,7 @@
   {
     "catalogid": 280,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Rolling", "Pins"],
     "section": 5
@@ -2242,7 +2242,7 @@
   {
     "catalogid": 281,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Salt", "Shakers"],
     "section": 5
@@ -2250,7 +2250,7 @@
   {
     "catalogid": 282,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Sauerkraut", "Stomper"],
     "section": 5
@@ -2258,7 +2258,7 @@
   {
     "catalogid": 283,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Sausage", "Stuffers"],
     "section": 5
@@ -2266,7 +2266,7 @@
   {
     "catalogid": 284,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Scoops"],
     "section": 5
@@ -2274,7 +2274,7 @@
   {
     "catalogid": 285,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Skewers", "Holders"],
     "section": 5
@@ -2282,7 +2282,7 @@
   {
     "catalogid": 286,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Skimmers", "Sieves"],
     "section": 5
@@ -2290,7 +2290,7 @@
   {
     "catalogid": 287,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Spatula"],
     "section": 5
@@ -2298,7 +2298,7 @@
   {
     "catalogid": 288,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Spoons"],
     "section": 5
@@ -2306,7 +2306,7 @@
   {
     "catalogid": 289,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Sugar", "Cutters"],
     "section": 5
@@ -2314,7 +2314,7 @@
   {
     "catalogid": 290,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Tongs"],
     "section": 5
@@ -2322,7 +2322,7 @@
   {
     "catalogid": 291,
     "theme": ["Domestic", "Utensils"],
-    "category": ["Domestic", "Utensils", "Z"],
+    "category": ["Domestic", "Utensils"],
     "subcategory": [],
     "type": ["Traps"],
     "section": 5
