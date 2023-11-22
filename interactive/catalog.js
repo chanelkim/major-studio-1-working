@@ -92,6 +92,7 @@ function relateThemes(data) {
           category: [],
           subcategory: [],
           type: [],
+          catalogid: [],
         });
       }
 
@@ -100,6 +101,7 @@ function relateThemes(data) {
         themeRelations.get(theme).category.push(...item.category);
         themeRelations.get(theme).subcategory.push(...item.subcategory);
         themeRelations.get(theme).type.push(...item.type);
+        themeRelations.get(theme).catalogid.push(catalogID);
       } else {
         // If category does not include theme, add only matching subcategories and types
         themeRelations
@@ -200,6 +202,13 @@ function initializeLayout(groupedData, themeRelations) {
 // Function to update visibility of category, subcategory, and type based on the selected theme ------------------
 function toggleVisibility(selectedTheme, themeRelations) {
   console.log("Selected Theme:", selectedTheme);
+  if (!themeRelations.has(selectedTheme)) {
+    console.error(
+      `The theme ${selectedTheme} does not exist in themeRelations.`
+    );
+    return;
+  }
+
   // Get the container where the new radio buttons will be appended
   const container = document.getElementById("relatedRadios");
 
@@ -213,114 +222,152 @@ function toggleVisibility(selectedTheme, themeRelations) {
   const relatedCategories = themeRelations.get(selectedTheme).category;
   const relatedSubcategories = themeRelations.get(selectedTheme).subcategory;
   const relatedTypes = themeRelations.get(selectedTheme).type;
+  const relatedIds = themeRelations.get(selectedTheme).catalogid;
+
+  // Helper function to handle the click event for new radio buttons
+  const handleRadioButtonClick = (event, value) => {
+    console.log("New radio button clicked:", value);
+    console.log("Selected radio button:", event.target);
+  };
 
   // Display related category radios
-  console.log("Related Category:", relatedCategories);
+  console.log("Related Category:", relatedCategories, relatedIds);
   relatedCategories.forEach((category) => {
-    createRadioButton(container, "category", category);
+    // createRadioButton(container, "category", category);
+    createRadioButton(container, "category", relatedIds, category);
+
+    const radio = document.querySelector(
+      `input[name="category"][data-value="${category}"]`
+    );
+    if (radio) {
+      radio.style.display = "inline-block";
+      // Add a click event to the new radio button
+      console.log(radio, handleRadioButtonClick);
+      radio.addEventListener("change", (event) =>
+        handleRadioButtonClick(event, category)
+      );
+    }
   });
 
   // Display related subcategory radios
-  console.log("Related Subcategory:", relatedSubcategories);
+  console.log("Related Subcategory:", relatedSubcategories, relatedIds);
   relatedSubcategories.forEach((subcategory) => {
-    createRadioButton(container, "subcategory", subcategory);
+    // createRadioButton(container, "subcategory", subcategory);
+    createRadioButton(container, "subcategory", relatedIds, subcategory);
+
+    const radio = document.querySelector(
+      `input[name="category"][data-value="${subcategory}"]`
+    );
+    if (radio) {
+      radio.style.display = "inline-block";
+      // Add a click event to the new radio button
+      console.log(radio, handleRadioButtonClick);
+      radio.addEventListener("change", (event) =>
+        handleRadioButtonClick(event, subcategory)
+      );
+    }
   });
 
   // Display related type radios
-  console.log("Related Type:", relatedTypes);
+  console.log("Related Type:", relatedTypes, relatedIds);
   console.log("---------------------------");
   relatedTypes.forEach((type) => {
-    createRadioButton(container, "type", type);
+    // createRadioButton(container, "type", type);
+    createRadioButton(container, "type", relatedIds, type);
+
+    const radio = document.querySelector(
+      `input[name="category"][data-value="${type}"]`
+    );
+    if (radio) {
+      radio.style.display = "inline-block";
+      // Add a click event to the new radio button
+      console.log(radio, handleRadioButtonClick);
+      radio.addEventListener("change", (event) =>
+        handleRadioButtonClick(event, type)
+      );
+    }
   });
 
-  // Show radios corresponding to the selected theme
-  if (selectedTheme) {
-    // const relatedCategory = relatedThemes.category;
-    // console.log(relatedCategory);
-    // const relatedSubcategories = relatedThemes.subcategory;
-    // const relatedTypes = relatedThemes.type;
+  // // Show radios corresponding to the selected theme
+  // if (relatedCategories) {
+  //   // Helper function to handle the click event for new radio buttons
+  //   const handleRadioButtonClick = (event, value) => {
+  //     console.log("New radio button clicked:", value);
+  //     console.log("Selected radio button:", event.target);
+  //   };
 
-    // Helper function to handle the click event for new radio buttons
-    const handleRadioButtonClick = (value) => {
-      console.log("New radio button clicked:", value);
-    };
+  //   // Display related category radios
+  //   relatedCategories.forEach((category) => {
+  //     const radio = document.querySelector(
+  //       `input[name="category"][data-label="${category}"]`
+  //     );
+  //     if (radio) {
+  //       radio.style.display = "inline-block";
+  //       // Add a click event to the new radio button
+  //       console.log(radio, handleRadioButtonClick);
+  //       // radio.addEventListener("change", () =>
+  //       //   handleRadioButtonClick(category)
+  //       // );
+  //       radio.addEventListener("change", (event) =>
+  //         handleRadioButtonClick(event, category)
+  //       );
+  //     }
+  //   });
 
-    // Display related category radios
-    relatedCategories.forEach((category) => {
-      const radio = document.querySelector(
-        `input[name="category"][data-label="${category}"]`
-      );
-      if (radio) {
-        radio.style.display = "inline-block";
-        // Add a click event to the new radio button
-        radio.addEventListener("change", () =>
-          handleRadioButtonClick(category)
-        );
-      }
-    });
+  //   // Display related subcategory radios
+  //   relatedSubcategories.forEach((subcategory) => {
+  //     const radio = document.querySelector(
+  //       `input[name="subcategory"][data-label="${subcategory}"]`
+  //     );
+  //     if (radio) {
+  //       radio.style.display = "inline-block";
+  //       // Add a click event to the new radio button
+  //       console.log(radio, handleRadioButtonClick);
+  //       // radio.addEventListener("change", () =>
+  //       //   handleRadioButtonClick(subcategory)
+  //       // );
+  //       radio.addEventListener("change", (event) =>
+  //         handleRadioButtonClick(event, subcategory)
+  //       );
+  //     }
+  //   });
 
-    // Display related subcategory radios
-    relatedSubcategories.forEach((subcategory) => {
-      const radio = document.querySelector(
-        `input[name="subcategory"][data-label="${subcategory}"]`
-      );
-      if (radio) {
-        radio.style.display = "inline-block";
-        // Add a click event to the new radio button
-        radio.addEventListener("change", () =>
-          handleRadioButtonClick(subcategory)
-        );
-      }
-    });
-
-    // Display related type radios
-    relatedTypes.forEach((type) => {
-      const radio = document.querySelector(
-        `input[name="type"][data-label="${type}"]`
-      );
-      if (radio) {
-        radio.style.display = "inline-block";
-        // Add a click event to the new radio button
-        radio.addEventListener("change", () => handleRadioButtonClick(type));
-      }
-    });
-  }
+  //   // Display related type radios
+  //   relatedTypes.forEach((type) => {
+  //     const radio = document.querySelector(
+  //       `input[name="type"][data-label="${type}"]`
+  //     );
+  //     if (radio) {
+  //       radio.style.display = "inline-block";
+  //       // Add a click event to the new radio button
+  //       console.log(radio, handleRadioButtonClick);
+  //       // radio.addEventListener("change", () => handleRadioButtonClick(type));
+  //       radio.addEventListener("change", (event) =>
+  //         handleRadioButtonClick(event, type)
+  //       );
+  //     }
+  //   });
+  // }
 }
 
-// Function to create and append a radio button to the specified container ------------------
-// function createRadioButton(container, name, label) {
-//   const radioInput = document.createElement("input");
-//   radioInput.type = "radio";
-//   radioInput.className = "btn-check col";
-//   radioInput.name = name;
-//   radioInput.autocomplete = "off";
-//   radioInput.setAttribute("data-label", label);
-
-//   const radioLabel = document.createElement("label");
-//   radioLabel.className = "btn btn-outline-primary text-dark col";
-//   radioLabel.htmlFor = `${name}_${label}`;
-//   radioLabel.textContent = label;
-
-//   container.appendChild(radioInput);
-//   container.appendChild(radioLabel);
-// }
-function createRadioButton(container, groupName, catalogId, value) {
+function createRadioButton(container, name, catalogid, value) {
   const radioInput = document.createElement("input");
-  const uniqueId = `${groupName}_${catalogId}_${value}`;
-  radioInput.type = "radio";
-  radioInput.name = groupName;
+  const uniqueId = `${name}_${catalogid.length}_${value}`;
   radioInput.value = value;
   radioInput.id = uniqueId;
+  radioInput.type = "radio";
+  radioInput.className = "btn-check col";
+  radioInput.name = name;
+  radioInput.autocomplete = "off";
+  radioInput.setAttribute("data-value", value);
 
   const label = document.createElement("label");
   label.htmlFor = uniqueId;
   label.textContent = value;
+  label.className = "btn btn-outline-primary text-dark col";
 
   container.appendChild(radioInput);
   container.appendChild(label);
-
-  // // Add a click event to the new radio button
-  // radioInput.addEventListener("change", () => handleRadioButtonClick(value));
 }
 
 /* NEXT STEP: NEED TO CONNECT OBJECTS TO BUTTONS */
