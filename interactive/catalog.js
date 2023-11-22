@@ -287,67 +287,6 @@ function toggleVisibility(selectedTheme, themeRelations) {
       );
     }
   });
-
-  // // Show radios corresponding to the selected theme
-  // if (relatedCategories) {
-  //   // Helper function to handle the click event for new radio buttons
-  //   const handleRadioButtonClick = (event, value) => {
-  //     console.log("New radio button clicked:", value);
-  //     console.log("Selected radio button:", event.target);
-  //   };
-
-  //   // Display related category radios
-  //   relatedCategories.forEach((category) => {
-  //     const radio = document.querySelector(
-  //       `input[name="category"][data-label="${category}"]`
-  //     );
-  //     if (radio) {
-  //       radio.style.display = "inline-block";
-  //       // Add a click event to the new radio button
-  //       console.log(radio, handleRadioButtonClick);
-  //       // radio.addEventListener("change", () =>
-  //       //   handleRadioButtonClick(category)
-  //       // );
-  //       radio.addEventListener("change", (event) =>
-  //         handleRadioButtonClick(event, category)
-  //       );
-  //     }
-  //   });
-
-  //   // Display related subcategory radios
-  //   relatedSubcategories.forEach((subcategory) => {
-  //     const radio = document.querySelector(
-  //       `input[name="subcategory"][data-label="${subcategory}"]`
-  //     );
-  //     if (radio) {
-  //       radio.style.display = "inline-block";
-  //       // Add a click event to the new radio button
-  //       console.log(radio, handleRadioButtonClick);
-  //       // radio.addEventListener("change", () =>
-  //       //   handleRadioButtonClick(subcategory)
-  //       // );
-  //       radio.addEventListener("change", (event) =>
-  //         handleRadioButtonClick(event, subcategory)
-  //       );
-  //     }
-  //   });
-
-  //   // Display related type radios
-  //   relatedTypes.forEach((type) => {
-  //     const radio = document.querySelector(
-  //       `input[name="type"][data-label="${type}"]`
-  //     );
-  //     if (radio) {
-  //       radio.style.display = "inline-block";
-  //       // Add a click event to the new radio button
-  //       console.log(radio, handleRadioButtonClick);
-  //       // radio.addEventListener("change", () => handleRadioButtonClick(type));
-  //       radio.addEventListener("change", (event) =>
-  //         handleRadioButtonClick(event, type)
-  //       );
-  //     }
-  //   });
-  // }
 }
 
 function createRadioButton(container, name, catalogid, value) {
