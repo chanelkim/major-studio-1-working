@@ -1,14 +1,13 @@
 .element {
   margin: 0;
 }
-*/ *,
+/* *,
 *:before,
 *:after {
   box-sizing: border-box;
-}
+} */
 
 nav {
-  /* position: fixed; */
   position: relative;
   width: 100%;
   top: 0;
@@ -17,7 +16,6 @@ nav {
 }
 
 nav .up {
-  /* position: relative; */
   position: fixed;
   font: bold 14px/1 sans-serif;
   color: white;
@@ -57,7 +55,6 @@ nav .up:hover {
   display: inline;
   font-family: sans-serif;
   color: hsla(0, 0, 100, 0.6);
-  /* white-space: nowrap; */
   position: absolute;
   padding: 0;
   margin: 0;
