@@ -91,7 +91,7 @@ renderDOM();
 // this function loads the data and then initiates everything
 async function dataLoad() {
   // initialize the layout: We can do this before data has been loaded
-  initializeLayout();
+  // initializeLayout();
 
   // load external data file
   let source = await d3.json("data/test.json");
@@ -109,17 +109,17 @@ async function dataLoad() {
 // --------------------------------------------------------
 // LAYOUT
 // --------------------------------------------------------
-function initializeLayout() {
-  const svgWidth = dimensions[0];
-  const svgHeight = 0.5 * dimensions[1];
+// function initializeLayout() {
+//   const svgWidth = dimensions[0];
+//   const svgHeight = 0.5 * dimensions[1];
 
-  const parent = d3.select(".svg-container");
-  const svg = parent
-    .append("svg")
-    .attr("width", svgWidth)
-    .attr("height", svgHeight);
+//   const parent = d3.select(".svg-container");
+//   const svg = parent
+//     .append("svg")
+//     .attr("width", svgWidth)
+//     .attr("height", svgHeight);
 
-  // svg.append("g");
-}
+//   // svg.append("g");
+// }
 
 dataLoad();

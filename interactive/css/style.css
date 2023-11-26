@@ -1,7 +1,7 @@
 html,
 body {
   background-color: #dddddd;
-  font-size: 30px;
+  font-size: 40px;
   padding: 0px;
   margin: 0px;
 }
@@ -22,4 +22,28 @@ body {
   width: 100%; /* or a specific width if needed */
   height: 100%; /* or a specific height if needed */
   /* overflow: hidden; */
+}
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  pointer-events: none;
+  /* font-size: 12px; */
+}
+.tooltip h1 {
+  font-size: 30px;
+  line-height: 32px;
+  margin-bottom: 0px;
+}
+.tooltip h2 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.tooltip h3 {
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 10px;
 }
