@@ -9,9 +9,6 @@ body {
   background-color: aqua;
 }
 .container-fluid {
-  /* background-color: pink; */
-  /* border: 1px solid gray; */
-  padding: 20px;
   margin: 0px;
 }
 .svg-container {
@@ -23,11 +20,17 @@ body {
   height: 100%; /* or a specific height if needed */
   /* overflow: hidden; */
 }
+
+/* TOOL TIP */
 .tooltip {
   position: absolute;
   background-color: white;
   border: 1px solid black;
   padding: 10px;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   border-radius: 10px;
   pointer-events: none;
   /* font-size: 12px; */

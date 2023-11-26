@@ -82,7 +82,7 @@ function analyzeData() {
   });
 
   // --------------------------------------------------------
-  // FORMAT FUNCTION - REFORMAT DATA FOR D3 HIERARCHY
+  // PREP FUNCTION - REFORMAT DATA FOR D3 HIERARCHY
   // --------------------------------------------------------
   function formatDataForHierarchy() {
     const hierarchyData = {
@@ -263,6 +263,7 @@ function drawTreemap() {
     console.log("clicked: " + d.data.name + ", depth: " + d.depth);
 
     currentDepth = d.depth;
+    console.log("currentDepth:", currentDepth);
     parent.datum(d.parent || nodes);
 
     x.domain([d.x0, d.x1]);
@@ -283,6 +284,19 @@ function drawTreemap() {
       })
       .style("height", function (d) {
         return y(d.y1) - y(d.y0) + "%";
+      })
+      .style("background-image", function (d) {
+        // Check if the currentDepth is 1 and the node has imagematch data
+        if ((currentDepth === 1 || currentDepth === 2) && d.data.imagematch) {
+          // Set the background image using the imagematch data
+          return `url(${d.data.imagematch})`;
+        }
+        // Default to no background image
+        return "none";
+      })
+      .style("background-color", function (d) {
+        while (d.depth > 2) d = d.parent;
+        return color(d.data.name);
       });
 
     cells // hide this depth and above
@@ -300,3 +314,49 @@ function drawTreemap() {
       .classed("hide", false);
   }
 }
+
+// --------------------------------------------------------
+// PRELOAD IMAGE FUNCTION
+// --------------------------------------------------------
+// function preloadImages(data) {
+function preloadImages(data) {
+  const preloadContainer = document.createElement("div");
+  preloadContainer.style.display = "none";
+
+  // Flatten the hierarchicalData to get all imagematch URLs
+  const imageUrls = flattenData(data)
+    .map((item) => item.imagematch)
+    .filter(Boolean);
+
+  imageUrls.forEach((url) => {
+    const img = document.createElement("img");
+    img.src = url;
+    preloadContainer.appendChild(img);
+  });
+
+  document.body.appendChild(preloadContainer);
+}
+
+// Function to flatten hierarchical data
+function flattenData(data) {
+  const result = [];
+
+  function flatten(node) {
+    if (node && node.data) {
+      result.push(node.data);
+
+      if (node.children) {
+        node.children.forEach(flatten);
+      }
+    }
+  }
+
+  flatten(data);
+
+  return result;
+}
+
+// Call the preloadImages function when the page is initiated
+window.addEventListener("load", function () {
+  preloadImages(hierarchicalData);
+});

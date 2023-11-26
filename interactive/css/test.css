@@ -8,7 +8,7 @@
 }
 
 nav {
-  /* /* position: fixed; */
+  /* position: fixed; */
   position: relative;
   width: 100%;
   top: 0;
@@ -17,6 +17,8 @@ nav {
 }
 
 nav .up {
+  /* position: relative; */
+  position: fixed;
   font: bold 14px/1 sans-serif;
   color: white;
   width: 92px;
@@ -91,6 +93,7 @@ nav .up:hover {
 }
 
 .node.level-2 {
+  opacity: 1;
   z-index: 2;
   font-size: 1vmin;
 }
