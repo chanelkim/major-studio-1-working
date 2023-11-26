@@ -10,7 +10,6 @@
 const CATALOGID = "catalogid";
 
 let data = [];
-let dimensions = [window.innerWidth, window.innerHeight];
 let menuButtonText = ["catalog", "treemap", "statemap", "objects"];
 
 // STATE SCHEMA

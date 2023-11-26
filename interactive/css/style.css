@@ -9,9 +9,9 @@ body {
   background-color: aqua;
 }
 .container-fluid {
-  background-color: pink;
-  border: 1px solid gray;
-  padding: 0px;
+  /* background-color: pink; */
+  /* border: 1px solid gray; */
+  padding: 20px;
   margin: 0px;
 }
 .svg-container {
