@@ -1,0 +1,25 @@
+html,
+body {
+  background-color: #dddddd;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+.btn-check {
+  background-color: aqua;
+}
+.container-fluid {
+  background-color: pink;
+  border: 1px solid gray;
+  padding: 0px;
+  margin: 0px;
+}
+.svg-container {
+  background-color: white;
+  /* display: inline-block; */
+  position: relative;
+  /* overflow: hidden; */
+  width: 100%; /* or a specific width if needed */
+  height: 100%; /* or a specific height if needed */
+  /* overflow: hidden; */
+}

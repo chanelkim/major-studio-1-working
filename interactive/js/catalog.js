@@ -1,37 +1,3 @@
-/* ------------------ CATALOG ------------------*/
-
-const THEME = "theme";
-const CATEGORY = "category";
-const SUBCATEGORY = "subcategory";
-const TYPE = "type";
-const SECTION = "section";
-const TOOLTIP_WIDTH = 150;
-const TOOLTIP_HEIGHT = 20;
-
-// STATE SCHEMA
-let state = {
-  // data: [],
-  // filters: {
-  //   menu: [],
-  //   checked: [],
-  // },
-  // tooltip: {
-  //   value: "",
-  //   visible: false,
-  //   coordinates: [0, 0],
-  // },
-  // dimensions: [window.innerWidth, window.innerHeight],
-  radioButtonMenu: {
-    selectedOption: null,
-  },
-  treemapSVG: {
-    data: null,
-  },
-  mapSVG: {
-    mapData: null,
-  },
-};
-
 /* LOAD DATA ------------------*/
 let catalogData;
 
