@@ -16,6 +16,8 @@ let menuButtonText = ["catalog", "treemap", "statemap", "objects"];
 let state = {
   text: "Hello World",
   name: "Changed by JS",
+  ouput: `$("#output").innerHTML`,
+
   // data: [],
   catalog: {
     text: menuButtonText[0],
@@ -23,7 +25,7 @@ let state = {
   },
   treemap: {
     text: menuButtonText[1],
-    svg: {},
+    svg: `$("#chart").innerHTML`,
   },
   statemap: {
     text: menuButtonText[2],
@@ -68,6 +70,9 @@ function setState(callback) {
   renderDOM(); // DOM is rendered again
 }
 
+// --------------------------------------------------------
+// EVENT LISTENERS
+// --------------------------------------------------------
 // EXAMPLE FOR TIMEOUT
 // setTimeout(() => {
 //   setState(() => {
@@ -75,10 +80,47 @@ function setState(callback) {
 //   });
 // }, 3000);
 
-// EXAMPLE FOR EVENT LISTENER
+$("#catalog").onclick = () => {
+  setState(() => {
+    console.log("catalog clicked");
+    // $("#radioGroup").innerHTML = "";
+  });
+};
+
+// $("#treemap").onclick = () => {
+//   setState(() => {
+//     console.log("treemap clicked");
+//     // $("#radioGroup").innerHTML = "";
+//   });
+// };
 $("#treemap").onclick = () => {
   setState(() => {
-    $("#radioGroup").innerHTML = "";
+    if ($("#chart").innerHTML === "") {
+      console.log("objects clicked AGAIN");
+      $("#chart").innerHTML = state.treemap.svg;
+    } else {
+      console.log("objects clicked");
+      state.treemap.svg = $("#chart").innerHTML;
+      $("#chart").innerHTML = "";
+    }
+  });
+};
+
+$("#statemap").onclick = () => {
+  console.log("statemap clicked");
+  $("#output").innerHTML = "";
+};
+
+$("#objects").onclick = () => {
+  setState(() => {
+    if ($("#output").innerHTML === "") {
+      console.log("objects clicked AGAIN");
+      $("#output").innerHTML = state.ouput;
+    } else {
+      console.log("objects clicked");
+      state.ouput = $("#output").innerHTML;
+      $("#output").innerHTML = "";
+    }
   });
 };
 
