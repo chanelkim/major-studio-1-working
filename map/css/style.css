@@ -5,3 +5,15 @@ div {
   margin: auto;
   height: 100%;
 }
+
+.state {
+  stroke-width: 1;
+  stroke: #fff;
+  fill: grey;
+  transition: all 0.25s ease-in-out;
+}
+
+.state:hover {
+  cursor: pointer;
+  fill: #bada55;
+}
